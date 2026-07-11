@@ -43,21 +43,30 @@
     <rect x="356" y="264" width="160" height="32" rx="16" fill="#ede9fe" stroke="#c4b5fd"/>
     <text x="436" y="285" fill="#6d28d9" text-anchor="middle">AI SYSTEM BUILDER</text>
   </g>
-  <g fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="2">
-    <path d="M818 161L906 88L1002 128L1102 69"/>
-    <path d="M818 161L900 236L1002 190L1105 250"/>
-    <path d="M906 88L1002 190L1102 69"/>
-    <path d="M1002 128L900 236L1105 250"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <ellipse cx="985" cy="148" rx="150" ry="100" fill="none" stroke="url(#accent)" stroke-opacity=".18" stroke-dasharray="5 8"/>
+    <g fill="none" stroke="url(#accent)" stroke-opacity=".42" stroke-width="2">
+      <path d="M985 50L948 105M985 50L1022 105M835 148L902 148M1135 148L1068 148M985 248L948 191M985 248L1022 191"/>
+      <path d="M865 88C900 45 955 30 985 48M1105 88C1070 45 1015 30 985 48M865 208C900 250 955 265 985 248M1105 208C1070 250 1015 265 985 248" stroke-opacity=".2"/>
+    </g>
+    <circle cx="948" cy="148" r="50" fill="#ccfbf1" fill-opacity=".74" stroke="#0f766e" stroke-width="2"/>
+    <circle cx="1022" cy="148" r="50" fill="#ede9fe" fill-opacity=".74" stroke="#7c3aed" stroke-width="2"/>
+    <text x="942" y="143" fill="#0f766e" text-anchor="middle" font-size="12" font-weight="800" letter-spacing="1">HUMAN</text>
+    <text x="1028" y="143" fill="#6d28d9" text-anchor="middle" font-size="15" font-weight="850" letter-spacing="1">AI</text>
+    <circle cx="985" cy="148" r="18" fill="#f8fafc" stroke="#0284c7" stroke-width="2"/>
+    <text x="985" y="155" fill="#0284c7" text-anchor="middle" font-size="20" font-weight="800">×</text>
+    <g fill="#f8fafc" stroke-width="3">
+      <circle class="node" cx="985" cy="50" r="9" stroke="#0284c7"/>
+      <circle class="node" cx="1135" cy="148" r="9" stroke="#7c3aed"/>
+      <circle class="node" cx="985" cy="248" r="9" stroke="#0f766e"/>
+      <circle class="node" cx="835" cy="148" r="9" stroke="#0f766e"/>
+    </g>
+    <g fill="#52677e" font-size="10" font-weight="750" letter-spacing="1.4">
+      <text x="985" y="29" text-anchor="middle">RESEARCH</text>
+      <text x="1135" y="174" text-anchor="middle">BUILD</text>
+      <text x="985" y="276" text-anchor="middle">TEACH</text>
+      <text x="835" y="174" text-anchor="middle">LEARN</text>
+    </g>
+    <text x="985" y="306" fill="#64748b" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2.4">CO-INTELLIGENCE LOOP</text>
   </g>
-  <g fill="#f8fafc" stroke-width="3">
-    <circle class="node" cx="818" cy="161" r="10" stroke="#0f766e"/>
-    <circle class="node" cx="906" cy="88" r="9" stroke="#0284c7"/>
-    <circle class="node" cx="900" cy="236" r="9" stroke="#7c3aed"/>
-    <circle class="node" cx="1002" cy="128" r="12" stroke="#0f766e"/>
-    <circle class="node" cx="1002" cy="190" r="8" stroke="#0284c7"/>
-    <circle class="node" cx="1102" cy="69" r="8" stroke="#7c3aed"/>
-    <circle class="node" cx="1105" cy="250" r="11" stroke="#0f766e"/>
-  </g>
-  <circle cx="1002" cy="159" r="58" fill="none" stroke="#0284c7" stroke-opacity=".14"/>
-  <circle cx="1002" cy="159" r="82" fill="none" stroke="#7c3aed" stroke-opacity=".12" stroke-dasharray="5 9"/>
 </svg>
