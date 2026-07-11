@@ -33,17 +33,11 @@ I am an Assistant Professor at Jeonju National University of Education. My work 
   <img alt="Research constellation centered on Human-AI Educational Technology" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-light.svg" width="100%">
 </picture>
 
-## Systems I am building
+## Flagship research system
 
 <a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv.svg" alt="NERV System Whitepaper — a 45-agent academic research system" width="100%"></a>
 
-<p align="center"><a href="https://education-policy-map.vercel.app"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-policy.svg" alt="Education Policy Map" width="49%"></a> <a href="https://github.com/taehyeonglim/jnue-edufli"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-edufli.svg" alt="Edu FLI teacher education community platform" width="49%"></a></p>
-
-| System | What it does | Evidence |
-|---|---|---|
-| **[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** | Orchestrates 45 specialized agents to augment solo academic research | Architecture whitepaper · MAGI cross-validation |
-| **[Education Policy Map](https://education-policy-map.vercel.app)** | Makes regional education pledges explorable through an interactive public dashboard | Open data · policy visualization |
-| **[Edu FLI](https://github.com/taehyeonglim/jnue-edufli)** | Gives future teachers a platform to learn, collaborate, and build with technology | React · Firebase · community learning |
+**[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to augment solo academic research through role-based workflows and autonomous MAGI cross-validation.
 
 ## Current research protocol
 
