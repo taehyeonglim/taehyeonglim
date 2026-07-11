@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Taehyeong Lim research constellation</title>
+  <desc id="desc">Six research areas connected to Human-AI Educational Technology.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#f5f3ff"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset=".5" stop-color="#0284c7"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset=".5" stop-color="#0284c7"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f172a" flood-opacity=".16"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#0f172a" opacity=".055"/></pattern>
+    <style>.orbit{stroke-dasharray:5 10;animation:dash 18s linear infinite}@keyframes dash{to{stroke-dashoffset:-240}}@media(prefers-reduced-motion:reduce){.orbit{animation:none}}</style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="438" rx="26" fill="url(#bg)" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="438" rx="26" fill="url(#dots)"/>
+  <text x="54" y="51" fill="#475569" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">RESEARCH CONSTELLATION</text>
+  <ellipse class="orbit" cx="600" cy="230" rx="390" ry="154" fill="none" stroke="url(#line)" stroke-opacity=".22"/>
+  <g fill="none" stroke="url(#line)" stroke-opacity=".32" stroke-width="2"><path d="M600 230L280 126"/><path d="M600 230L260 300"/><path d="M600 230L600 92"/><path d="M600 230L922 126"/><path d="M600 230L942 300"/><path d="M600 230L600 370"/></g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="430" y="171" width="340" height="118" rx="28" fill="url(#core)" stroke="#ffffff" stroke-width="2" filter="url(#shadow)"/>
+    <text x="600" y="216" fill="#e0f2fe" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2">HUMAN × AI</text>
+    <text x="600" y="250" fill="#ffffff" text-anchor="middle" font-size="24" font-weight="800">Educational Technology</text>
+    <text x="600" y="273" fill="#dbeafe" text-anchor="middle" font-size="13">better thinking · better teaching · better learning</text>
+    <g font-size="15" font-weight="750">
+      <rect x="160" y="88" width="240" height="76" rx="20" fill="#ffffff" stroke="#5eead4" filter="url(#shadow)"/><circle cx="194" cy="126" r="18" fill="#ccfbf1" stroke="#0f766e"/><text x="194" y="131" fill="#0f766e" text-anchor="middle" font-size="11">GAI</text><text x="222" y="122" fill="#0f172a">Generative AI</text><text x="222" y="143" fill="#64748b" font-size="12" font-weight="500">for education</text>
+      <rect x="140" y="262" width="240" height="76" rx="20" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/><circle cx="174" cy="300" r="18" fill="#ede9fe" stroke="#7c3aed"/><text x="174" y="305" fill="#7c3aed" text-anchor="middle" font-size="11">XR</text><text x="202" y="296" fill="#0f172a">Immersive Learning</text><text x="202" y="317" fill="#64748b" font-size="12" font-weight="500">XR · metaverse · simulation</text>
+      <rect x="480" y="54" width="240" height="76" rx="20" fill="#ffffff" stroke="#7dd3fc" filter="url(#shadow)"/><circle cx="514" cy="92" r="18" fill="#e0f2fe" stroke="#0284c7"/><text x="514" y="97" fill="#0284c7" text-anchor="middle" font-size="11">CO</text><text x="542" y="88" fill="#0f172a">Agentic AI</text><text x="542" y="109" fill="#64748b" font-size="12" font-weight="500">as a co-researcher</text>
+      <rect x="802" y="88" width="240" height="76" rx="20" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/><circle cx="836" cy="126" r="18" fill="#ede9fe" stroke="#7c3aed"/><text x="836" y="131" fill="#7c3aed" text-anchor="middle" font-size="11">CL</text><text x="864" y="122" fill="#0f172a">Cognitive Load</text><text x="864" y="143" fill="#64748b" font-size="12" font-weight="500">learning design</text>
+      <rect x="822" y="262" width="240" height="76" rx="20" fill="#ffffff" stroke="#5eead4" filter="url(#shadow)"/><circle cx="856" cy="300" r="18" fill="#ccfbf1" stroke="#0f766e"/><text x="856" y="305" fill="#0f766e" text-anchor="middle" font-size="11">LA</text><text x="884" y="296" fill="#0f172a">Learning Analytics</text><text x="884" y="317" fill="#64748b" font-size="12" font-weight="500">evidence · networks · data</text>
+      <rect x="480" y="332" width="240" height="76" rx="20" fill="#ffffff" stroke="#7dd3fc" filter="url(#shadow)"/><circle cx="514" cy="370" r="18" fill="#e0f2fe" stroke="#0284c7"/><text x="514" y="375" fill="#0284c7" text-anchor="middle" font-size="11">TE</text><text x="542" y="366" fill="#0f172a">Teacher Education</text><text x="542" y="387" fill="#64748b" font-size="12" font-weight="500">future-ready educators</text>
+    </g>
+  </g>
+</svg>

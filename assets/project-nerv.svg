@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">NERV System Whitepaper</title>
+  <desc id="desc">A 45-agent multi-agent system designed to augment solo academic research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14080b"/><stop offset=".55" stop-color="#271016"/><stop offset="1" stop-color="#101827"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fb7185"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fb7185" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="268" rx="26" fill="url(#bg)" stroke="#7f1d2d" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="268" rx="26" fill="url(#grid)"/>
+  <rect x="48" y="42" width="6" height="184" rx="3" fill="url(#red)"/>
+  <text x="82" y="76" fill="#fda4af" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="4">FLAGSHIP SYSTEM</text>
+  <text x="82" y="126" fill="#fff1f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="900">NERV</text>
+  <text x="220" y="126" fill="#fecdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="650">SYSTEM WHITEPAPER</text>
+  <text x="84" y="162" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">A 45-agent system that augments solo academic research.</text>
+  <text x="84" y="190" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Role-based agents · autonomous cross-validation · research workflow orchestration</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750">
+    <rect x="82" y="211" width="150" height="30" rx="15" fill="#fb7185" fill-opacity=".13" stroke="#fb7185" stroke-opacity=".55"/><text x="157" y="231" fill="#fda4af" text-anchor="middle">45 AI AGENTS</text>
+    <rect x="242" y="211" width="168" height="30" rx="15" fill="#38bdf8" fill-opacity=".11" stroke="#38bdf8" stroke-opacity=".5"/><text x="326" y="231" fill="#7dd3fc" text-anchor="middle">7 SYSTEM ROLES</text>
+    <rect x="420" y="211" width="188" height="30" rx="15" fill="#a78bfa" fill-opacity=".11" stroke="#a78bfa" stroke-opacity=".5"/><text x="514" y="231" fill="#c4b5fd" text-anchor="middle">MAGI VALIDATION</text>
+  </g>
+  <g transform="translate(742 27)">
+    <circle cx="202" cy="108" r="94" fill="none" stroke="#fb7185" stroke-opacity=".13"/>
+    <circle cx="202" cy="108" r="69" fill="none" stroke="#38bdf8" stroke-opacity=".12" stroke-dasharray="4 7"/>
+    <g fill="none" stroke-width="2" stroke-opacity=".55"><path d="M202 108L202 28" stroke="#fb7185"/><path d="M202 108L278 58" stroke="#38bdf8"/><path d="M202 108L294 135" stroke="#a78bfa"/><path d="M202 108L250 190" stroke="#fb7185"/><path d="M202 108L154 190" stroke="#38bdf8"/><path d="M202 108L110 135" stroke="#a78bfa"/><path d="M202 108L126 58" stroke="#fb7185"/></g>
+    <circle cx="202" cy="108" r="33" fill="#3f0d18" stroke="#fb7185" stroke-width="2"/><text x="202" y="104" fill="#fff1f2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800">RESEARCH</text><text x="202" y="120" fill="#fda4af" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">CORE</text>
+    <g fill="#111827" stroke-width="2"><circle cx="202" cy="28" r="13" stroke="#fb7185"/><circle cx="278" cy="58" r="13" stroke="#38bdf8"/><circle cx="294" cy="135" r="13" stroke="#a78bfa"/><circle cx="250" cy="190" r="13" stroke="#fb7185"/><circle cx="154" cy="190" r="13" stroke="#38bdf8"/><circle cx="110" cy="135" r="13" stroke="#a78bfa"/><circle cx="126" cy="58" r="13" stroke="#fb7185"/></g>
+  </g>
+  <text x="1138" y="239" fill="#fda4af" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">READ THE WHITEPAPER →</text>
+</svg>

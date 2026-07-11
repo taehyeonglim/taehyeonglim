@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Taehyeong Lim — Human × AI Educational Technology</title>
+  <desc id="desc">Dark profile banner for researcher, teacher educator, and AI system builder Taehyeong Lim.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1b31"/>
+      <stop offset="1" stop-color="#111b3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#5eead4"/>
+      <stop offset="0.48" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#38bdf8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#cbd5e1" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <style>
+      .node { animation: pulse 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .node:nth-of-type(2) { animation-delay: -.8s; }
+      .node:nth-of-type(3) { animation-delay: -1.6s; }
+      @keyframes pulse { 0%,100% { opacity:.65; transform:scale(.94) } 50% { opacity:1; transform:scale(1.06) } }
+      @media (prefers-reduced-motion: reduce) { .node { animation:none } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#bg)" stroke="#244164" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#grid)"/>
+  <circle cx="1025" cy="150" r="230" fill="url(#glow)"/>
+  <rect x="68" y="55" width="158" height="4" rx="2" fill="url(#accent)"/>
+  <text x="68" y="94" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">TAEHYEONG LIM, PH.D.</text>
+  <text x="68" y="157" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">HUMAN × AI</text>
+  <text x="68" y="203" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="-.5">EDUCATIONAL TECHNOLOGY</text>
+  <text x="70" y="239" fill="#a8bdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Designing learning systems where people and intelligent agents think better together.</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">
+    <rect x="68" y="264" width="112" height="32" rx="16" fill="#5eead4" fill-opacity=".12" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="124" y="285" fill="#99f6e4" text-anchor="middle">RESEARCHER</text>
+    <rect x="190" y="264" width="156" height="32" rx="16" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/>
+    <text x="268" y="285" fill="#7dd3fc" text-anchor="middle">TEACHER EDUCATOR</text>
+    <rect x="356" y="264" width="160" height="32" rx="16" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".45"/>
+    <text x="436" y="285" fill="#c4b5fd" text-anchor="middle">AI SYSTEM BUILDER</text>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-opacity=".48" stroke-width="2">
+    <path d="M818 161L906 88L1002 128L1102 69"/>
+    <path d="M818 161L900 236L1002 190L1105 250"/>
+    <path d="M906 88L1002 190L1102 69"/>
+    <path d="M1002 128L900 236L1105 250"/>
+  </g>
+  <g fill="#07111f" stroke-width="3">
+    <circle class="node" cx="818" cy="161" r="10" stroke="#5eead4"/>
+    <circle class="node" cx="906" cy="88" r="9" stroke="#38bdf8"/>
+    <circle class="node" cx="900" cy="236" r="9" stroke="#a78bfa"/>
+    <circle class="node" cx="1002" cy="128" r="12" stroke="#5eead4"/>
+    <circle class="node" cx="1002" cy="190" r="8" stroke="#38bdf8"/>
+    <circle class="node" cx="1102" cy="69" r="8" stroke="#a78bfa"/>
+    <circle class="node" cx="1105" cy="250" r="11" stroke="#5eead4"/>
+  </g>
+  <circle cx="1002" cy="159" r="58" fill="none" stroke="#38bdf8" stroke-opacity=".15"/>
+  <circle cx="1002" cy="159" r="82" fill="none" stroke="#a78bfa" stroke-opacity=".1" stroke-dasharray="5 9"/>
+</svg>
