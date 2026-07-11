@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Taehyeong Lim — Human × AI Educational Technology</title>
-  <desc id="desc">Dark profile banner for researcher, teacher educator, and AI system builder Taehyeong Lim.</desc>
+  <title id="title">Taehyeong Lim — Human × AI Co-Intelligence Systems</title>
+  <desc id="desc">Dark profile banner for AI co-scientist and multi-agent system builder Taehyeong Lim.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -38,15 +38,15 @@
   <rect x="68" y="55" width="158" height="4" rx="2" fill="url(#accent)"/>
   <text x="68" y="94" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">TAEHYEONG LIM, PH.D.</text>
   <text x="68" y="157" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">HUMAN × AI</text>
-  <text x="68" y="203" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="-.5">EDUCATIONAL TECHNOLOGY</text>
-  <text x="70" y="239" fill="#a8bdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Designing learning systems where people and intelligent agents think better together.</text>
+  <text x="68" y="203" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="750" letter-spacing="-.5">CO-INTELLIGENCE SYSTEMS</text>
+  <text x="70" y="239" fill="#a8bdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Building multi-agent systems that think, verify, and work with humans.</text>
   <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">
-    <rect x="68" y="264" width="112" height="32" rx="16" fill="#5eead4" fill-opacity=".12" stroke="#5eead4" stroke-opacity=".45"/>
-    <text x="124" y="285" fill="#99f6e4" text-anchor="middle">RESEARCHER</text>
-    <rect x="190" y="264" width="156" height="32" rx="16" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/>
-    <text x="268" y="285" fill="#7dd3fc" text-anchor="middle">TEACHER EDUCATOR</text>
-    <rect x="356" y="264" width="160" height="32" rx="16" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".45"/>
-    <text x="436" y="285" fill="#c4b5fd" text-anchor="middle">AI SYSTEM BUILDER</text>
+    <rect x="68" y="264" width="142" height="32" rx="16" fill="#5eead4" fill-opacity=".12" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="139" y="285" fill="#99f6e4" text-anchor="middle">AI CO-SCIENTIST</text>
+    <rect x="220" y="264" width="174" height="32" rx="16" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/>
+    <text x="307" y="285" fill="#7dd3fc" text-anchor="middle">MULTI-AGENT SYSTEMS</text>
+    <rect x="404" y="264" width="168" height="32" rx="16" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".45"/>
+    <text x="488" y="285" fill="#c4b5fd" text-anchor="middle">HUMAN-IN-THE-LOOP</text>
   </g>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <ellipse cx="992" cy="148" rx="166" ry="104" fill="none" stroke="url(#accent)" stroke-opacity=".13"/>

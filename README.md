@@ -3,68 +3,59 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/hero-light.svg">
-  <img alt="Taehyeong Lim — Human × AI Educational Technology" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/hero-light.svg" width="100%">
+  <img alt="Taehyeong Lim — Human × AI Co-Intelligence Systems" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/hero-light.svg" width="100%">
 </picture>
 
-<a href="https://taehyeonglim.github.io/cv"><img src="https://img.shields.io/badge/Academic_CV-0F172A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Academic CV"></a>
-<a href="https://scholar.google.com/citations?user=060e-UoAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
-<a href="https://orcid.org/0000-0002-6113-7102"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
-<a href="mailto:thlim@jnue.kr"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://img.shields.io/badge/NERV_Whitepaper-c4161c?style=for-the-badge&logo=readthedocs&logoColor=white" alt="NERV Whitepaper"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/02-architecture/"><img src="https://img.shields.io/badge/45_AI_Agents-111111?style=for-the-badge&logo=openai&logoColor=white" alt="45 AI agents"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/06-systems/magi-gate/"><img src="https://img.shields.io/badge/MAGI_Validation-6D28D9?style=for-the-badge&logo=probot&logoColor=white" alt="MAGI validation"></a>
 
 </div>
 
-## Academic impact at a glance
+I build **AI co-scientists, multi-agent workflows, and autonomous validation systems**. My current project, NERV, explores what happens when AI moves beyond chat and becomes a coordinated team that can plan, use tools, preserve context, challenge its own outputs, and work alongside a human.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/impact-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/impact-light.svg">
-  <img alt="Academic impact at a glance" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/impact-light.svg" width="100%">
-</picture>
+> Not another chatbot. A reliable co-intelligence system.
 
-I am an Assistant Professor at Jeonju National University of Education. My work sits at the intersection of **learning science, teacher education, and intelligent systems**—with one question at the center:
-
-> How can humans and AI think, create, and learn better together?
-
-## Research constellation
+## AI systems architecture
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-light.svg">
-  <img alt="Research constellation centered on Human-AI Educational Technology" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-light.svg" width="100%">
+  <img alt="AI co-scientist systems architecture" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-light.svg" width="100%">
 </picture>
 
 ## AI Co-Scientist · Multi-Agent Research System
 
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv.svg" alt="NERV System Whitepaper — a 45-agent academic research system" width="100%"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv.svg" alt="NERV System Whitepaper — a 45-agent AI co-scientist system" width="100%"></a>
 
-**[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to augment solo academic research through role-based workflows and autonomous MAGI cross-validation.
+**[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
 
-## Current research protocol
+## How I build reliable AI systems
 
 ```text
-01  Ask questions that matter to teachers and learners
-02  Build human-AI systems that make the invisible visible
-03  Test them with evidence, not hype
-04  Translate findings into classrooms, tools, and public scholarship
+01  Orchestrate specialized agents instead of prompting one giant model
+02  Give agents tools, memory, roles, and explicit handoff contracts
+03  Cross-validate important outputs before they reach the human
+04  Keep human judgment in control of goals, evidence, and final decisions
 ```
 
 <details>
 <summary><b>한국어 소개</b></summary>
 
-전주교육대학교 초등교육과 조교수로서 교육공학, 교사교육, 생성형 AI가 만나는 지점을 연구합니다. 인간과 AI가 함께 사고하고 연구하며 학습하는 시스템을 설계하고, 그 가능성을 실제 수업과 연구 현장에서 검증합니다.
+단일 챗봇을 넘어 여러 AI 에이전트가 역할을 나누고, 도구와 기억을 사용하며, 서로의 결과를 검증하는 **AI 공동과학자 시스템**을 만들고 있습니다.
 
-- 교육에서의 생성형 AI와 에이전틱 AI 공동연구자
-- 메타버스·XR 기반 몰입형 학습
-- 교육공학, 인지부하, 학습분석
-- 예비교사와 현직교사를 위한 미래교육 설계
+- 45개 전문 에이전트 기반 NERV 시스템
+- 역할 기반 멀티에이전트 오케스트레이션
+- MAGI 자율 교차검증과 인간 최종 통제
+- 장기 기억, 도구 사용, 구조화된 핸드오프
 
 </details>
 
-## Code & research activity
+## AI systems build activity
 
 <div align="center">
 
-[![Research and Build Activity](https://github-readme-activity-graph.vercel.app/graph?username=taehyeonglim&theme=tokyo-night&hide_border=true&area=true&custom_title=Research%20and%20Build%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![AI Systems Build Activity](https://github-readme-activity-graph.vercel.app/graph?username=taehyeonglim&theme=tokyo-night&hide_border=true&area=true&custom_title=AI%20Systems%20Build%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/github-contribution-grid-snake-dark.svg">
@@ -74,8 +65,8 @@ I am an Assistant Professor at Jeonju National University of Education. My work 
 
 ---
 
-**Evidence over hype · Humans in the loop · Learning at the center**
+**Systems over demos · Validation over vibes · Humans in control**
 
-*Designing the future of learning, one study and one system at a time.*
+*Building AI that can think in teams—and knows when to ask the human.*
 
 </div>
