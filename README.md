@@ -13,7 +13,7 @@
 
 </div>
 
-## Impact, not vanity metrics
+## Academic impact at a glance
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/impact-dark.svg">
