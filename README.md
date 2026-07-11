@@ -33,7 +33,7 @@ I am an Assistant Professor at Jeonju National University of Education. My work 
   <img alt="Research constellation centered on Human-AI Educational Technology" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/research-map-light.svg" width="100%">
 </picture>
 
-## Flagship research system
+## AI Co-Scientist · Multi-Agent Research System
 
 <a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv.svg" alt="NERV System Whitepaper — a 45-agent academic research system" width="100%"></a>
 

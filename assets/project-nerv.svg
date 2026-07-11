@@ -9,7 +9,7 @@
   <rect x="1" y="1" width="1198" height="268" rx="26" fill="url(#bg)" stroke="#7f1d2d" stroke-width="2"/>
   <rect x="1" y="1" width="1198" height="268" rx="26" fill="url(#grid)"/>
   <rect x="48" y="42" width="6" height="184" rx="3" fill="url(#red)"/>
-  <text x="82" y="76" fill="#fda4af" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="4">FLAGSHIP SYSTEM</text>
+  <text x="82" y="76" fill="#fda4af" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="3.2">AI CO-SCIENTIST SYSTEM</text>
   <text x="82" y="126" fill="#fff1f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="900">NERV</text>
   <text x="220" y="126" fill="#fecdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="650">SYSTEM WHITEPAPER</text>
   <text x="84" y="162" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">A 45-agent system that augments solo academic research.</text>
