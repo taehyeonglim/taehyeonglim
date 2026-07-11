@@ -64,7 +64,7 @@ I am an Assistant Professor at Jeonju National University of Education. My work 
 
 <div align="center">
 
-[![Taehyeong Lim's contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=taehyeonglim&theme=tokyo-night&hide_border=true&area=true&custom_title=Research%20%26%20Build%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Research and Build Activity](https://github-readme-activity-graph.vercel.app/graph?username=taehyeonglim&theme=tokyo-night&hide_border=true&area=true&custom_title=Research%20and%20Build%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/github-contribution-grid-snake-dark.svg">
