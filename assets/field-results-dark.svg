@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Field results — peer-reviewed co-scientist research</title>
+  <desc id="desc">Blueprint log sheet of peer-reviewed research produced with the NERV co-scientist system. FIG.04 of 5.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2a55"/><stop offset="1" stop-color="#123a75"/>
+    </linearGradient>
+    <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+    </pattern>
+    <style>
+      text { font-family: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+      .scan { animation: scan 16s linear infinite; }
+      @keyframes scan { to { transform: translateX(1180px); } }
+      @media (prefers-reduced-motion: reduce) { .scan { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#gridFine)"/>
+  <rect width="1200" height="200" fill="url(#gridBold)"/>
+  <rect x="2" y="2" width="1196" height="196" fill="none" stroke="#dbeafe" stroke-opacity=".6" stroke-width="2.5"/>
+  <rect x="10" y="10" width="1180" height="180" fill="none" stroke="#dbeafe" stroke-opacity=".28"/>
+  <g stroke="#dbeafe" stroke-opacity=".3" stroke-width="6" stroke-dasharray="1 39">
+    <line x1="10" y1="13" x2="1190" y2="13"/>
+    <line x1="10" y1="187" x2="1190" y2="187"/>
+    <line x1="13" y1="10" x2="13" y2="190"/>
+    <line x1="1187" y1="10" x2="1187" y2="190"/>
+  </g>
+  <g stroke="#dbeafe" stroke-opacity=".45" fill="none">
+    <path d="M30 24v12M24 30h12"/><path d="M1170 24v12M1164 30h12"/>
+  </g>
+  <rect class="scan" x="10" y="10" width="1" height="180" fill="#dbeafe" fill-opacity=".16"/>
+  <text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#8fb0dd">SHEET 04 / 05</text>
+  <text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" fill="#b9d0f0">FIELD RESULTS</text>
+  <rect x="54" y="76" width="46" height="16" fill="none" stroke="#dbeafe" stroke-opacity=".7"/>
+  <text x="77" y="88" text-anchor="middle" font-size="9" font-weight="800" letter-spacing="1" fill="#b9d0f0">R-01</text>
+  <text x="120" y="92" font-size="15" font-weight="700" fill="#eaf2ff">Building an agentic AI-based co-researcher system:</text>
+  <text x="120" y="114" font-size="15" font-weight="700" fill="#eaf2ff">An autoethnographic reflection of an educational technology researcher</text>
+  <text x="120" y="140" font-size="12" fill="#8fb0dd">Lim, T. · The Journal of Educational Information and Media · 32(2), 701–728 · KCI · in Korean</text>
+  <text x="120" y="160" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f87171">DOI 10.15833/KAFEIAM.32.2.701</text>
+  <rect x="1030" y="72" width="132" height="24" fill="#f87171" fill-opacity=".07" stroke="#f87171" stroke-opacity=".7"/>
+  <text x="1096" y="88" text-anchor="middle" font-size="9.5" font-weight="800" letter-spacing="1" fill="#f87171">PUBLISHED 2026.04</text>
+  <text x="1160" y="150" text-anchor="end" font-size="11.5" font-weight="800" letter-spacing="1" fill="#eaf2ff">READ THE PAPER <tspan fill="#f87171">→</tspan></text>
+  <g font-size="8">
+    <rect x="868" y="164" width="322" height="24" fill="none" stroke="#dbeafe" stroke-opacity=".5"/>
+    <path d="M932 164v24M1080 164v24M1140 164v24" stroke="#dbeafe" stroke-opacity=".35"/>
+    <text x="900" y="179" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#f87171">FIG.04</text>
+    <text x="1006" y="179" text-anchor="middle" fill="#b9d0f0">DWG NO. TL-2026-04</text>
+    <text x="1110" y="179" text-anchor="middle" fill="#b9d0f0">REV 2026.07</text>
+    <text x="1165" y="179" text-anchor="middle" fill="#b9d0f0">SCALE 1:1</text>
+  </g>
+</svg>

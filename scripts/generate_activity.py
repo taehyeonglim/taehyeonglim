@@ -75,7 +75,7 @@ def render_svg(weeks, total, p):
         'viewBox="0 0 %d %d" role="img" aria-labelledby="title desc">' % (W, H, W, H))
     add('<title id="title">Build activity — weekly contributions</title>')
     add('<desc id="desc">Blueprint-style bar chart of weekly GitHub contributions '
-        'over the last year. FIG.04 of 4.</desc>')
+        'over the last year. FIG.05 of 5.</desc>')
     add('<defs>'
         '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
         '<stop offset="0" stop-color="%(bg0)s"/><stop offset="1" stop-color="%(bg1)s"/>'
@@ -111,7 +111,7 @@ def render_svg(weeks, total, p):
         'letter-spacing="1" fill="%s">Σ %s CONTRIBUTIONS / 365 DAYS</text>'
         % (p["strong"], format(total, ",")))
     add('<text x="1170" y="32" text-anchor="end" font-size="9.5" letter-spacing="2" '
-        'fill="%s">SHEET 04 / 04</text>' % p["dim"])
+        'fill="%s">SHEET 05 / 05</text>' % p["dim"])
 
     # y축 눈금선 + 라벨
     for val, y in ((mx, Y_TOP), (mx // 2, (Y_TOP + Y_BASE) // 2), (0, Y_BASE)):
@@ -171,8 +171,8 @@ def render_svg(weeks, total, p):
         'stroke-opacity=".5"/>'
         '<path d="M932 %dv24M1080 %dv24M1140 %dv24" stroke="%s" stroke-opacity=".35"/>'
         '<text x="900" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
-        'fill="%s">FIG.04</text>'
-        '<text x="1006" y="%d" text-anchor="middle" fill="%s">DWG NO. TL-2026-04</text>'
+        'fill="%s">FIG.05</text>'
+        '<text x="1006" y="%d" text-anchor="middle" fill="%s">DWG NO. TL-2026-05</text>'
         '<text x="1110" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
         '<text x="1165" y="%d" text-anchor="middle" fill="%s">SCALE 1:1</text></g>'
         % (H - 36, p["ink"], H - 36, H - 36, H - 36, p["ink"],
