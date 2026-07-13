@@ -46,7 +46,7 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 ```
 
 <details>
-<summary><b>한국어 소개</b></summary>
+<summary><b>한국어 소개 — APPENDIX A</b></summary>
 
 단일 챗봇을 넘어 여러 AI 에이전트가 역할을 나누고, 도구와 기억을 사용하며, 서로의 결과를 검증하는 **AI 공동과학자 시스템**을 만들고 있습니다.
 
@@ -54,6 +54,8 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 - 역할 기반 멀티에이전트 오케스트레이션
 - MAGI 자율 교차검증과 인간 최종 통제
 - 장기 기억, 도구 사용, 구조화된 핸드오프
+
+→ 상세 이력·연구실적: [taehyeonglim.github.io/cv](https://taehyeonglim.github.io/cv/)
 
 </details>
 
