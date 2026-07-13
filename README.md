@@ -26,7 +26,13 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 
 ## AI Co-Scientist · Multi-Agent Research System
 
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv.svg" alt="NERV System Whitepaper — a 45-agent AI co-scientist system" width="100%"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-light.svg">
+    <img alt="NERV System Whitepaper — a 45-agent AI co-scientist system" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-light.svg" width="100%">
+  </picture>
+</a>
 
 **[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
 
@@ -55,12 +61,10 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 
 <div align="center">
 
-[![AI Systems Build Activity](https://github-readme-activity-graph.vercel.app/graph?username=taehyeonglim&theme=tokyo-night&hide_border=true&area=true&custom_title=AI%20Systems%20Build%20Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg">
+  <img alt="Blueprint-style weekly build activity chart" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg" width="100%">
 </picture>
 
 ---

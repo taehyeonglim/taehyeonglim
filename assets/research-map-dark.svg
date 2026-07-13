@@ -1,50 +1,125 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
   <title id="title">AI co-scientist systems architecture</title>
-  <desc id="desc">Six capabilities connected to the NERV multi-agent AI co-scientist.</desc>
+  <desc id="desc">Blueprint schematic: six capability part boxes routed orthogonally to the NERV AI co-scientist core assembly. FIG.02 of 4.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#101735"/></linearGradient>
-    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset=".5" stop-color="#0369a1"/><stop offset="1" stop-color="#6d28d9"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5eead4"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#cbd5e1" opacity=".055"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2a55"/><stop offset="1" stop-color="#123a75"/>
+    </linearGradient>
+    <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+    </pattern>
     <style>
-      .orbit { stroke-dasharray:5 10; animation: dash 18s linear infinite; }
-      @keyframes dash { to { stroke-dashoffset:-240; } }
-      @media (prefers-reduced-motion: reduce) { .orbit { animation:none } }
+      text { font-family: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+      .flow { stroke-dasharray: 5 7; animation: flow 12s linear infinite; }
+      .scan { animation: scan 16s linear infinite; }
+      .blink { animation: blink 1.6s steps(1) infinite; }
+      @keyframes flow { to { stroke-dashoffset: -96; } }
+      @keyframes scan { to { transform: translateX(1180px); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: .12; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .scan, .blink { animation: none; } }
     </style>
   </defs>
-  <rect x="1" y="1" width="1198" height="438" rx="26" fill="url(#bg)" stroke="#203c5c" stroke-width="2"/>
-  <rect x="1" y="1" width="1198" height="438" rx="26" fill="url(#dots)"/>
-  <text x="54" y="51" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">AI SYSTEMS ARCHITECTURE</text>
-  <ellipse class="orbit" cx="600" cy="230" rx="390" ry="154" fill="none" stroke="url(#line)" stroke-opacity=".22"/>
-  <g fill="none" stroke="url(#line)" stroke-opacity=".36" stroke-width="2">
-    <path d="M600 230L280 126"/><path d="M600 230L260 300"/><path d="M600 230L600 92"/>
-    <path d="M600 230L922 126"/><path d="M600 230L942 300"/><path d="M600 230L600 370"/>
+  <rect width="1200" height="440" fill="url(#bg)"/>
+  <rect width="1200" height="440" fill="url(#gridFine)"/>
+  <rect width="1200" height="440" fill="url(#gridBold)"/>
+  <rect x="2" y="2" width="1196" height="436" fill="none" stroke="#dbeafe" stroke-opacity=".6" stroke-width="2.5"/>
+  <rect x="10" y="10" width="1180" height="420" fill="none" stroke="#dbeafe" stroke-opacity=".28"/>
+  <g stroke="#dbeafe" stroke-opacity=".3" stroke-width="6" stroke-dasharray="1 39">
+    <line x1="10" y1="13" x2="1190" y2="13"/>
+    <line x1="10" y1="427" x2="1190" y2="427"/>
+    <line x1="13" y1="10" x2="13" y2="430"/>
+    <line x1="1187" y1="10" x2="1187" y2="430"/>
   </g>
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <rect x="430" y="171" width="340" height="118" rx="28" fill="url(#core)" stroke="#7dd3fc" stroke-opacity=".68" filter="url(#glow)"/>
-    <text x="600" y="216" fill="#f8fafc" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2">NERV / MAGI</text>
-    <text x="600" y="250" fill="#ffffff" text-anchor="middle" font-size="24" font-weight="800">AI Co-Scientist</text>
-    <text x="600" y="273" fill="#dbeafe" text-anchor="middle" font-size="13">orchestrate · verify · remember · act</text>
-    <g font-size="15" font-weight="750">
-      <rect x="160" y="88" width="240" height="76" rx="20" fill="#0f2636" stroke="#5eead4" stroke-opacity=".58"/>
-      <circle cx="194" cy="126" r="18" fill="#5eead4" fill-opacity=".15" stroke="#5eead4"/><text x="194" y="131" fill="#99f6e4" text-anchor="middle" font-size="11">MA</text>
-      <text x="222" y="122" fill="#f1f5f9">Multi-Agent Orchestration</text><text x="222" y="143" fill="#94a3b8" font-size="12" font-weight="500">roles · routing · handoffs</text>
-      <rect x="140" y="262" width="240" height="76" rx="20" fill="#151c37" stroke="#a78bfa" stroke-opacity=".58"/>
-      <circle cx="174" cy="300" r="18" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa"/><text x="174" y="305" fill="#c4b5fd" text-anchor="middle" font-size="11">MEM</text>
-      <text x="202" y="296" fill="#f1f5f9">Long-Term Memory</text><text x="202" y="317" fill="#94a3b8" font-size="12" font-weight="500">context · retrieval · continuity</text>
-      <rect x="480" y="54" width="240" height="76" rx="20" fill="#0c2237" stroke="#38bdf8" stroke-opacity=".58"/>
-      <circle cx="514" cy="92" r="18" fill="#38bdf8" fill-opacity=".15" stroke="#38bdf8"/><text x="514" y="97" fill="#7dd3fc" text-anchor="middle" font-size="11">TA</text>
-      <text x="542" y="88" fill="#f1f5f9">Tool-Using Agents</text><text x="542" y="109" fill="#94a3b8" font-size="12" font-weight="500">actions · APIs · workflows</text>
-      <rect x="802" y="88" width="240" height="76" rx="20" fill="#151c37" stroke="#a78bfa" stroke-opacity=".58"/>
-      <circle cx="836" cy="126" r="18" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa"/><text x="836" y="131" fill="#c4b5fd" text-anchor="middle" font-size="11">AV</text>
-      <text x="864" y="122" fill="#f1f5f9">Autonomous Validation</text><text x="864" y="143" fill="#94a3b8" font-size="12" font-weight="500">critique · consensus · checks</text>
-      <rect x="822" y="262" width="240" height="76" rx="20" fill="#0f2636" stroke="#5eead4" stroke-opacity=".58"/>
-      <circle cx="856" cy="300" r="18" fill="#5eead4" fill-opacity=".15" stroke="#5eead4"/><text x="856" y="305" fill="#99f6e4" text-anchor="middle" font-size="10">HITL</text>
-      <text x="884" y="296" fill="#f1f5f9">Human in the Loop</text><text x="884" y="317" fill="#94a3b8" font-size="12" font-weight="500">judgment · control · oversight</text>
-      <rect x="480" y="332" width="240" height="76" rx="20" fill="#0c2237" stroke="#38bdf8" stroke-opacity=".58"/>
-      <circle cx="514" cy="370" r="18" fill="#38bdf8" fill-opacity=".15" stroke="#38bdf8"/><text x="514" y="375" fill="#7dd3fc" text-anchor="middle" font-size="11">RA</text>
-      <text x="542" y="366" fill="#f1f5f9">Research Automation</text><text x="542" y="387" fill="#94a3b8" font-size="12" font-weight="500">literature · data · writing</text>
+  <g stroke="#dbeafe" stroke-opacity=".45" fill="none">
+    <path d="M30 24v12M24 30h12"/><path d="M1170 24v12M1164 30h12"/>
+    <path d="M30 404v12M24 410h12"/><path d="M1170 404v12M1164 410h12"/>
+  </g>
+  <rect class="scan" x="10" y="10" width="1" height="420" fill="#dbeafe" fill-opacity=".16"/>
+  <text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" fill="#b9d0f0">AI SYSTEMS ARCHITECTURE</text>
+  <text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#8fb0dd">SHEET 02 / 04</text>
+  <g fill="none">
+    <g stroke="#dbeafe" stroke-opacity=".7" stroke-width="1.5">
+      <path d="M370 116H410V216H450"/>
+      <path d="M600 128V182"/>
+      <path d="M370 350H410V264H450"/>
+      <path d="M600 352V298"/>
     </g>
+    <path class="flow" d="M830 116H790V216H750" stroke="#dbeafe" stroke-opacity=".7" stroke-width="1.5"/>
+    <path class="flow" d="M830 350H790V264H750" stroke="#f87171" stroke-opacity=".8" stroke-width="1.5"/>
+  </g>
+  <g fill="#dbeafe" fill-opacity=".9">
+    <circle cx="410" cy="116" r="2"/><circle cx="410" cy="216" r="2"/>
+    <circle cx="410" cy="350" r="2"/><circle cx="410" cy="264" r="2"/>
+    <circle cx="790" cy="116" r="2"/><circle cx="790" cy="216" r="2"/>
+  </g>
+  <g fill="#f87171" fill-opacity=".9">
+    <circle cx="790" cy="350" r="2"/><circle cx="790" cy="264" r="2"/>
+  </g>
+  <rect x="450" y="182" width="300" height="116" fill="#dbeafe" fill-opacity=".05" stroke="#dbeafe" stroke-opacity=".85" stroke-width="2"/>
+  <rect x="456" y="188" width="288" height="104" fill="none" stroke="#dbeafe" stroke-opacity=".35"/>
+  <text x="600" y="214" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="3" fill="#b9d0f0">NERV / MAGI</text>
+  <text x="600" y="246" text-anchor="middle" font-size="22" font-weight="800" fill="#eaf2ff">AI Co-Scientist</text>
+  <text x="600" y="272" text-anchor="middle" font-size="12" fill="#b9d0f0">orchestrate · verify · remember · act</text>
+  <g fill="none" stroke="#f87171" stroke-opacity=".8">
+    <path d="M750 182l28 -24h70"/>
+  </g>
+  <text x="854" y="162" font-size="11" font-weight="700" letter-spacing="1" fill="#f87171">ø45 AGENTS</text>
+  <g font-size="9" font-weight="800" letter-spacing="1">
+    <g fill="none" stroke="#dbeafe" stroke-opacity=".7">
+      <rect x="120" y="84" width="250" height="64" fill="#dbeafe" fill-opacity=".04"/>
+      <rect x="120" y="74" width="46" height="16"/>
+      <rect x="475" y="64" width="250" height="64" fill="#dbeafe" fill-opacity=".04"/>
+      <rect x="475" y="54" width="46" height="16"/>
+      <rect x="830" y="84" width="250" height="64" fill="#dbeafe" fill-opacity=".04"/>
+      <rect x="830" y="74" width="46" height="16"/>
+      <rect x="120" y="318" width="250" height="64" fill="#dbeafe" fill-opacity=".04"/>
+      <rect x="120" y="308" width="46" height="16"/>
+      <rect x="475" y="352" width="250" height="64" fill="#dbeafe" fill-opacity=".04"/>
+      <rect x="475" y="342" width="46" height="16"/>
+    </g>
+    <g fill="none" stroke="#f87171" stroke-opacity=".9">
+      <rect x="830" y="318" width="250" height="64" fill="#f87171" fill-opacity=".05"/>
+      <rect x="830" y="308" width="46" height="16"/>
+    </g>
+    <text x="143" y="86" text-anchor="middle" fill="#b9d0f0">PT-01</text>
+    <text x="498" y="66" text-anchor="middle" fill="#b9d0f0">PT-02</text>
+    <text x="853" y="86" text-anchor="middle" fill="#b9d0f0">PT-03</text>
+    <text x="143" y="320" text-anchor="middle" fill="#b9d0f0">PT-04</text>
+    <text x="853" y="320" text-anchor="middle" fill="#f87171">PT-05</text>
+    <text x="498" y="354" text-anchor="middle" fill="#b9d0f0">PT-06</text>
+  </g>
+  <g font-size="14.5" font-weight="700" fill="#eaf2ff">
+    <text x="136" y="112">Multi-Agent Orchestration</text>
+    <text x="491" y="92">Tool-Using Agents</text>
+    <text x="846" y="112">Autonomous Validation</text>
+    <text x="136" y="346">Long-Term Memory</text>
+    <text x="846" y="346">Human in the Loop</text>
+    <text x="491" y="380">Research Automation</text>
+  </g>
+  <g font-size="11" fill="#8fb0dd">
+    <text x="136" y="134">roles · routing · handoffs</text>
+    <text x="491" y="114">actions · APIs · workflows</text>
+    <text x="846" y="134">critique · consensus · checks</text>
+    <text x="136" y="368">context · retrieval · continuity</text>
+    <text x="846" y="368">judgment · control · oversight</text>
+    <text x="491" y="402">literature · data · writing</text>
+  </g>
+  <circle class="blink" cx="1062" cy="350" r="3" fill="#f87171"/>
+  <g font-size="9" letter-spacing="1" fill="#8fb0dd">
+    <path d="M54 398h30" stroke="#dbeafe" stroke-opacity=".85" stroke-width="1.5" fill="none"/>
+    <text x="92" y="401">COMMAND FLOW</text>
+    <path d="M54 412h30" stroke="#dbeafe" stroke-opacity=".85" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/>
+    <text x="92" y="415">VALIDATION FEEDBACK</text>
+  </g>
+  <g font-size="8">
+    <rect x="868" y="404" width="322" height="24" fill="none" stroke="#dbeafe" stroke-opacity=".5"/>
+    <path d="M932 404v24M1080 404v24M1140 404v24" stroke="#dbeafe" stroke-opacity=".35"/>
+    <text x="900" y="419" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#f87171">FIG.02</text>
+    <text x="1006" y="419" text-anchor="middle" fill="#b9d0f0">DWG NO. TL-2026-02</text>
+    <text x="1110" y="419" text-anchor="middle" fill="#b9d0f0">REV 2026.07</text>
+    <text x="1165" y="419" text-anchor="middle" fill="#b9d0f0">SCALE 1:1</text>
   </g>
 </svg>
