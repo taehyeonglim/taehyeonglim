@@ -6,10 +6,10 @@
       <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f7fd"/>
     </linearGradient>
     <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="M8 0H0V8" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
+      <path d="M8 0H0V8" fill="none" stroke="#1e40af" stroke-opacity=".06"/>
     </pattern>
     <pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".09"/>
+      <path d="M40 0H0V40" fill="none" stroke="#1e40af" stroke-opacity=".09"/>
     </pattern>
     <style>
       text { font-family: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
