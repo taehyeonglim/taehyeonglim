@@ -1,75 +1,98 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Taehyeong Lim — Human × AI Co-Intelligence Systems</title>
-  <desc id="desc">Light profile banner for AI co-scientist and multi-agent system builder Taehyeong Lim.</desc>
+  <desc id="desc">Whiteprint-style light banner. FIG.01 of a four-sheet drawing set for AI co-scientist builder Taehyeong Lim.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#f8fafc"/>
-      <stop offset="0.58" stop-color="#eef8ff"/>
-      <stop offset="1" stop-color="#f3efff"/>
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f7fd"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#0f766e"/>
-      <stop offset="0.48" stop-color="#0284c7"/>
-      <stop offset="1" stop-color="#7c3aed"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop stop-color="#38bdf8" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#0f172a" stroke-opacity=".04"/>
+    <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#1e40af" stroke-opacity=".06"/>
+    </pattern>
+    <pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1e40af" stroke-opacity=".09"/>
     </pattern>
     <style>
-      .node { animation: pulse 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin:center; }
-      .node:nth-of-type(2) { animation-delay:-.8s; }
-      .node:nth-of-type(3) { animation-delay:-1.6s; }
-      .flow { stroke-dasharray:4 9; animation:flow 9s linear infinite; }
-      @keyframes pulse { 0%,100% { opacity:.65; transform:scale(.94) } 50% { opacity:1; transform:scale(1.06) } }
-      @keyframes flow { to { stroke-dashoffset:-130; } }
-      @media (prefers-reduced-motion: reduce) { .node,.flow { animation:none } }
+      text { font-family: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+      .flow { stroke-dasharray: 5 7; animation: flow 12s linear infinite; }
+      .scan { animation: scan 16s linear infinite; }
+      .blink { animation: blink 1.6s steps(1) infinite; }
+      @keyframes flow { to { stroke-dashoffset: -96; } }
+      @keyframes scan { to { transform: translateX(1180px); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: .12; } }
+      @media (prefers-reduced-motion: reduce) { .flow, .scan, .blink { animation: none; } }
     </style>
   </defs>
-  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#bg)" stroke="#bfdbfe" stroke-width="2"/>
-  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#grid)"/>
-  <circle cx="1025" cy="150" r="230" fill="url(#glow)"/>
-  <rect x="68" y="55" width="158" height="4" rx="2" fill="url(#accent)"/>
-  <text x="68" y="94" fill="#475569" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">TAEHYEONG LIM, PH.D.</text>
-  <text x="68" y="157" fill="#0f172a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">HUMAN × AI</text>
-  <text x="68" y="203" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="750" letter-spacing="-.5">CO-INTELLIGENCE SYSTEMS</text>
-  <text x="70" y="239" fill="#40546b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Building multi-agent systems that think, verify, and work with humans.</text>
-  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">
-    <rect x="68" y="264" width="142" height="32" rx="16" fill="#ccfbf1" stroke="#5eead4"/>
-    <text x="139" y="285" fill="#0f766e" text-anchor="middle">AI CO-SCIENTIST</text>
-    <rect x="220" y="264" width="174" height="32" rx="16" fill="#e0f2fe" stroke="#7dd3fc"/>
-    <text x="307" y="285" fill="#0369a1" text-anchor="middle">MULTI-AGENT SYSTEMS</text>
-    <rect x="404" y="264" width="168" height="32" rx="16" fill="#ede9fe" stroke="#c4b5fd"/>
-    <text x="488" y="285" fill="#6d28d9" text-anchor="middle">HUMAN-IN-THE-LOOP</text>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#gridFine)"/>
+  <rect width="1200" height="320" fill="url(#gridBold)"/>
+  <rect x="2" y="2" width="1196" height="316" fill="none" stroke="#1e40af" stroke-opacity=".55" stroke-width="2.5"/>
+  <rect x="10" y="10" width="1180" height="300" fill="none" stroke="#1e40af" stroke-opacity=".25"/>
+  <g stroke="#1e40af" stroke-opacity=".3" stroke-width="6" stroke-dasharray="1 39">
+    <line x1="10" y1="13" x2="1190" y2="13"/>
+    <line x1="10" y1="307" x2="1190" y2="307"/>
+    <line x1="13" y1="10" x2="13" y2="310"/>
+    <line x1="1187" y1="10" x2="1187" y2="310"/>
   </g>
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <ellipse cx="992" cy="148" rx="166" ry="104" fill="none" stroke="url(#accent)" stroke-opacity=".13"/>
-    <ellipse class="flow" cx="992" cy="148" rx="137" ry="82" fill="none" stroke="url(#accent)" stroke-opacity=".22" transform="rotate(-12 992 148)"/>
-    <ellipse cx="992" cy="148" rx="110" ry="58" fill="none" stroke="#0284c7" stroke-opacity=".08" transform="rotate(18 992 148)"/>
-    <g fill="none" stroke="url(#accent)" stroke-width="1.5">
-      <path d="M850 82L930 148L850 216M1134 82L1054 148L1134 216" stroke-opacity=".23"/>
-      <path d="M992 46L930 148L992 250M992 46L1054 148L992 250" stroke-opacity=".17"/>
-      <path d="M963 130C980 117 1004 117 1021 130M963 166C980 179 1004 179 1021 166" stroke-opacity=".72" stroke-width="2"/>
+  <g stroke="#1e40af" stroke-opacity=".45" fill="none">
+    <path d="M30 24v12M24 30h12"/><path d="M1170 24v12M1164 30h12"/>
+    <path d="M30 284v12M24 290h12"/><path d="M1170 284v12M1164 290h12"/>
+  </g>
+  <rect class="scan" x="10" y="10" width="1" height="300" fill="#1e40af" fill-opacity=".12"/>
+  <text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#6981b8">SHEET 01 / 04</text>
+  <text x="68" y="84" font-size="15" font-weight="700" letter-spacing="5" fill="#2c4d99">TAEHYEONG LIM, PH.D.</text>
+  <text x="66" y="152" font-size="50" font-weight="800" letter-spacing="1" fill="#17337a">HUMAN <tspan fill="#dc2626">×</tspan> AI</text>
+  <text x="68" y="198" font-size="28" font-weight="700" letter-spacing="3" fill="#17337a">CO-INTELLIGENCE SYSTEMS</text>
+  <path d="M68 212h438M68 206v12M506 206v12" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
+  <text x="68" y="240" font-size="16" fill="#2c4d99">Building multi-agent systems that think, verify, and work with humans.</text>
+  <g font-size="11" font-weight="700" letter-spacing="1" fill="#2c4d99">
+    <rect x="68" y="264" width="140" height="30" fill="#1e40af" fill-opacity=".04" stroke="#1e40af" stroke-opacity=".55"/>
+    <text x="138" y="283" text-anchor="middle">AI CO-SCIENTIST</text>
+    <rect x="218" y="264" width="178" height="30" fill="#1e40af" fill-opacity=".04" stroke="#1e40af" stroke-opacity=".55"/>
+    <text x="307" y="283" text-anchor="middle">MULTI-AGENT SYSTEMS</text>
+    <rect x="406" y="264" width="164" height="30" fill="#1e40af" fill-opacity=".04" stroke="#1e40af" stroke-opacity=".55"/>
+    <text x="488" y="283" text-anchor="middle">HUMAN-IN-THE-LOOP</text>
+  </g>
+  <g fill="none" stroke="#1e40af">
+    <g stroke-opacity=".4" stroke-dasharray="12 4 3 4">
+      <path d="M800 140h116M858 82v116"/>
+      <path d="M1004 140h116M1062 82v116"/>
     </g>
-    <circle cx="930" cy="148" r="49" fill="#ccfbf1" fill-opacity=".38" stroke="#0f766e" stroke-opacity=".16"/>
-    <circle cx="930" cy="148" r="34" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
-    <circle cx="1054" cy="148" r="49" fill="#ede9fe" fill-opacity=".38" stroke="#7c3aed" stroke-opacity=".16"/>
-    <circle cx="1054" cy="148" r="34" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-    <text x="930" y="145" fill="#0f766e" text-anchor="middle" font-size="10" font-weight="750" letter-spacing="1.4">HUMAN</text>
-    <text x="930" y="160" fill="#0f766e" text-anchor="middle" font-size="9" font-weight="600">INTENT</text>
-    <text x="1054" y="145" fill="#6d28d9" text-anchor="middle" font-size="14" font-weight="850" letter-spacing="1.4">AI</text>
-    <text x="1054" y="160" fill="#7c3aed" text-anchor="middle" font-size="9" font-weight="600">AGENCY</text>
-    <circle cx="992" cy="148" r="14" fill="#f8fafc" stroke="#0284c7" stroke-width="2"/>
-    <text x="992" y="154" fill="#0284c7" text-anchor="middle" font-size="17" font-weight="850">×</text>
-    <g fill="#f8fafc" stroke-width="2.5">
-      <circle class="node" cx="850" cy="82" r="7" stroke="#0f766e"/><circle class="node" cx="850" cy="216" r="7" stroke="#0284c7"/>
-      <circle class="node" cx="1134" cy="82" r="7" stroke="#7c3aed"/><circle class="node" cx="1134" cy="216" r="7" stroke="#0284c7"/>
-      <circle class="node" cx="992" cy="46" r="6" stroke="#0284c7"/><circle class="node" cx="992" cy="250" r="6" stroke="#0f766e"/>
+    <g stroke-opacity=".55" stroke-dasharray="2 5">
+      <path d="M858 58v24M1062 58v24"/>
     </g>
-    <circle cx="825" cy="284" r="3" fill="#0f766e"/>
-    <text x="838" y="288" fill="#64748b" font-size="10" font-weight="700" letter-spacing="2.2">CO-INTELLIGENCE LATTICE / 01</text>
+    <circle cx="858" cy="53" r="4.5" stroke-opacity=".7"/>
+    <circle cx="1062" cy="53" r="4.5" stroke-opacity=".7"/>
+    <circle cx="858" cy="140" r="44" stroke-width="2"/>
+    <circle cx="1062" cy="140" r="44" stroke-width="2"/>
+    <g class="flow" stroke-opacity=".85" stroke-width="1.5">
+      <path d="M902 140h45M973 140h45"/>
+    </g>
+    <circle cx="960" cy="140" r="13" stroke="#dc2626" stroke-width="2"/>
+    <g stroke-opacity=".6">
+      <path d="M827 109l-20 -20h-54"/>
+      <path d="M1093 109l20 -20h54"/>
+    </g>
+    <g stroke-opacity=".45">
+      <path d="M858 188v50M1062 188v50"/>
+    </g>
+    <g stroke-opacity=".8">
+      <path d="M858 232h204"/>
+      <path d="M866 228l-8 4 8 4M1054 228l8 4-8 4"/>
+    </g>
+  </g>
+  <text x="749" y="93" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#6981b8">HUMAN INTENT</text>
+  <text x="1117" y="93" font-size="10" letter-spacing="1.5" fill="#6981b8">AI AGENCY</text>
+  <text x="858" y="145" text-anchor="middle" font-size="11.5" font-weight="800" letter-spacing="1.5" fill="#17337a">HUMAN</text>
+  <text x="1062" y="145" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="2" fill="#17337a">AI</text>
+  <text x="960" y="145" text-anchor="middle" font-size="15" font-weight="800" fill="#dc2626">×</text>
+  <circle class="blink" cx="843" cy="223" r="2.5" fill="#dc2626"/>
+  <text x="960" y="226" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#6981b8">CO-INTELLIGENCE LATTICE / 01</text>
+  <g font-size="8.5">
+    <rect x="884" y="284" width="306" height="24" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
+    <path d="M946 284v24M1086 284v24M1144 284v24" stroke="#1e40af" stroke-opacity=".35"/>
+    <text x="915" y="299" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#dc2626">FIG.01</text>
+    <text x="1016" y="299" text-anchor="middle" fill="#2c4d99">DWG NO. TL-2026-01</text>
+    <text x="1115" y="299" text-anchor="middle" fill="#2c4d99">REV 2026.07</text>
+    <text x="1167" y="299" text-anchor="middle" fill="#2c4d99">SCALE 1:1</text>
   </g>
 </svg>
