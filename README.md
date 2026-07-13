@@ -36,6 +36,18 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 
 **[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
 
+## Field results
+
+<a href="https://doi.org/10.15833/KAFEIAM.32.2.701">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/field-results-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/field-results-light.svg">
+    <img alt="Field results — peer-reviewed research produced with the co-scientist system" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/field-results-light.svg" width="100%">
+  </picture>
+</a>
+
+Peer-reviewed research produced with — and about — the co-scientist system: [Lim, T. (2026)](https://doi.org/10.15833/KAFEIAM.32.2.701). Building an agentic AI-based co-researcher system: An autoethnographic reflection of an educational technology researcher. *The Journal of Educational Information and Media, 32*(2), 701–728. (in Korean)
+
 ## How I build reliable AI systems
 
 ```text
