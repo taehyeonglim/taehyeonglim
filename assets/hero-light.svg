@@ -81,18 +81,18 @@
     </g>
   </g>
   <text x="749" y="93" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#6981b8">HUMAN INTENT</text>
-  <text x="1117" y="93" font-size="10" letter-spacing="1.5" fill="#6981b8">AI AGENCY</text>
+  <text x="1140" y="80" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#6981b8">AI AGENCY</text>
   <text x="858" y="145" text-anchor="middle" font-size="11.5" font-weight="800" letter-spacing="1.5" fill="#17337a">HUMAN</text>
   <text x="1062" y="145" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="2" fill="#17337a">AI</text>
   <text x="960" y="145" text-anchor="middle" font-size="15" font-weight="800" fill="#dc2626">×</text>
   <circle class="blink" cx="843" cy="223" r="2.5" fill="#dc2626"/>
   <text x="960" y="226" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#6981b8">CO-INTELLIGENCE LATTICE / 01</text>
-  <g font-size="8.5">
-    <rect x="884" y="284" width="306" height="24" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
-    <path d="M946 284v24M1086 284v24M1144 284v24" stroke="#1e40af" stroke-opacity=".35"/>
-    <text x="915" y="299" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#dc2626">FIG.01</text>
-    <text x="1016" y="299" text-anchor="middle" fill="#2c4d99">DWG NO. TL-2026-01</text>
-    <text x="1115" y="299" text-anchor="middle" fill="#2c4d99">REV 2026.07</text>
-    <text x="1167" y="299" text-anchor="middle" fill="#2c4d99">SCALE 1:1</text>
+  <g font-size="8">
+    <rect x="868" y="284" width="322" height="24" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
+    <path d="M932 284v24M1080 284v24M1140 284v24" stroke="#1e40af" stroke-opacity=".35"/>
+    <text x="900" y="299" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#dc2626">FIG.01</text>
+    <text x="1006" y="299" text-anchor="middle" fill="#2c4d99">DWG NO. TL-2026-01</text>
+    <text x="1110" y="299" text-anchor="middle" fill="#2c4d99">REV 2026.07</text>
+    <text x="1165" y="299" text-anchor="middle" fill="#2c4d99">SCALE 1:1</text>
   </g>
 </svg>

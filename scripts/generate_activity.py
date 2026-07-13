@@ -166,15 +166,15 @@ def render_svg(weeks, total, p):
                 % (px - 46, py - 16, p["red"], v))
 
     # 타이틀 블록
-    add('<g font-size="8.5">'
-        '<rect x="884" y="%d" width="306" height="24" fill="none" stroke="%s" '
+    add('<g font-size="8">'
+        '<rect x="868" y="%d" width="322" height="24" fill="none" stroke="%s" '
         'stroke-opacity=".5"/>'
-        '<path d="M946 %dv24M1086 %dv24M1144 %dv24" stroke="%s" stroke-opacity=".35"/>'
-        '<text x="915" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
+        '<path d="M932 %dv24M1080 %dv24M1140 %dv24" stroke="%s" stroke-opacity=".35"/>'
+        '<text x="900" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
         'fill="%s">FIG.04</text>'
-        '<text x="1016" y="%d" text-anchor="middle" fill="%s">DWG NO. TL-2026-04</text>'
-        '<text x="1115" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
-        '<text x="1167" y="%d" text-anchor="middle" fill="%s">SCALE 1:1</text></g>'
+        '<text x="1006" y="%d" text-anchor="middle" fill="%s">DWG NO. TL-2026-04</text>'
+        '<text x="1110" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
+        '<text x="1165" y="%d" text-anchor="middle" fill="%s">SCALE 1:1</text></g>'
         % (H - 36, p["ink"], H - 36, H - 36, H - 36, p["ink"],
            H - 21, p["red"], H - 21, p["mid"], H - 21, p["mid"], H - 21, p["mid"]))
     add('</svg>')

@@ -41,14 +41,14 @@
   <text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" fill="#2c4d99">AI SYSTEMS ARCHITECTURE</text>
   <text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#6981b8">SHEET 02 / 04</text>
   <g fill="none">
-    <g class="flow" stroke="#1e40af" stroke-opacity=".7" stroke-width="1.5">
+    <g stroke="#1e40af" stroke-opacity=".7" stroke-width="1.5">
       <path d="M370 116H410V216H450"/>
       <path d="M600 128V182"/>
       <path d="M370 350H410V264H450"/>
       <path d="M600 352V298"/>
     </g>
-    <path d="M830 116H790V216H750" stroke="#1e40af" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 5"/>
-    <path d="M830 350H790V264H750" stroke="#dc2626" stroke-opacity=".8" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <path class="flow" d="M830 116H790V216H750" stroke="#1e40af" stroke-opacity=".7" stroke-width="1.5"/>
+    <path class="flow" d="M830 350H790V264H750" stroke="#dc2626" stroke-opacity=".8" stroke-width="1.5"/>
   </g>
   <g fill="#1e40af" fill-opacity=".9">
     <circle cx="410" cy="116" r="2"/><circle cx="410" cy="216" r="2"/>
@@ -109,17 +109,17 @@
   </g>
   <circle class="blink" cx="1062" cy="350" r="3" fill="#dc2626"/>
   <g font-size="9" letter-spacing="1" fill="#6981b8">
-    <path d="M54 410h30" stroke="#1e40af" stroke-opacity=".85" stroke-width="1.5" fill="none"/>
-    <text x="92" y="413">COMMAND FLOW</text>
-    <path d="M54 424h30" stroke="#1e40af" stroke-opacity=".85" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/>
-    <text x="92" y="427">VALIDATION FEEDBACK</text>
+    <path d="M54 398h30" stroke="#1e40af" stroke-opacity=".85" stroke-width="1.5" fill="none"/>
+    <text x="92" y="401">COMMAND FLOW</text>
+    <path d="M54 412h30" stroke="#1e40af" stroke-opacity=".85" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/>
+    <text x="92" y="415">VALIDATION FEEDBACK</text>
   </g>
-  <g font-size="8.5">
-    <rect x="884" y="404" width="306" height="24" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
-    <path d="M946 404v24M1086 404v24M1144 404v24" stroke="#1e40af" stroke-opacity=".35"/>
-    <text x="915" y="419" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#dc2626">FIG.02</text>
-    <text x="1016" y="419" text-anchor="middle" fill="#2c4d99">DWG NO. TL-2026-02</text>
-    <text x="1115" y="419" text-anchor="middle" fill="#2c4d99">REV 2026.07</text>
-    <text x="1167" y="419" text-anchor="middle" fill="#2c4d99">SCALE 1:1</text>
+  <g font-size="8">
+    <rect x="868" y="404" width="322" height="24" fill="none" stroke="#1e40af" stroke-opacity=".5"/>
+    <path d="M932 404v24M1080 404v24M1140 404v24" stroke="#1e40af" stroke-opacity=".35"/>
+    <text x="900" y="419" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#dc2626">FIG.02</text>
+    <text x="1006" y="419" text-anchor="middle" fill="#2c4d99">DWG NO. TL-2026-02</text>
+    <text x="1110" y="419" text-anchor="middle" fill="#2c4d99">REV 2026.07</text>
+    <text x="1165" y="419" text-anchor="middle" fill="#2c4d99">SCALE 1:1</text>
   </g>
 </svg>
