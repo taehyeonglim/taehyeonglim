@@ -6,9 +6,9 @@
   <img alt="Taehyeong Lim — Human × AI Co-Intelligence Systems" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/hero-light.svg" width="100%">
 </picture>
 
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><img src="https://img.shields.io/badge/NERV_Whitepaper-c4161c?style=for-the-badge&logo=readthedocs&logoColor=white" alt="NERV Whitepaper"></a>
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/02-architecture/"><img src="https://img.shields.io/badge/45_AI_Agents-111111?style=for-the-badge&logo=openai&logoColor=white" alt="45 AI agents"></a>
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/06-systems/magi-gate/"><img src="https://img.shields.io/badge/MAGI_Validation-6D28D9?style=for-the-badge&logo=probot&logoColor=white" alt="MAGI validation"></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-light.svg"><img alt="NERV Whitepaper" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-light.svg"></picture></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/02-architecture/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"><img alt="45 AI agents" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"></picture></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/06-systems/magi-gate/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"><img alt="MAGI validation" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"></picture></a>
 
 </div>
 
