@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""FIG.04 — blueprint-style weekly contribution bar chart (dark/light SVG pair).
+"""FIG.05 — NERV MAGI-terminal style weekly contribution bar chart (dark/light SVG pair).
 
-GitHub GraphQL contributionCalendar를 주간 합계로 접어 도면 스타일 막대 차트를 그린다.
+GitHub GraphQL contributionCalendar를 주간 합계로 접어 MAGI 터미널(다크)/
+NERV 공문서(라이트) 스타일 막대 차트를 그린다.
 표준 라이브러리만 사용. --fixture 로 오프라인 렌더 가능.
 """
 import argparse
@@ -18,17 +19,19 @@ QUERY = (
 )
 
 PALETTES = {
-    "dark": {
-        "bg0": "#0d2a55", "bg1": "#123a75", "grid": "#ffffff",
-        "grid_fine": ".04", "grid_bold": ".07", "ink": "#dbeafe",
-        "strong": "#eaf2ff", "mid": "#b9d0f0", "dim": "#8fb0dd",
-        "red": "#f87171", "frame_op": ".6", "scan_op": ".16",
+    "dark": {   # MAGI 터미널
+        "bg0": "#050609", "bg1": "#0a0c12", "grid": "#f4efe6",
+        "grid_fine": ".03", "grid_bold": ".05", "ink": "#d8d5ce",
+        "strong": "#f4efe6", "mid": "#8d9098", "dim": "#5c6069",
+        "bar": "#ffb000", "red": "#ff3b30",
+        "frame_op": ".6", "scan_op": ".16", "scan": True,
     },
-    "light": {
-        "bg0": "#ffffff", "bg1": "#f3f7fd", "grid": "#1e40af",
-        "grid_fine": ".06", "grid_bold": ".09", "ink": "#1e40af",
-        "strong": "#17337a", "mid": "#2c4d99", "dim": "#6981b8",
-        "red": "#dc2626", "frame_op": ".55", "scan_op": ".12",
+    "light": {  # NERV 공문서 — 먹+레드 2색
+        "bg0": "#f4efe6", "bg1": "#ece5d8", "grid": "#1a1b1e",
+        "grid_fine": ".08", "grid_bold": ".12", "ink": "#2a2b30",
+        "strong": "#1a1b1e", "mid": "#6b6558", "dim": "#6b6558",
+        "bar": "#2a2b30", "red": "#d92720",
+        "frame_op": ".55", "scan_op": ".12", "scan": False,
     },
 }
 
@@ -74,22 +77,24 @@ def render_svg(weeks, total, p):
     add('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" '
         'viewBox="0 0 %d %d" role="img" aria-labelledby="title desc">' % (W, H, W, H))
     add('<title id="title">Build activity — weekly contributions</title>')
-    add('<desc id="desc">Blueprint-style bar chart of weekly GitHub contributions '
-        'over the last year. FIG.05 of 5.</desc>')
+    style_desc = ("MAGI terminal-style" if p["scan"]
+                  else "NERV printed-document style")
+    add('<desc id="desc">%s bar chart of weekly GitHub contributions '
+        'over the last year. FIG.05 of 5.</desc>' % style_desc)
+    scan_css = ('.scan{animation:scan 16s linear infinite;}'
+                '@keyframes scan{to{transform:translateX(1180px);}}'
+                '@media (prefers-reduced-motion:reduce){.scan{animation:none;}}'
+                if p["scan"] else '')
     add('<defs>'
-        '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
+        '<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
         '<stop offset="0" stop-color="%(bg0)s"/><stop offset="1" stop-color="%(bg1)s"/>'
         '</linearGradient>'
         '<pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">'
         '<path d="M8 0H0V8" fill="none" stroke="%(grid)s" stroke-opacity="%(grid_fine)s"/></pattern>'
         '<pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">'
-        '<path d="M40 0H0V40" fill="none" stroke="%(grid)s" stroke-opacity="%(grid_bold)s"/></pattern>'
-        '<style>text{font-family:ui-monospace,\'SF Mono\',SFMono-Regular,Menlo,Consolas,'
-        '\'Liberation Mono\',monospace;}'
-        '.scan{animation:scan 16s linear infinite;}'
-        '@keyframes scan{to{transform:translateX(1180px);}}'
-        '@media (prefers-reduced-motion:reduce){.scan{animation:none;}}'
-        '</style></defs>' % p)
+        '<path d="M40 0H0V40" fill="none" stroke="%(grid)s" stroke-opacity="%(grid_bold)s"/></pattern>' % p)
+    add('<style>text{font-family:ui-monospace,\'SF Mono\',SFMono-Regular,Menlo,Consolas,'
+        '\'Liberation Mono\',monospace;}' + scan_css + '</style></defs>')
     add('<rect width="%d" height="%d" fill="url(#bg)"/>' % (W, H))
     add('<rect width="%d" height="%d" fill="url(#gridFine)"/>' % (W, H))
     add('<rect width="%d" height="%d" fill="url(#gridBold)"/>' % (W, H))
@@ -103,8 +108,9 @@ def render_svg(weeks, total, p):
         '<line x1="13" y1="10" x2="13" y2="%d"/>'
         '<line x1="1187" y1="10" x2="1187" y2="%d"/></g>'
         % (p["ink"], H - 13, H - 13, H - 10, H - 10))
-    add('<rect class="scan" x="10" y="10" width="1" height="%d" fill="%s" '
-        'fill-opacity="%s"/>' % (H - 20, p["ink"], p["scan_op"]))
+    if p["scan"]:
+        add('<rect class="scan" x="10" y="10" width="1" height="%d" fill="%s" '
+            'fill-opacity="%s"/>' % (H - 20, p["ink"], p["scan_op"]))
     add('<text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" '
         'fill="%s">BUILD ACTIVITY</text>' % p["mid"])
     add('<text x="1146" y="54" text-anchor="end" font-size="12" font-weight="700" '
@@ -141,7 +147,7 @@ def render_svg(weeks, total, p):
         if v <= 0:
             continue
         h = max(v * scale, 2.0)
-        color = p["red"] if i == peak_i else p["ink"]
+        color = p["red"] if i == peak_i else p["bar"]
         fill_op = ".75" if i == peak_i else ".5"
         add('<rect class="bar" x="%.1f" y="%.1f" width="%.1f" height="%.1f" '
             'fill="%s" fill-opacity="%s" stroke="%s" stroke-opacity=".9"/>'
@@ -165,16 +171,16 @@ def render_svg(weeks, total, p):
                 'font-weight="800" letter-spacing="1" fill="%s">PEAK — %d/WK</text>'
                 % (px - 46, py - 16, p["red"], v))
 
-    # 타이틀 블록
+    # NERV 문서 헤더 (전 도면 공통 4칸 양식)
     add('<g font-size="8">'
-        '<rect x="868" y="%d" width="322" height="24" fill="none" stroke="%s" '
+        '<rect x="808" y="%d" width="382" height="24" fill="none" stroke="%s" '
         'stroke-opacity=".5"/>'
-        '<path d="M932 %dv24M1080 %dv24M1140 %dv24" stroke="%s" stroke-opacity=".35"/>'
-        '<text x="900" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
+        '<path d="M872 %dv24M1020 %dv24M1084 %dv24" stroke="%s" stroke-opacity=".35"/>'
+        '<text x="840" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
         'fill="%s">FIG.05</text>'
-        '<text x="1006" y="%d" text-anchor="middle" fill="%s">DWG NO. TL-2026-05</text>'
-        '<text x="1110" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
-        '<text x="1165" y="%d" text-anchor="middle" fill="%s">SCALE 1:1</text></g>'
+        '<text x="946" y="%d" text-anchor="middle" fill="%s">DOC NO. NERV-TL-2026-05</text>'
+        '<text x="1052" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
+        '<text x="1137" y="%d" text-anchor="middle" fill="%s">MAGI CHECKED</text></g>'
         % (H - 36, p["ink"], H - 36, H - 36, H - 36, p["ink"],
            H - 21, p["red"], H - 21, p["mid"], H - 21, p["mid"], H - 21, p["mid"]))
     add('</svg>')

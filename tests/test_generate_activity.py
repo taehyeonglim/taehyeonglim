@@ -58,9 +58,24 @@ class RenderSvgTest(unittest.TestCase):
     def test_palettes_differ(self):
         dark = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
         light = ga.render_svg(self.weeks, self.total, ga.PALETTES["light"])
-        self.assertIn("#0d2a55", dark)
-        self.assertIn("#f3f7fd", light)
+        self.assertIn("#050609", dark)      # MAGI 보이드
+        self.assertIn("#ece5d8", light)     # 공문서 음영
+        self.assertIn("#ffb000", dark)      # 앰버 막대 (다크 전용)
+        self.assertNotIn("#ffb000", light)  # 라이트 먹+레드 2색 원칙
         self.assertNotEqual(dark, light)
+
+    def test_dark_only_motion(self):
+        dark = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
+        light = ga.render_svg(self.weeks, self.total, ga.PALETTES["light"])
+        self.assertIn('class="scan"', dark)
+        self.assertNotIn("animation", light)
+
+    def test_nerv_doc_header(self):
+        svg = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
+        self.assertIn("DOC NO. NERV-TL-2026-05", svg)
+        self.assertIn("MAGI CHECKED", svg)
+        self.assertNotIn("DWG NO.", svg)
+        self.assertNotIn("SCALE 1:1", svg)
 
     def test_zero_data_renders_without_peak(self):
         cal = make_calendar([0] * 52)
