@@ -55,27 +55,23 @@ class RenderSvgTest(unittest.TestCase):
         self.assertIn(f"Σ {self.total:,} CONTRIBUTIONS / 365 DAYS", svg)
         self.assertIn("PEAK — 42/WK", svg)
 
-    def test_palettes_differ(self):
+    def test_single_eva_look_both_modes(self):
+        # v2: 다크 단일 룩 — 두 팔레트가 동일한 SVG를 내야 한다
         dark = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
         light = ga.render_svg(self.weeks, self.total, ga.PALETTES["light"])
-        self.assertIn("#050609", dark)      # MAGI 보이드
-        self.assertIn("#ece5d8", light)     # 공문서 음영
-        self.assertIn("#ffb000", dark)      # 앰버 막대 (다크 전용)
-        self.assertNotIn("#ffb000", light)  # 라이트 먹+레드 2색 원칙
-        self.assertNotEqual(dark, light)
-
-    def test_dark_only_motion(self):
-        dark = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
-        light = ga.render_svg(self.weeks, self.total, ga.PALETTES["light"])
+        self.assertEqual(dark, light)
+        self.assertIn("#050609", dark)      # 보이드
+        self.assertIn("#ffb000", dark)      # 앰버 막대
+        self.assertIn("#ff6a00", dark)      # NERV 오렌지
         self.assertIn('class="scan"', dark)
-        self.assertNotIn("animation", light)
 
-    def test_nerv_doc_header(self):
+    def test_no_drawing_set_vocab(self):
+        # v2: 도면집 어휘 전면 폐기
         svg = ga.render_svg(self.weeks, self.total, ga.PALETTES["dark"])
-        self.assertIn("DOC NO. NERV-TL-2026-05", svg)
-        self.assertIn("MAGI CHECKED", svg)
-        self.assertNotIn("DWG NO.", svg)
-        self.assertNotIn("SCALE 1:1", svg)
+        for banned in ("SHEET", "DWG NO.", "DOC NO.", "SCALE 1:1",
+                       "MAGI CHECKED", "FIG.05 of 5"):
+            self.assertNotIn(banned, svg)
+        self.assertIn("BUILD TELEMETRY", svg)
 
     def test_zero_data_renders_without_peak(self):
         cal = make_calendar([0] * 52)

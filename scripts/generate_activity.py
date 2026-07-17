@@ -18,22 +18,15 @@ QUERY = (
     "{date contributionCount}}}}}}"
 )
 
-PALETTES = {
-    "dark": {   # MAGI 터미널
-        "bg0": "#050609", "bg1": "#0a0c12", "grid": "#f4efe6",
-        "grid_fine": ".03", "grid_bold": ".05", "ink": "#d8d5ce",
-        "strong": "#f4efe6", "mid": "#8d9098", "dim": "#5c6069",
-        "bar": "#ffb000", "red": "#ff3b30",
-        "frame_op": ".6", "scan_op": ".16", "scan": True,
-    },
-    "light": {  # NERV 공문서 — 먹+레드 2색
-        "bg0": "#f4efe6", "bg1": "#ece5d8", "grid": "#1a1b1e",
-        "grid_fine": ".08", "grid_bold": ".12", "ink": "#2a2b30",
-        "strong": "#1a1b1e", "mid": "#6b6558", "dim": "#6b6558",
-        "bar": "#2a2b30", "red": "#d92720",
-        "frame_op": ".55", "scan_op": ".12", "scan": False,
-    },
+# v2: 에바 터미널 다크 단일 룩 — 두 산출물이 동일 (README <picture> 유지 목적의 파일 분리)
+_NERV = {
+    "bg0": "#050609", "bg1": "#0a0c12", "grid": "#ff6a00",
+    "grid_fine": ".05", "grid_bold": ".08", "ink": "#d9a877",
+    "strong": "#ffe2c4", "mid": "#ffb000", "dim": "#9a7048",
+    "bar": "#ffb000", "red": "#ff2d2d",
+    "frame_op": ".5", "scan_op": ".16", "scan": True,
 }
+PALETTES = {"dark": dict(_NERV), "light": dict(_NERV)}
 
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
@@ -77,10 +70,8 @@ def render_svg(weeks, total, p):
     add('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" '
         'viewBox="0 0 %d %d" role="img" aria-labelledby="title desc">' % (W, H, W, H))
     add('<title id="title">Build activity — weekly contributions</title>')
-    style_desc = ("MAGI terminal-style" if p["scan"]
-                  else "NERV printed-document style")
-    add('<desc id="desc">%s bar chart of weekly GitHub contributions '
-        'over the last year. FIG.05 of 5.</desc>' % style_desc)
+    add('<desc id="desc">NERV MAGI terminal-style bar chart of weekly GitHub '
+        'contributions over the last year, identical in light and dark mode.</desc>')
     scan_css = ('.scan{animation:scan 16s linear infinite;}'
                 '@keyframes scan{to{transform:translateX(1180px);}}'
                 '@media (prefers-reduced-motion:reduce){.scan{animation:none;}}'
@@ -116,8 +107,6 @@ def render_svg(weeks, total, p):
     add('<text x="1146" y="54" text-anchor="end" font-size="12" font-weight="700" '
         'letter-spacing="1" fill="%s">Σ %s CONTRIBUTIONS / 365 DAYS</text>'
         % (p["strong"], format(total, ",")))
-    add('<text x="1170" y="32" text-anchor="end" font-size="9.5" letter-spacing="2" '
-        'fill="%s">SHEET 05 / 05</text>' % p["dim"])
 
     # y축 눈금선 + 라벨
     for val, y in ((mx, Y_TOP), (mx // 2, (Y_TOP + Y_BASE) // 2), (0, Y_BASE)):
@@ -171,18 +160,10 @@ def render_svg(weeks, total, p):
                 'font-weight="800" letter-spacing="1" fill="%s">PEAK — %d/WK</text>'
                 % (px - 46, py - 16, p["red"], v))
 
-    # NERV 문서 헤더 (전 도면 공통 4칸 양식)
-    add('<g font-size="8">'
-        '<rect x="808" y="%d" width="382" height="24" fill="none" stroke="%s" '
-        'stroke-opacity=".5"/>'
-        '<path d="M872 %dv24M1020 %dv24M1084 %dv24" stroke="%s" stroke-opacity=".35"/>'
-        '<text x="840" y="%d" text-anchor="middle" font-weight="800" letter-spacing="1" '
-        'fill="%s">FIG.05</text>'
-        '<text x="946" y="%d" text-anchor="middle" fill="%s">DOC NO. NERV-TL-2026-05</text>'
-        '<text x="1052" y="%d" text-anchor="middle" fill="%s">REV 2026.07</text>'
-        '<text x="1137" y="%d" text-anchor="middle" fill="%s">MAGI CHECKED</text></g>'
-        % (H - 36, p["ink"], H - 36, H - 36, H - 36, p["ink"],
-           H - 21, p["red"], H - 21, p["mid"], H - 21, p["mid"], H - 21, p["mid"]))
+    # v2: 하단 우측 텔레메트리 태그 (도면집 헤더 폐기)
+    add('<text x="1146" y="%d" text-anchor="end" font-size="8.5" '
+        'letter-spacing="2" fill="%s">NERV // BUILD TELEMETRY · 稼働記録</text>'
+        % (H - 21, p["dim"]))
     add('</svg>')
     return "".join(parts)
 
