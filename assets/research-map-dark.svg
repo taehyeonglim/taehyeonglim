@@ -1,59 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
-<title id="title">AI systems architecture — NERV / MAGI co-scientist</title>
-<desc id="desc">MAGI terminal-style orthogonal wiring diagram: six capability modules routed to the AI co-scientist core. FIG.02 of 5.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050609"/><stop offset="1" stop-color="#0a0c12"/></linearGradient>
-<radialGradient id="redGlow" cx=".5" cy="-.2" r="1"><stop offset="0" stop-color="#d92720" stop-opacity=".11"/><stop offset="1" stop-color="#d92720" stop-opacity="0"/></radialGradient>
-<pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8 0H0V8" fill="none" stroke="#f4efe6" stroke-opacity=".03"/></pattern>
-<pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#f4efe6" stroke-opacity=".05"/></pattern>
-<style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}.flow{stroke-dasharray:5 7;animation:flow 12s linear infinite;}@keyframes flow{to{stroke-dashoffset:-96;}}.scan{animation:scan 16s linear infinite;}@keyframes scan{to{transform:translateX(1180px);}}.blink{animation:blink 1.6s steps(1) infinite;}@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:.12;}}@media (prefers-reduced-motion:reduce){.flow,.scan,.blink{animation:none;}}</style></defs>
-<rect width="1200" height="440" fill="url(#bg)"/>
-<rect width="1200" height="440" fill="url(#redGlow)"/>
-<rect width="1200" height="440" fill="url(#gridFine)"/>
-<rect width="1200" height="440" fill="url(#gridBold)"/>
-<line x1="0" y1="140" x2="1200" y2="140" stroke="#ff3b30" stroke-opacity=".16"/>
-<rect x="2" y="2" width="1196" height="436" fill="none" stroke="#d8d5ce" stroke-opacity=".6" stroke-width="2.5"/>
-<rect x="10" y="10" width="1180" height="420" fill="none" stroke="#d8d5ce" stroke-opacity=".28"/>
-<g stroke="#d8d5ce" stroke-opacity=".3" stroke-width="6" stroke-dasharray="1 39"><line x1="10" y1="13" x2="1190" y2="13"/><line x1="10" y1="427" x2="1190" y2="427"/><line x1="13" y1="10" x2="13" y2="430"/><line x1="1187" y1="10" x2="1187" y2="430"/></g>
-<path d="M22 36V22H36M1164 22H1178V36M1178 404V418H1164M36 418H22V404" fill="none" stroke="#ff3b30" stroke-opacity=".7" stroke-width="2"/>
-<rect class="scan" x="10" y="10" width="1" height="420" fill="#f4efe6" fill-opacity=".16"/>
-<text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" fill="#f4efe6">AI SYSTEMS ARCHITECTURE</text>
-<text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#5c6069">SHEET 02 / 05</text>
-<g fill="none"><g stroke="#d8d5ce" stroke-opacity=".55" stroke-width="1.5"><path d="M370 116H410V216H450"/><path d="M600 128V182"/><path d="M370 350H410V264H450"/><path d="M600 352V298"/></g><path class="flow" d="M830 116H790V216H750" stroke="#d8d5ce" stroke-opacity=".55" stroke-width="1.5"/><path class="flow" d="M830 350H790V264H750" stroke="#ff3b30" stroke-opacity=".7" stroke-width="1.5"/></g>
-<g fill="#d8d5ce" fill-opacity=".9"><circle cx="410" cy="116" r="2"/><circle cx="410" cy="216" r="2"/><circle cx="410" cy="350" r="2"/><circle cx="410" cy="264" r="2"/><circle cx="790" cy="116" r="2"/><circle cx="790" cy="216" r="2"/></g>
-<g fill="#ff3b30" fill-opacity=".9"><circle cx="790" cy="350" r="2"/><circle cx="790" cy="264" r="2"/></g>
-<path d="M464 182H750V284L736 298H450V196Z" fill="#f4efe6" fill-opacity=".05" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="2"/>
-<path d="M470 188H730V292L716 292" fill="none" stroke="none"/>
-<path d="M466 188H744V282L734 292H456V198Z" fill="none" fill-opacity="0" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1"/>
-<text x="600" y="214" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="3" fill="#ff3b30">NERV / MAGI</text>
-<text x="600" y="246" text-anchor="middle" font-size="22" font-weight="800" fill="#f4efe6">AI Co-Scientist</text>
-<text x="600" y="272" text-anchor="middle" font-size="12" fill="#8d9098">orchestrate · verify · remember · act</text>
-<g fill="none" stroke="#ff3b30" stroke-opacity=".8"><path d="M750 182l28 -24h70"/></g>
-<text x="854" y="162" font-size="11" font-weight="700" letter-spacing="1" fill="#ff3b30">ø45 AGENTS</text>
-<path d="M128 84H370V140L362 148H120V92Z" fill="#f4efe6" fill-opacity=".04" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="120" y="80" font-size="9" font-weight="800" letter-spacing="1" fill="#8d9098">[ PT-01 ]</text>
-<text x="136" y="112" font-size="14.5" font-weight="700" fill="#f4efe6">Multi-Agent Orchestration</text>
-<text x="136" y="134" font-size="11" fill="#8d9098">roles · routing · handoffs</text>
-<path d="M483 64H725V120L717 128H475V72Z" fill="#f4efe6" fill-opacity=".04" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="475" y="60" font-size="9" font-weight="800" letter-spacing="1" fill="#8d9098">[ PT-02 ]</text>
-<text x="491" y="92" font-size="14.5" font-weight="700" fill="#f4efe6">Tool-Using Agents</text>
-<text x="491" y="114" font-size="11" fill="#8d9098">actions · APIs · workflows</text>
-<path d="M838 84H1080V140L1072 148H830V92Z" fill="#f4efe6" fill-opacity=".04" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="830" y="80" font-size="9" font-weight="800" letter-spacing="1" fill="#8d9098">[ PT-03 ]</text>
-<text x="846" y="112" font-size="14.5" font-weight="700" fill="#f4efe6">Autonomous Validation</text>
-<text x="846" y="134" font-size="11" fill="#8d9098">critique · consensus · checks</text>
-<path d="M128 318H370V374L362 382H120V326Z" fill="#f4efe6" fill-opacity=".04" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="120" y="314" font-size="9" font-weight="800" letter-spacing="1" fill="#8d9098">[ PT-04 ]</text>
-<text x="136" y="346" font-size="14.5" font-weight="700" fill="#f4efe6">Long-Term Memory</text>
-<text x="136" y="368" font-size="11" fill="#8d9098">context · retrieval · continuity</text>
-<path d="M838 318H1080V374L1072 382H830V326Z" fill="#ff3b30" fill-opacity=".05" stroke="#ff3b30" stroke-opacity=".7" stroke-width="1.5"/>
-<text x="830" y="314" font-size="9" font-weight="800" letter-spacing="1" fill="#ff3b30">[ PT-05 ]</text>
-<text x="846" y="346" font-size="14.5" font-weight="700" fill="#ff3b30">Human in the Loop</text>
-<text x="846" y="368" font-size="11" fill="#8d9098">judgment · control · oversight</text>
-<path d="M483 352H725V408L717 416H475V360Z" fill="#f4efe6" fill-opacity=".04" stroke="#d8d5ce" stroke-opacity=".7" stroke-width="1.2"/>
-<text x="475" y="348" font-size="9" font-weight="800" letter-spacing="1" fill="#8d9098">[ PT-06 ]</text>
-<text x="491" y="380" font-size="14.5" font-weight="700" fill="#f4efe6">Research Automation</text>
-<text x="491" y="402" font-size="11" fill="#8d9098">literature · data · writing</text>
-<circle class="blink" cx="1062" cy="350" r="3" fill="#ff3b30"/>
-<g font-size="9" letter-spacing="1" fill="#8d9098"><path d="M54 398h30" stroke="#d8d5ce" stroke-opacity=".85" stroke-width="1.5" fill="none"/><text x="92" y="401">COMMAND FLOW</text><path d="M54 412h30" stroke="#ff3b30" stroke-opacity=".85" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/><text x="92" y="415">VALIDATION FEEDBACK</text></g>
-<g font-size="8"><rect x="808" y="404" width="382" height="24" fill="none" stroke="#d8d5ce" stroke-opacity=".5"/><path d="M872 404v24M1020 404v24M1084 404v24" stroke="#d8d5ce" stroke-opacity=".35"/><text x="840" y="419" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#ff3b30">FIG.02</text><text x="946" y="419" text-anchor="middle" fill="#8d9098">DOC NO. NERV-TL-2026-02</text><text x="1052" y="419" text-anchor="middle" fill="#8d9098">REV 2026.07</text><text x="1137" y="419" text-anchor="middle" fill="#8d9098">MAGI CHECKED</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc"><title id="title">AI systems architecture — NERV / MAGI co-scientist</title><desc id="desc">NERV MAGI terminal-style wiring map in Evangelion HUD aesthetic, identical in light and dark mode.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050609"/><stop offset="1" stop-color="#0a0c12"/></linearGradient><radialGradient id="glow" cx=".5" cy="-.2" r="1"><stop offset="0" stop-color="#ff6a00" stop-opacity=".10"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></radialGradient><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></radialGradient><pattern id="hexes" width="48" height="27.713" patternUnits="userSpaceOnUse"><path d="M16.0 0.0L8.0 13.9L-8.0 13.9L-16.0 0.0L-8.0 -13.9L8.0 -13.9ZM64.0 0.0L56.0 13.9L40.0 13.9L32.0 0.0L40.0 -13.9L56.0 -13.9ZM16.0 27.7L8.0 41.6L-8.0 41.6L-16.0 27.7L-8.0 13.9L8.0 13.9ZM64.0 27.7L56.0 41.6L40.0 41.6L32.0 27.7L40.0 13.9L56.0 13.9ZM40.0 13.9L32.0 27.7L16.0 27.7L8.0 13.9L16.0 0.0L32.0 0.0Z" fill="none" stroke="#ff6a00" stroke-opacity=".07"/></pattern><pattern id="crt" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffe2c4" fill-opacity=".04"/></pattern><pattern id="hz" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="12" fill="#ff6a00"/></pattern><style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}.scan{animation:scan 16s linear infinite;}@keyframes scan{to{transform:translateX(1180px);}}.blink{animation:blink 1.6s steps(1) infinite;}@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:.15;}}.pulse{animation:pulse 2.4s ease-in-out infinite;}@keyframes pulse{50%{opacity:.3;}}.flow{stroke-dasharray:5 7;animation:flow 12s linear infinite;}@keyframes flow{to{stroke-dashoffset:-96;}}@media (prefers-reduced-motion:reduce){.scan,.blink,.pulse,.flow{animation:none;}}</style></defs>
+<rect width="1200" height="440" fill="url(#bg)"/><rect width="1200" height="440" fill="url(#glow)"/><rect width="1200" height="440" fill="url(#hexes)"/><rect width="1200" height="440" fill="url(#crt)"/><rect width="1200" height="440" fill="url(#vig)"/>
+<rect x="2" y="2" width="1196" height="7" fill="url(#hz)" opacity=".75"/><line x1="2" y1="10" x2="1198" y2="10" stroke="#000" stroke-width="1.5"/><rect x="2" y="2" width="1196" height="436" fill="none" stroke="#ff6a00" stroke-opacity=".4" stroke-width="2"/>
+<text x="54" y="48" font-size="13" font-weight="800" letter-spacing="3" fill="#ffe2c4" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif"><tspan fill="#ff6a00">▣</tspan> AI SYSTEMS ARCHITECTURE <tspan fill="#9a7048">— 研究システム構成</tspan></text><line x1="54" y1="60" x2="1146" y2="60" stroke="#8a3c00" stroke-opacity=".7"/><line x1="940" y1="60" x2="1146" y2="60" stroke="#ff2d2d" stroke-width="2" stroke-opacity=".8"/><text x="1146" y="48" text-anchor="end" font-size="9" letter-spacing="2" fill="#9a7048">NERV // RESEARCH DIVISION</text>
+<g fill="none"><g stroke="#ff6a00" stroke-opacity=".5" stroke-width="1.5"><path d="M370 116H410V216H450"/><path d="M600 128V182"/><path d="M370 350H410V264H450"/><path d="M600 352V298"/></g><path class="flow" d="M830 116H790V216H750" stroke="#ff6a00" stroke-opacity=".55" stroke-width="1.5"/><path class="flow" d="M830 350H790V264H750" stroke="#ff2d2d" stroke-opacity=".75" stroke-width="1.5"/></g>
+<g fill="#ff6a00" fill-opacity=".9"><circle cx="410" cy="116" r="2"/><circle cx="410" cy="216" r="2"/><circle cx="410" cy="350" r="2"/><circle cx="410" cy="264" r="2"/><circle cx="790" cy="116" r="2"/><circle cx="790" cy="216" r="2"/></g>
+<g fill="#ff2d2d" fill-opacity=".9"><circle cx="790" cy="350" r="2"/><circle cx="790" cy="264" r="2"/></g>
+<path d="M464 182H736L750 196V284L736 298H464L450 284V196Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="5"/><path d="M464 182H736L750 196V284L736 298H464L450 284V196Z" fill="#10131c" fill-opacity=".88" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
+<text x="600" y="212" text-anchor="middle" font-size="12" font-weight="800" letter-spacing="3" fill="#ffb000">NERV / MAGI</text>
+<text x="600" y="244" text-anchor="middle" font-size="22" font-weight="800" fill="#ffe2c4">AI Co-Scientist</text>
+<text x="600" y="270" text-anchor="middle" font-size="12" fill="#d9a877">orchestrate · verify · remember · act</text>
+<path d="M750 182l28 -24h70" fill="none" stroke="#ff6a00" stroke-opacity=".8"/>
+<text x="854" y="162" font-size="11" font-weight="700" letter-spacing="1" fill="#ffb000">ø45 AGENTS</text>
+<path d="M128 84H362L370 92V140L362 148H128L120 140V92Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="4.5"/><path d="M128 84H362L370 92V140L362 148H128L120 140V92Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="120" y="80" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">[ PT-01 ]</text>
+<text x="136" y="112" font-size="14.5" font-weight="700" fill="#ffe2c4">Multi-Agent Orchestration</text>
+<text x="136" y="134" font-size="11" fill="#9a7048">roles · routing · handoffs</text>
+<path d="M483 64H717L725 72V120L717 128H483L475 120V72Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="4.5"/><path d="M483 64H717L725 72V120L717 128H483L475 120V72Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="475" y="60" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">[ PT-02 ]</text>
+<text x="491" y="92" font-size="14.5" font-weight="700" fill="#ffe2c4">Tool-Using Agents</text>
+<text x="491" y="114" font-size="11" fill="#9a7048">actions · APIs · workflows</text>
+<path d="M838 84H1072L1080 92V140L1072 148H838L830 140V92Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="4.5"/><path d="M838 84H1072L1080 92V140L1072 148H838L830 140V92Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="830" y="80" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">[ PT-03 ]</text>
+<text x="846" y="112" font-size="14.5" font-weight="700" fill="#ffe2c4">Autonomous Validation</text>
+<text x="846" y="134" font-size="11" fill="#9a7048">critique · consensus · checks</text>
+<path d="M128 318H362L370 326V374L362 382H128L120 374V326Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="4.5"/><path d="M128 318H362L370 326V374L362 382H128L120 374V326Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="120" y="314" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">[ PT-04 ]</text>
+<text x="136" y="346" font-size="14.5" font-weight="700" fill="#ffe2c4">Long-Term Memory</text>
+<text x="136" y="368" font-size="11" fill="#9a7048">context · retrieval · continuity</text>
+<path class="pulse" d="M838 318H1072L1080 326V374L1072 382H838L830 374V326Z" fill="none" stroke="#ff2d2d" stroke-opacity=".22" stroke-width="4.5"/><path d="M838 318H1072L1080 326V374L1072 382H838L830 374V326Z" fill="#10131c" fill-opacity=".85" stroke="#ff2d2d" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="830" y="314" font-size="9" font-weight="800" letter-spacing="1" fill="#ff2d2d" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif">[ PT-05 ] 警告</text>
+<text x="846" y="346" font-size="14.5" font-weight="700" fill="#ff2d2d">Human in the Loop</text>
+<text x="846" y="368" font-size="11" fill="#9a7048">judgment · control · oversight</text>
+<path d="M483 352H717L725 360V408L717 416H483L475 408V360Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="4.5"/><path d="M483 352H717L725 360V408L717 416H483L475 408V360Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5"/>
+<text x="475" y="348" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">[ PT-06 ]</text>
+<text x="491" y="380" font-size="14.5" font-weight="700" fill="#ffe2c4">Research Automation</text>
+<text x="491" y="402" font-size="11" fill="#9a7048">literature · data · writing</text>
+<circle class="blink" cx="1062" cy="350" r="3" fill="#ff2d2d"/>
+<g font-size="9" letter-spacing="1" fill="#9a7048"><path d="M54 398h30" stroke="#ff6a00" stroke-opacity=".85" stroke-width="1.5" fill="none"/><text x="92" y="401">COMMAND FLOW</text><path d="M54 412h30" stroke="#ff2d2d" stroke-opacity=".85" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/><text x="92" y="415">VALIDATION FEEDBACK</text></g>
+<text x="1146" y="412" text-anchor="end" font-size="9" letter-spacing="2" fill="#9a7048" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif">NERV // SYSTEM MAP · 体制図</text>
+<rect class="scan" x="10" y="10" width="1" height="420" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>

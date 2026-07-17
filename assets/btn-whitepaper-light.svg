@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="172" height="34" viewBox="0 0 172 34" role="img" aria-labelledby="title">
-<title id="title">NERV WHITEPAPER</title>
-<defs><style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}</style></defs>
-<rect width="172" height="34" fill="#f4efe6"/>
-<path d="M7 1H165L171 7V27L165 33H7L1 27V7Z" fill="none" stroke="#1a1b1e" stroke-width="1.5"/>
-<circle cx="14" cy="17" r="2" fill="#d92720"/>
-<text x="93" y="21" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="2" fill="#1a1b1e">NERV WHITEPAPER</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="34" viewBox="0 0 172 34" role="img" aria-labelledby="title"><title id="title">NERV WHITEPAPER</title><defs><style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}</style></defs><rect width="172" height="34" fill="#0a0c12"/><path d="M7 1H165L171 7V27L165 33H7L1 27V7Z" fill="none" stroke="#ff6a00" stroke-opacity=".3" stroke-width="4"/><path d="M7 1H165L171 7V27L165 33H7L1 27V7Z" fill="none" stroke="#ff6a00" stroke-width="1.5"/><rect x="5" y="5" width="3" height="24" fill="#ff2d2d" opacity=".85"/><text x="90" y="21" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="2" fill="#ffe2c4">NERV WHITEPAPER</text></svg>
