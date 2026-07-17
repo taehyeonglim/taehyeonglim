@@ -78,7 +78,7 @@ Peer-reviewed research produced with — and about — the co-scientist system: 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg">
-  <img alt="Blueprint-style weekly build activity chart" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg" width="100%">
+  <img alt="NERV MAGI terminal-style weekly build activity chart" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg" width="100%">
 </picture>
 
 ---
