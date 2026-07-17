@@ -1,98 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Taehyeong Lim — Human × AI Co-Intelligence Systems</title>
-  <desc id="desc">Blueprint-style dark banner. FIG.01 of a five-sheet drawing set for AI co-scientist builder Taehyeong Lim.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d2a55"/><stop offset="1" stop-color="#123a75"/>
-    </linearGradient>
-    <pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="M8 0H0V8" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
-    </pattern>
-    <pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
-    </pattern>
-    <style>
-      text { font-family: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
-      .flow { stroke-dasharray: 5 7; animation: flow 12s linear infinite; }
-      .scan { animation: scan 16s linear infinite; }
-      .blink { animation: blink 1.6s steps(1) infinite; }
-      @keyframes flow { to { stroke-dashoffset: -96; } }
-      @keyframes scan { to { transform: translateX(1180px); } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: .12; } }
-      @media (prefers-reduced-motion: reduce) { .flow, .scan, .blink { animation: none; } }
-    </style>
-  </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#gridFine)"/>
-  <rect width="1200" height="320" fill="url(#gridBold)"/>
-  <rect x="2" y="2" width="1196" height="316" fill="none" stroke="#dbeafe" stroke-opacity=".6" stroke-width="2.5"/>
-  <rect x="10" y="10" width="1180" height="300" fill="none" stroke="#dbeafe" stroke-opacity=".28"/>
-  <g stroke="#dbeafe" stroke-opacity=".3" stroke-width="6" stroke-dasharray="1 39">
-    <line x1="10" y1="13" x2="1190" y2="13"/>
-    <line x1="10" y1="307" x2="1190" y2="307"/>
-    <line x1="13" y1="10" x2="13" y2="310"/>
-    <line x1="1187" y1="10" x2="1187" y2="310"/>
-  </g>
-  <g stroke="#dbeafe" stroke-opacity=".45" fill="none">
-    <path d="M30 24v12M24 30h12"/><path d="M1170 24v12M1164 30h12"/>
-    <path d="M30 284v12M24 290h12"/><path d="M1170 284v12M1164 290h12"/>
-  </g>
-  <rect class="scan" x="10" y="10" width="1" height="300" fill="#dbeafe" fill-opacity=".16"/>
-  <text x="1170" y="42" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#8fb0dd">SHEET 01 / 05</text>
-  <text x="68" y="84" font-size="15" font-weight="700" letter-spacing="5" fill="#b9d0f0">TAEHYEONG LIM, PH.D.</text>
-  <text x="66" y="152" font-size="50" font-weight="800" letter-spacing="1" fill="#eaf2ff">HUMAN <tspan fill="#f87171">×</tspan> AI</text>
-  <text x="68" y="198" font-size="28" font-weight="700" letter-spacing="3" fill="#eaf2ff">CO-INTELLIGENCE SYSTEMS</text>
-  <path d="M68 212h438M68 206v12M506 206v12" fill="none" stroke="#dbeafe" stroke-opacity=".5"/>
-  <text x="68" y="240" font-size="16" fill="#b9d0f0">Building multi-agent systems that think, verify, and work with humans.</text>
-  <g font-size="11" font-weight="700" letter-spacing="1" fill="#b9d0f0">
-    <rect x="68" y="264" width="140" height="30" fill="#dbeafe" fill-opacity=".05" stroke="#dbeafe" stroke-opacity=".55"/>
-    <text x="138" y="283" text-anchor="middle">AI CO-SCIENTIST</text>
-    <rect x="218" y="264" width="178" height="30" fill="#dbeafe" fill-opacity=".05" stroke="#dbeafe" stroke-opacity=".55"/>
-    <text x="307" y="283" text-anchor="middle">MULTI-AGENT SYSTEMS</text>
-    <rect x="406" y="264" width="164" height="30" fill="#dbeafe" fill-opacity=".05" stroke="#dbeafe" stroke-opacity=".55"/>
-    <text x="488" y="283" text-anchor="middle">HUMAN-IN-THE-LOOP</text>
-  </g>
-  <g fill="none" stroke="#dbeafe">
-    <g stroke-opacity=".4" stroke-dasharray="12 4 3 4">
-      <path d="M800 140h116M858 82v116"/>
-      <path d="M1004 140h116M1062 82v116"/>
-    </g>
-    <g stroke-opacity=".55" stroke-dasharray="2 5">
-      <path d="M858 58v24M1062 58v24"/>
-    </g>
-    <circle cx="858" cy="53" r="4.5" stroke-opacity=".7"/>
-    <circle cx="1062" cy="53" r="4.5" stroke-opacity=".7"/>
-    <circle cx="858" cy="140" r="44" stroke-width="2"/>
-    <circle cx="1062" cy="140" r="44" stroke-width="2"/>
-    <g class="flow" stroke-opacity=".85" stroke-width="1.5">
-      <path d="M902 140h45M973 140h45"/>
-    </g>
-    <circle cx="960" cy="140" r="13" stroke="#f87171" stroke-width="2"/>
-    <g stroke-opacity=".6">
-      <path d="M827 109l-20 -20h-54"/>
-      <path d="M1093 109l20 -20h54"/>
-    </g>
-    <g stroke-opacity=".45">
-      <path d="M858 188v50M1062 188v50"/>
-    </g>
-    <g stroke-opacity=".8">
-      <path d="M858 232h204"/>
-      <path d="M866 228l-8 4 8 4M1054 228l8 4-8 4"/>
-    </g>
-  </g>
-  <text x="749" y="93" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#8fb0dd">HUMAN INTENT</text>
-  <text x="1140" y="80" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#8fb0dd">AI AGENCY</text>
-  <text x="858" y="145" text-anchor="middle" font-size="11.5" font-weight="800" letter-spacing="1.5" fill="#eaf2ff">HUMAN</text>
-  <text x="1062" y="145" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="2" fill="#eaf2ff">AI</text>
-  <text x="960" y="145" text-anchor="middle" font-size="15" font-weight="800" fill="#f87171">×</text>
-  <circle class="blink" cx="843" cy="223" r="2.5" fill="#f87171"/>
-  <text x="960" y="226" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#8fb0dd">CO-INTELLIGENCE LATTICE / 01</text>
-  <g font-size="8">
-    <rect x="868" y="284" width="322" height="24" fill="none" stroke="#dbeafe" stroke-opacity=".5"/>
-    <path d="M932 284v24M1080 284v24M1140 284v24" stroke="#dbeafe" stroke-opacity=".35"/>
-    <text x="900" y="299" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#f87171">FIG.01</text>
-    <text x="1006" y="299" text-anchor="middle" fill="#b9d0f0">DWG NO. TL-2026-01</text>
-    <text x="1110" y="299" text-anchor="middle" fill="#b9d0f0">REV 2026.07</text>
-    <text x="1165" y="299" text-anchor="middle" fill="#b9d0f0">SCALE 1:1</text>
-  </g>
+<title id="title">Taehyeong Lim — Human × AI Co-Intelligence Systems</title>
+<desc id="desc">MAGI terminal-style hero panel. FIG.01 of a five-sheet NERV document set.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050609"/><stop offset="1" stop-color="#0a0c12"/></linearGradient>
+<radialGradient id="redGlow" cx=".5" cy="-.2" r="1"><stop offset="0" stop-color="#d92720" stop-opacity=".11"/><stop offset="1" stop-color="#d92720" stop-opacity="0"/></radialGradient>
+<pattern id="gridFine" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8 0H0V8" fill="none" stroke="#f4efe6" stroke-opacity=".03"/></pattern>
+<pattern id="gridBold" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#f4efe6" stroke-opacity=".05"/></pattern>
+<style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}.scan{animation:scan 16s linear infinite;}@keyframes scan{to{transform:translateX(1180px);}}.blink{animation:blink 2.4s steps(2,start) infinite;}@keyframes blink{50%{opacity:.25;}}@media (prefers-reduced-motion:reduce){.scan,.blink{animation:none;}}</style></defs>
+<rect width="1200" height="320" fill="url(#bg)"/>
+<rect width="1200" height="320" fill="url(#redGlow)"/>
+<rect width="1200" height="320" fill="url(#gridFine)"/>
+<rect width="1200" height="320" fill="url(#gridBold)"/>
+<line x1="0" y1="100" x2="1200" y2="100" stroke="#ff3b30" stroke-opacity=".16"/>
+<line x1="640" y1="10" x2="640" y2="310" stroke="#ff3b30" stroke-opacity=".10"/>
+<rect x="2" y="2" width="1196" height="316" fill="none" stroke="#d8d5ce" stroke-opacity=".6" stroke-width="2.5"/>
+<rect x="10" y="10" width="1180" height="300" fill="none" stroke="#d8d5ce" stroke-opacity=".28"/>
+<path d="M22 36V22H36M1164 22H1178V36M1178 284V298H1164M36 298H22V284" fill="none" stroke="#ff3b30" stroke-opacity=".7" stroke-width="2"/>
+<rect class="scan" x="10" y="10" width="1" height="300" fill="#f4efe6" fill-opacity=".16"/>
+<circle class="blink" cx="60" cy="40" r="3" fill="#34d399"/>
+<text x="72" y="44" font-size="10" letter-spacing="2" fill="#8d9098">SYSTEM NOMINAL · 45 AGENTS ACTIVE</text>
+<text x="1140" y="44" text-anchor="end" font-size="9.5" letter-spacing="2" fill="#5c6069">SHEET 01 / 05</text>
+<text x="60" y="96" font-size="10" letter-spacing="3" fill="#8d9098">TAEHYEONG LIM, PH.D.</text>
+<!-- HUMAN × AI / CO-INTELLIGENCE SYSTEMS — Chakra Petch path-rendered -->
+<path transform="translate(60,162)" d="M4.48 -44.800000000000004H11.904V-25.536H32.256V-44.800000000000004H39.68V0.0H32.256V-19.136H11.904V0.0H4.48Z M49.92 -7.488V-44.800000000000004H57.34400000000001V-9.984L60.992000000000004 -6.4H74.176L77.82400000000001 -9.984V-44.800000000000004H85.248V-7.488L77.76 0.0H57.408Z M95.48800000000001 -44.800000000000004H102.59200000000001L116.28800000000001 -13.952H116.41600000000001L130.11200000000002 -44.800000000000004H137.28V0.0H130.17600000000002V-29.952H130.048L118.784 -5.696H113.92000000000002L102.72000000000001 -29.952H102.59200000000001V0.0H95.48800000000001Z M159.93600000000004 -44.800000000000004H166.97600000000003L183.168 0.0H175.616L171.776 -10.624H155.07200000000003L151.23200000000003 0.0H143.68ZM170.04800000000003 -16.832 163.45600000000002 -35.776H163.32800000000003L156.86400000000003 -16.832Z M189.568 -44.800000000000004H196.35200000000003L217.47200000000004 -12.224H217.60000000000002V-44.800000000000004H224.704V0.0H217.92000000000002L196.8 -32.512H196.67200000000003V0.0H189.568Z" fill="#f4efe6"/>
+<path transform="translate(304,162)" d="M20.48 -16.896 29.056 -8.32 24.576 -3.84 16.0 -12.416 7.36 -3.84 2.88 -8.32 11.456 -16.896 2.88 -25.472 7.36 -29.952 16.0 -21.376 24.576 -29.952 29.056 -25.472Z" fill="#ff3b30"/>
+<path transform="translate(350,162)" d="M16.896 -44.800000000000004H23.936L40.128 0.0H32.576L28.736 -10.624H12.032L8.192 0.0H0.64ZM27.008 -16.832 20.416 -35.776H20.288L13.824 -16.832Z M46.848 -44.800000000000004H54.272000000000006V0.0H46.848Z" fill="#f4efe6"/>
+<path transform="translate(60,208)" d="M2.04 -3.842V-19.958000000000002L5.882000000000001 -23.8H17.034000000000002L20.808 -20.026V-16.898H16.864V-18.632L15.062000000000001 -20.400000000000002H7.922000000000001L5.984 -18.496000000000002V-5.304L7.922000000000001 -3.4000000000000004H15.062000000000001L16.864 -5.168V-6.902H20.808V-3.7740000000000005L17.034000000000002 0.0H5.882000000000001Z M25.398 -3.842V-19.958000000000002L29.240000000000002 -23.8H41.004000000000005L44.846000000000004 -19.958000000000002V-3.842L41.004000000000005 0.0H29.240000000000002ZM38.964 -3.4000000000000004 40.902 -5.304V-18.496000000000002L38.964 -20.400000000000002H31.28L29.342 -18.496000000000002V-5.304L31.28 -3.4000000000000004Z M49.776 -10.370000000000001H61.06400000000001V-7.038H49.776Z M66.504 -23.8H70.44800000000001V0.0H66.504Z M76.738 -23.8H80.342L91.56200000000001 -6.494000000000001H91.63000000000001V-23.8H95.40400000000001V0.0H91.80000000000001L80.58 -17.272000000000002H80.512V0.0H76.738Z M106.964 -20.434H99.82400000000001V-23.8H118.048V-20.434H110.908V0.0H106.964Z M122.468 -23.8H139.06V-20.434H126.412V-13.634H138.074V-10.302000000000001H126.412V-3.366H139.06V0.0H122.468Z M144.16 -23.8H148.104V-3.366H160.072V0.0H144.16Z M164.322 -23.8H168.26600000000002V-3.366H180.234V0.0H164.322Z M184.65400000000002 -23.8H188.598V0.0H184.65400000000002Z M194.548 -3.842V-19.958000000000002L198.39000000000001 -23.8H209.746L213.52 -20.026V-16.898H209.57600000000002V-18.632L207.774 -20.400000000000002H200.43L198.49200000000002 -18.496000000000002V-5.304L200.43 -3.4000000000000004H207.774L209.678 -5.2700000000000005V-9.588000000000001H204.476V-12.988000000000001H213.52V-3.842L209.678 0.0H198.39000000000001Z M218.96 -23.8H235.55200000000002V-20.434H222.90400000000002V-13.634H234.566V-10.302000000000001H222.90400000000002V-3.366H235.55200000000002V0.0H218.96Z M240.65200000000002 -23.8H244.25600000000003L255.47600000000003 -6.494000000000001H255.544V-23.8H259.31800000000004V0.0H255.71400000000003L244.49400000000003 -17.272000000000002H244.42600000000002V0.0H240.65200000000002Z M265.098 -3.842V-19.958000000000002L268.94 -23.8H280.092L283.866 -20.026V-16.898H279.92199999999997V-18.632L278.12 -20.400000000000002H270.98L269.042 -18.496000000000002V-5.304L270.98 -3.4000000000000004H278.12L279.92199999999997 -5.168V-6.902H283.866V-3.7740000000000005L280.092 0.0H268.94Z M288.796 -23.8H305.388V-20.434H292.74V-13.634H304.402V-10.302000000000001H292.74V-3.366H305.388V0.0H288.796Z M320.28000000000003 -3.5020000000000002V-6.494000000000001H324.156V-4.692L325.44800000000004 -3.4000000000000004H332.86L334.22 -4.760000000000001V-9.146L332.894 -10.472000000000001H323.85L320.348 -13.940000000000001V-20.298000000000002L323.85 -23.8H334.322L337.824 -20.298000000000002V-17.272000000000002H333.94800000000004V-19.108L332.622 -20.400000000000002H325.55L324.22400000000005 -19.108V-15.164000000000001L325.55 -13.872000000000002H334.59400000000005L338.096 -10.370000000000001V-3.5700000000000003L334.526 0.0H323.78200000000004Z M349.724 -9.792000000000002 341.326 -23.8H345.644L351.66200000000003 -13.464H351.73L357.748 -23.8H362.06600000000003L353.668 -9.792000000000002V0.0H349.724Z M365.466 -3.5020000000000002V-6.494000000000001H369.342V-4.692L370.634 -3.4000000000000004H378.046L379.406 -4.760000000000001V-9.146L378.08 -10.472000000000001H369.036L365.534 -13.940000000000001V-20.298000000000002L369.036 -23.8H379.508L383.01 -20.298000000000002V-17.272000000000002H379.134V-19.108L377.808 -20.400000000000002H370.736L369.41 -19.108V-15.164000000000001L370.736 -13.872000000000002H379.78000000000003L383.282 -10.370000000000001V-3.5700000000000003L379.712 0.0H368.968Z M394.162 -20.434H387.022V-23.8H405.246V-20.434H398.106V0.0H394.162Z M409.666 -23.8H426.258V-20.434H413.61V-13.634H425.272V-10.302000000000001H413.61V-3.366H426.258V0.0H409.666Z M431.358 -23.8H435.132L442.408 -7.412000000000001H442.476L449.752 -23.8H453.56V0.0H449.786V-15.912H449.718L443.73400000000004 -3.0260000000000002H441.15000000000003L435.2 -15.912H435.132V0.0H431.358Z M459.17 -3.5020000000000002V-6.494000000000001H463.046V-4.692L464.338 -3.4000000000000004H471.75L473.11 -4.760000000000001V-9.146L471.784 -10.472000000000001H462.74L459.238 -13.940000000000001V-20.298000000000002L462.74 -23.8H473.212L476.714 -20.298000000000002V-17.272000000000002H472.838V-19.108L471.512 -20.400000000000002H464.44L463.11400000000003 -19.108V-15.164000000000001L464.44 -13.872000000000002H473.48400000000004L476.986 -10.370000000000001V-3.5700000000000003L473.416 0.0H462.672Z" fill="#f4efe6" fill-opacity=".92"/>
+<text x="60" y="236" font-size="11" letter-spacing="4" fill="#5c6069" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif">協働知能システム</text>
+<text x="60" y="262" font-size="12" fill="#d8d5ce">Building multi-agent systems that think, verify, and work with humans.</text>
+<path d="M66 274H200V292L194 298H60V280Z" fill="none" stroke="#780f10" stroke-width="1.5"/><text x="130" y="290" text-anchor="middle" font-size="10" letter-spacing="2" fill="#d8d5ce">AI CO-SCIENTIST</text>
+<path d="M218 274H384V292L378 298H212V280Z" fill="none" stroke="#780f10" stroke-width="1.5"/><text x="298" y="290" text-anchor="middle" font-size="10" letter-spacing="2" fill="#d8d5ce">MULTI-AGENT SYSTEMS</text>
+<path d="M402 274H552V292L546 298H396V280Z" fill="none" stroke="#780f10" stroke-width="1.5"/><text x="474" y="290" text-anchor="middle" font-size="10" letter-spacing="2" fill="#d8d5ce">HUMAN-IN-THE-LOOP</text>
+<circle cx="795" cy="150" r="60" fill="none" stroke="#d8d5ce" stroke-opacity=".5"/><circle cx="795" cy="150" r="46" fill="none" stroke="#d8d5ce" stroke-opacity=".2"/><path d="M795 78v14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M795 208v14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M723 150h14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M853 150h14" stroke="#d8d5ce" stroke-opacity=".6"/><text x="795" y="66" text-anchor="middle" font-size="9" letter-spacing="2" fill="#8d9098">HUMAN INTENT</text><text x="795" y="155" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="2" fill="#f4efe6">HUMAN</text><circle class="blink" cx="795" cy="90" r="2.5" fill="#ff3b30"/><circle cx="1015" cy="150" r="60" fill="none" stroke="#d8d5ce" stroke-opacity=".5"/><circle cx="1015" cy="150" r="46" fill="none" stroke="#d8d5ce" stroke-opacity=".2"/><path d="M1015 78v14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M1015 208v14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M943 150h14" stroke="#d8d5ce" stroke-opacity=".6"/><path d="M1073 150h14" stroke="#d8d5ce" stroke-opacity=".6"/><text x="1015" y="66" text-anchor="middle" font-size="9" letter-spacing="2" fill="#8d9098">AI AGENCY</text><text x="1015" y="155" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="2" fill="#f4efe6">AI</text><circle class="blink" cx="1015" cy="90" r="2.5" fill="#ff3b30"/><path d="M857 150H953" stroke="#ff3b30" stroke-opacity=".55" stroke-dasharray="4 6"/><path d="M896 141L914 159M914 141L896 159" stroke="#ff3b30" stroke-width="3.5" stroke-linecap="round"/><path d="M735 242H1075M735 238v8M1075 238v8" stroke="#d8d5ce" stroke-opacity=".5" fill="none"/><text x="905" y="258" text-anchor="middle" font-size="9" letter-spacing="2" fill="#5c6069">CO-INTELLIGENCE LATTICE / 01</text>
+<g font-size="8"><rect x="808" y="284" width="382" height="24" fill="none" stroke="#d8d5ce" stroke-opacity=".5"/><path d="M872 284v24M1020 284v24M1084 284v24" stroke="#d8d5ce" stroke-opacity=".35"/><text x="840" y="299" text-anchor="middle" font-weight="800" letter-spacing="1" fill="#ff3b30">FIG.01</text><text x="946" y="299" text-anchor="middle" fill="#8d9098">DOC NO. NERV-TL-2026-01</text><text x="1052" y="299" text-anchor="middle" fill="#8d9098">REV 2026.07</text><text x="1137" y="299" text-anchor="middle" fill="#8d9098">MAGI CHECKED</text></g>
 </svg>
