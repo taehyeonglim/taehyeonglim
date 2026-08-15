@@ -7,8 +7,8 @@
 </picture>
 
 <a href="https://taehyeonglim.github.io/nerv-whitepaper/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-light.svg"><img alt="NERV Whitepaper" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-whitepaper-light.svg"></picture></a>
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/02-architecture/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"><img alt="45 AI agents" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"></picture></a>
-<a href="https://taehyeonglim.github.io/nerv-whitepaper/06-systems/magi-gate/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"><img alt="MAGI validation" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"></picture></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/05-agents/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"><img alt="46 AI agents" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-agents-light.svg"></picture></a>
+<a href="https://taehyeonglim.github.io/nerv-whitepaper/07-systems/magi-gate/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"><img alt="MAGI validation" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-magi-light.svg"></picture></a>
 <a href="https://taehyeonglim.github.io/nerv-heroines-webtoon/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-webtoon-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-webtoon-light.svg"><img alt="NERV Heroines Webtoon" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/btn-webtoon-light.svg"></picture></a>
 
 </div>
@@ -31,11 +31,11 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-light.svg">
-    <img alt="NERV System Whitepaper — a 45-agent AI co-scientist system" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-light.svg" width="100%">
+    <img alt="NERV System Whitepaper — a 46-agent AI co-scientist system" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/project-nerv-light.svg" width="100%">
   </picture>
 </a>
 
-**[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 45 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
+**[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 46 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
 
 ## Field results
 
@@ -63,7 +63,7 @@ Peer-reviewed research produced with — and about — the co-scientist system: 
 
 단일 챗봇을 넘어 여러 AI 에이전트가 역할을 나누고, 도구와 기억을 사용하며, 서로의 결과를 검증하는 **AI 공동과학자 시스템**을 만들고 있습니다.
 
-- 45개 전문 에이전트 기반 NERV 시스템
+- 46개 전문 에이전트 기반 NERV 시스템
 - 역할 기반 멀티에이전트 오케스트레이션
 - MAGI 자율 교차검증과 인간 최종 통제
 - 장기 기억, 도구 사용, 구조화된 핸드오프

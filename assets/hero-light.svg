@@ -44,6 +44,6 @@
 <text x="955" y="258" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">MAGI CROSS-VALIDATION · 합의제</text>
 <rect x="10" y="282" width="1180" height="28" fill="#0a0c12" stroke="#ff6a00" stroke-opacity=".35"/>
 <rect x="10" y="282" width="4" height="28" fill="#ff2d2d" opacity=".85"/>
-<text x="32" y="300" font-size="10" letter-spacing="1" fill="#d9a877" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan class="blink" fill="#ff9233">&gt;</tspan> 45 AGENTS ACTIVE · MAGI CONSENSUS 3/3 · AI CO-SCIENTIST · MULTI-AGENT SYSTEMS · HUMAN-IN-THE-LOOP · <tspan fill="#ff2d2d">경고 HUMAN OVERRIDE ARMED</tspan></text>
+<text x="32" y="300" font-size="10" letter-spacing="1" fill="#d9a877" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan class="blink" fill="#ff9233">&gt;</tspan> 46 AGENTS ACTIVE · MAGI CONSENSUS 3/3 · AI CO-SCIENTIST · MULTI-AGENT SYSTEMS · HUMAN-IN-THE-LOOP · <tspan fill="#ff2d2d">경고 HUMAN OVERRIDE ARMED</tspan></text>
 <rect class="scan" x="10" y="10" width="1" height="300" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>
