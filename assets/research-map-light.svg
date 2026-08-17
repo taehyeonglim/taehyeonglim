@@ -2,42 +2,42 @@
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050609"/><stop offset="1" stop-color="#0a0c12"/></linearGradient><radialGradient id="glow" cx=".5" cy="-.2" r="1"><stop offset="0" stop-color="#ff6a00" stop-opacity=".10"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></radialGradient><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></radialGradient><pattern id="hexes" width="48" height="27.713" patternUnits="userSpaceOnUse"><path d="M16.0 0.0L8.0 13.9L-8.0 13.9L-16.0 0.0L-8.0 -13.9L8.0 -13.9ZM64.0 0.0L56.0 13.9L40.0 13.9L32.0 0.0L40.0 -13.9L56.0 -13.9ZM16.0 27.7L8.0 41.6L-8.0 41.6L-16.0 27.7L-8.0 13.9L8.0 13.9ZM64.0 27.7L56.0 41.6L40.0 41.6L32.0 27.7L40.0 13.9L56.0 13.9ZM40.0 13.9L32.0 27.7L16.0 27.7L8.0 13.9L16.0 0.0L32.0 0.0Z" fill="none" stroke="#ff6a00" stroke-opacity=".07"/></pattern><pattern id="crt" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffe2c4" fill-opacity=".04"/></pattern><pattern id="hz" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="12" fill="#ff6a00"/></pattern><style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}.scan{animation:scan 16s linear infinite;}@keyframes scan{to{transform:translateX(1180px);}}.blink{animation:blink 1.6s steps(1) infinite;}@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:.15;}}.pulse{animation:pulse 2.4s ease-in-out infinite;}@keyframes pulse{50%{opacity:.3;}}.flow{stroke-dasharray:8 12;animation:flow 12s linear infinite;}@keyframes flow{to{stroke-dashoffset:-160;}}@media (prefers-reduced-motion:reduce){.scan,.blink,.pulse,.flow{animation:none;}}</style></defs>
 <rect width="1200" height="848" fill="url(#bg)"/><rect width="1200" height="848" fill="url(#glow)"/><rect width="1200" height="848" fill="url(#hexes)"/><rect width="1200" height="848" fill="url(#crt)"/><rect width="1200" height="848" fill="url(#vig)"/>
 <rect x="2" y="2" width="1196" height="7" fill="url(#hz)" opacity=".75"/><line x1="2" y1="10" x2="1198" y2="10" stroke="#000" stroke-width="1.5"/><rect x="2" y="2" width="1196" height="844" fill="none" stroke="#ff6a00" stroke-opacity=".4" stroke-width="2"/>
-<text x="54" y="62" font-size="21.5" font-weight="800" letter-spacing="3" fill="#ffe2c4" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan fill="#ff6a00">▣</tspan> AI SYSTEMS ARCHITECTURE <tspan fill="#9a7048">— 연구 시스템 구성</tspan></text><line x1="54" y1="80" x2="1146" y2="80" stroke="#8a3c00" stroke-opacity=".7"/><line x1="940" y1="80" x2="1146" y2="80" stroke="#ff2d2d" stroke-width="2" stroke-opacity=".8"/><text x="1146" y="62" text-anchor="end" font-size="16" letter-spacing="2" fill="#9a7048">NERV // RESEARCH DIVISION</text>
+<text x="54" y="62" font-size="18.5" font-weight="800" letter-spacing="3" fill="#ffe2c4" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan fill="#ff6a00">▣</tspan> AI SYSTEMS ARCHITECTURE <tspan fill="#9a7048">— 연구 시스템 구성</tspan></text><line x1="54" y1="80" x2="1146" y2="80" stroke="#8a3c00" stroke-opacity=".7"/><line x1="940" y1="80" x2="1146" y2="80" stroke="#ff2d2d" stroke-width="2" stroke-opacity=".8"/><text x="1146" y="62" text-anchor="end" font-size="14" letter-spacing="2" fill="#9a7048">NERV // RESEARCH DIVISION</text>
 <g fill="none"><g stroke="#ff6a00" stroke-opacity=".5" stroke-width="2.5"><path d="M514 180H550V434"/><path d="M686 180H650V434"/><path d="M780 396V434"/><path d="M830 638V586"/></g><path class="flow" d="M420 396V434" stroke="#ff6a00" stroke-opacity=".55" stroke-width="2.5"/><path class="flow" d="M370 638V586" stroke="#ff2d2d" stroke-opacity=".75" stroke-width="2.5"/></g>
 <g fill="#ff6a00" fill-opacity=".9"><circle cx="550" cy="180" r="3.5"/><circle cx="550" cy="434" r="3.5"/><circle cx="650" cy="180" r="3.5"/><circle cx="650" cy="434" r="3.5"/><circle cx="420" cy="396" r="3.5"/><circle cx="420" cy="434" r="3.5"/><circle cx="780" cy="396" r="3.5"/><circle cx="780" cy="434" r="3.5"/><circle cx="830" cy="638" r="3.5"/><circle cx="830" cy="586" r="3.5"/></g>
 <g fill="#ff2d2d" fill-opacity=".9"><circle cx="370" cy="638" r="3.5"/><circle cx="370" cy="586" r="3.5"/></g>
 <path d="M344 434H856L880 458V562L856 586H344L320 562V458Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="7"/><path d="M344 434H856L880 458V562L856 586H344L320 562V458Z" fill="#10131c" fill-opacity=".88" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2.5"/>
-<text x="600" y="476" text-anchor="middle" font-size="19.5" font-weight="800" letter-spacing="6" fill="#ffb000">NERV / MAGI</text>
-<text x="600" y="522" text-anchor="middle" font-size="30" font-weight="800" fill="#ffe2c4">AI Co-Scientist</text>
-<text x="600" y="560" text-anchor="middle" font-size="19.5" fill="#d9a877">orchestrate · verify · remember · act</text>
+<text x="600" y="476" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="6" fill="#ffb000">NERV / MAGI</text>
+<text x="600" y="522" text-anchor="middle" font-size="26.5" font-weight="800" fill="#ffe2c4">AI Co-Scientist</text>
+<text x="600" y="560" text-anchor="middle" font-size="17" fill="#d9a877">orchestrate · verify · remember · act</text>
 <path d="M880 470l28 -26h70" fill="none" stroke="#ff6a00" stroke-opacity=".8" stroke-width="1.5"/>
-<text x="986" y="450" font-size="18.5" font-weight="700" letter-spacing="2" fill="#ffb000">ø46 AGENTS</text>
+<text x="986" y="450" font-size="16.5" font-weight="700" letter-spacing="2" fill="#ffb000">ø46 AGENTS</text>
 <path d="M68 126H500L514 140V220L500 234H68L54 220V140Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="6"/><path d="M68 126H500L514 140V220L500 234H68L54 220V140Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
-<text x="54" y="114" font-size="16" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-01 ]</text>
-<text x="74" y="172" font-size="23" font-weight="700" fill="#ffe2c4">Multi-Agent Orchestration</text>
-<text x="74" y="208" font-size="18.5" fill="#9a7048">roles · routing · handoffs</text>
+<text x="54" y="114" font-size="14" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-01 ]</text>
+<text x="74" y="172" font-size="20" font-weight="700" fill="#ffe2c4">Multi-Agent Orchestration</text>
+<text x="74" y="208" font-size="16.5" fill="#9a7048">roles · routing · handoffs</text>
 <path d="M700 126H1132L1146 140V220L1132 234H700L686 220V140Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="6"/><path d="M700 126H1132L1146 140V220L1132 234H700L686 220V140Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
-<text x="686" y="114" font-size="16" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-02 ]</text>
-<text x="706" y="172" font-size="23" font-weight="700" fill="#ffe2c4">Tool-Using Agents</text>
-<text x="706" y="208" font-size="18.5" fill="#9a7048">actions · APIs · workflows</text>
+<text x="686" y="114" font-size="14" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-02 ]</text>
+<text x="706" y="172" font-size="20" font-weight="700" fill="#ffe2c4">Tool-Using Agents</text>
+<text x="706" y="208" font-size="16.5" fill="#9a7048">actions · APIs · workflows</text>
 <path d="M68 288H500L514 302V382L500 396H68L54 382V302Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="6"/><path d="M68 288H500L514 302V382L500 396H68L54 382V302Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
-<text x="54" y="276" font-size="16" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-03 ]</text>
-<text x="74" y="334" font-size="23" font-weight="700" fill="#ffe2c4">Autonomous Validation</text>
-<text x="74" y="370" font-size="18.5" fill="#9a7048">critique · consensus · checks</text>
+<text x="54" y="276" font-size="14" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-03 ]</text>
+<text x="74" y="334" font-size="20" font-weight="700" fill="#ffe2c4">Autonomous Validation</text>
+<text x="74" y="370" font-size="16.5" fill="#9a7048">critique · consensus · checks</text>
 <path d="M700 288H1132L1146 302V382L1132 396H700L686 382V302Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="6"/><path d="M700 288H1132L1146 302V382L1132 396H700L686 382V302Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
-<text x="686" y="276" font-size="16" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-04 ]</text>
-<text x="706" y="334" font-size="23" font-weight="700" fill="#ffe2c4">Long-Term Memory</text>
-<text x="706" y="370" font-size="18.5" fill="#9a7048">context · retrieval · continuity</text>
+<text x="686" y="276" font-size="14" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-04 ]</text>
+<text x="706" y="334" font-size="20" font-weight="700" fill="#ffe2c4">Long-Term Memory</text>
+<text x="706" y="370" font-size="16.5" fill="#9a7048">context · retrieval · continuity</text>
 <path class="pulse" d="M68 638H500L514 652V732L500 746H68L54 732V652Z" fill="none" stroke="#ff2d2d" stroke-opacity=".22" stroke-width="6"/><path d="M68 638H500L514 652V732L500 746H68L54 732V652Z" fill="#10131c" fill-opacity=".85" stroke="#ff2d2d" stroke-opacity=".85" stroke-width="2"/>
-<text x="54" y="626" font-size="16" font-weight="800" letter-spacing="2" fill="#ff2d2d" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">[ PT-05 ] 경고</text>
-<text x="74" y="684" font-size="23" font-weight="700" fill="#ff2d2d">Human in the Loop</text>
-<text x="74" y="720" font-size="18.5" fill="#9a7048">judgment · control · oversight</text>
+<text x="54" y="626" font-size="14" font-weight="800" letter-spacing="2" fill="#ff2d2d" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">[ PT-05 ] 경고</text>
+<text x="74" y="684" font-size="20" font-weight="700" fill="#ff2d2d">Human in the Loop</text>
+<text x="74" y="720" font-size="16.5" fill="#9a7048">judgment · control · oversight</text>
 <path d="M700 638H1132L1146 652V732L1132 746H700L686 732V652Z" fill="none" stroke="#ff6a00" stroke-opacity=".22" stroke-width="6"/><path d="M700 638H1132L1146 652V732L1132 746H700L686 732V652Z" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2"/>
-<text x="686" y="626" font-size="16" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-06 ]</text>
-<text x="706" y="684" font-size="23" font-weight="700" fill="#ffe2c4">Research Automation</text>
-<text x="706" y="720" font-size="18.5" fill="#9a7048">literature · data · writing</text>
+<text x="686" y="626" font-size="14" font-weight="800" letter-spacing="2" fill="#ffb000">[ PT-06 ]</text>
+<text x="706" y="684" font-size="20" font-weight="700" fill="#ffe2c4">Research Automation</text>
+<text x="706" y="720" font-size="16.5" fill="#9a7048">literature · data · writing</text>
 <circle class="blink" cx="492" cy="692" r="5" fill="#ff2d2d"/>
-<g font-size="16" letter-spacing="3" fill="#9a7048"><path d="M54 788h44" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2.5" fill="none"/><text x="112" y="792">COMMAND FLOW</text><path d="M54 818h44" stroke="#ff2d2d" stroke-opacity=".85" stroke-width="2.5" stroke-dasharray="7 8" fill="none"/><text x="112" y="822">VALIDATION FEEDBACK</text></g>
-<text x="1146" y="822" text-anchor="end" font-size="16" letter-spacing="3" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // SYSTEM MAP · 체계도</text>
+<g font-size="14" letter-spacing="3" fill="#9a7048"><path d="M54 788h44" stroke="#ff6a00" stroke-opacity=".85" stroke-width="2.5" fill="none"/><text x="112" y="792">COMMAND FLOW</text><path d="M54 818h44" stroke="#ff2d2d" stroke-opacity=".85" stroke-width="2.5" stroke-dasharray="7 8" fill="none"/><text x="112" y="822">VALIDATION FEEDBACK</text></g>
+<text x="1146" y="822" text-anchor="end" font-size="14" letter-spacing="3" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // SYSTEM MAP · 체계도</text>
 <rect class="scan" x="10" y="10" width="1" height="828" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>
