@@ -31,9 +31,9 @@ PALETTES = {"dark": dict(_NERV), "light": dict(_NERV)}
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 
-W, H = 1200, 340
+W, H = 1200, 460
 X0, X1 = 70, 1140
-Y_TOP, Y_BASE = 90, 272
+Y_TOP, Y_BASE = 120, 370
 
 
 def fetch_calendar(login, token):
@@ -102,10 +102,10 @@ def render_svg(weeks, total, p):
     if p["scan"]:
         add('<rect class="scan" x="10" y="10" width="1" height="%d" fill="%s" '
             'fill-opacity="%s"/>' % (H - 20, p["ink"], p["scan_op"]))
-    add('<text x="54" y="54" font-size="14" font-weight="700" letter-spacing="3" '
+    add('<text x="54" y="64" font-size="26" font-weight="700" letter-spacing="5" '
         'fill="%s">BUILD ACTIVITY</text>' % p["mid"])
-    add('<text x="1146" y="54" text-anchor="end" font-size="12" font-weight="700" '
-        'letter-spacing="1" fill="%s">Σ %s CONTRIBUTIONS / 365 DAYS</text>'
+    add('<text x="1146" y="64" text-anchor="end" font-size="22" font-weight="700" '
+        'letter-spacing="2" fill="%s">Σ %s CONTRIBUTIONS / 365 DAYS</text>'
         % (p["strong"], format(total, ",")))
 
     # y축 눈금선 + 라벨
@@ -113,8 +113,8 @@ def render_svg(weeks, total, p):
         if y != Y_BASE:
             add('<path d="M%d %dH%d" stroke="%s" stroke-opacity=".18" '
                 'stroke-dasharray="3 6" fill="none"/>' % (X0, y, X1, p["ink"]))
-        add('<text x="%d" y="%d" text-anchor="end" font-size="9" fill="%s">%d</text>'
-            % (X0 - 8, y + 3, p["dim"], val))
+        add('<text x="%d" y="%d" text-anchor="end" font-size="18" fill="%s">%d</text>'
+            % (X0 - 8, y + 6, p["dim"], val))
     add('<path d="M%d %dH%d" stroke="%s" stroke-opacity=".6" fill="none"/>'
         % (X0 - 4, Y_BASE, X1 + 4, p["ink"]))
 
@@ -128,9 +128,9 @@ def render_svg(weeks, total, p):
         month = int(dstr[5:7])
         if month != prev_month:
             if prev_month is not None:
-                add('<text x="%.1f" y="%d" font-size="9.5" letter-spacing="1" '
-                    'fill="%s">%s</text>' % (bx, Y_BASE + 18, p["dim"], MONTHS[month - 1]))
-                add('<path d="M%.1f %dv5" stroke="%s" stroke-opacity=".5" fill="none"/>'
+                add('<text x="%.1f" y="%d" font-size="18.5" letter-spacing="2" '
+                    'fill="%s">%s</text>' % (bx, Y_BASE + 32, p["dim"], MONTHS[month - 1]))
+                add('<path d="M%.1f %dv8" stroke="%s" stroke-opacity=".5" fill="none"/>'
                     % (bx, Y_BASE, p["ink"]))
             prev_month = month
         if v <= 0:
@@ -147,23 +147,23 @@ def render_svg(weeks, total, p):
         v = weeks[peak_i][1]
         px = X0 + peak_i * slot + slot / 2
         py = Y_BASE - max(v * scale, 2.0)
-        if px <= 980:
-            add('<path d="M%.1f %.1fv-16h40" stroke="%s" stroke-opacity=".9" fill="none"/>'
+        if px <= 900:
+            add('<path d="M%.1f %.1fv-24h48" stroke="%s" stroke-opacity=".9" fill="none"/>'
                 % (px, py - 4, p["red"]))
-            add('<text x="%.1f" y="%.1f" font-size="10.5" font-weight="800" '
-                'letter-spacing="1" fill="%s">PEAK — %d/WK</text>'
-                % (px + 46, py - 16, p["red"], v))
+            add('<text x="%.1f" y="%.1f" font-size="20" font-weight="800" '
+                'letter-spacing="2" fill="%s">PEAK — %d/WK</text>'
+                % (px + 54, py - 24, p["red"], v))
         else:
-            add('<path d="M%.1f %.1fv-16h-40" stroke="%s" stroke-opacity=".9" fill="none"/>'
+            add('<path d="M%.1f %.1fv-24h-48" stroke="%s" stroke-opacity=".9" fill="none"/>'
                 % (px, py - 4, p["red"]))
-            add('<text x="%.1f" y="%.1f" text-anchor="end" font-size="10.5" '
-                'font-weight="800" letter-spacing="1" fill="%s">PEAK — %d/WK</text>'
-                % (px - 46, py - 16, p["red"], v))
+            add('<text x="%.1f" y="%.1f" text-anchor="end" font-size="20" '
+                'font-weight="800" letter-spacing="2" fill="%s">PEAK — %d/WK</text>'
+                % (px - 54, py - 24, p["red"], v))
 
     # v2: 하단 우측 텔레메트리 태그 (도면집 헤더 폐기)
-    add('<text x="1146" y="%d" text-anchor="end" font-size="9" '
-        'letter-spacing="2" fill="%s">NERV // BUILD TELEMETRY · 가동 기록</text>'
-        % (H - 21, p["dim"]))
+    add('<text x="1146" y="%d" text-anchor="end" font-size="18" '
+        'letter-spacing="4" fill="%s">NERV // BUILD TELEMETRY · 가동 기록</text>'
+        % (H - 24, p["dim"]))
     add('</svg>')
     return "".join(parts)
 
