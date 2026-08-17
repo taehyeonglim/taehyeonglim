@@ -98,8 +98,16 @@ Peer-reviewed research produced with — and about — the co-scientist system: 
   <img alt="Open source — thirteen public repositories across agents, research tools, and edtech" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
 </picture>
 
-<div align="center">
-
-▸ [learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp) · [edtech-oracle](https://github.com/taehyeonglim/edtech-oracle) · [agent-galaxy](https://github.com/taehyeonglim/agent-galaxy) · [deck-ai-usage](https://github.com/taehyeonglim/deck-ai-usage) · [paper-scout](https://github.com/taehyeonglim/paper-scout) · [academic-roots](https://github.com/taehyeonglim/academic-roots) · [paper-verifier](https://github.com/taehyeonglim/paper-verifier) · [academic-humanizer](https://github.com/taehyeonglim/academic-humanizer) · [ai-agent-teacher](https://github.com/taehyeonglim/ai-agent-teacher) · [k-mosaic](https://github.com/taehyeonglim/k-mosaic) · [edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon) · [esports-landscape](https://github.com/taehyeonglim/2026-esports-landscape) · [elementary-textbook](https://github.com/taehyeonglim/korean-elementary-textbook)
-
-</div>
+- **[learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp)** — 한국 초등 2022 개정 교육과정 학습 그래프 MCP 서버 (성취기준 원문 수록)
+- **[edtech-oracle](https://github.com/taehyeonglim/edtech-oracle)** — 교육공학 위인 36인이 학술 근거를 인용하며 답하는 에이전트 시스템
+- **[agent-galaxy](https://github.com/taehyeonglim/agent-galaxy)** — AI 에이전트 팀을 살아있는 은하로 보는 제로 의존성 3D 시각화
+- **[deck-ai-usage](https://github.com/taehyeonglim/deck-ai-usage)** — Stream Deck용 AI(Claude·Codex·Gemini) 사용량 게이지
+- **[paper-scout](https://github.com/taehyeonglim/paper-scout)** — 결정론적 학술 API 위에서 동작하는 문헌 탐색 에이전트 (Claude Code 플러그인)
+- **[academic-roots](https://github.com/taehyeonglim/academic-roots)** — Vanessa P. Dennen의 학문 계보(지도교수·박사 졸업생) 시각화
+- **[paper-verifier](https://github.com/taehyeonglim/paper-verifier)** — 원고의 통계 주장·인용 무결성을 결정론적으로 감사하는 도구
+- **[academic-humanizer](https://github.com/taehyeonglim/academic-humanizer)** — 통계·인용을 보존하며 학술 초안의 AI 흔적을 제거
+- **[ai-agent-teacher](https://github.com/taehyeonglim/ai-agent-teacher)** — AI 시대 교사의 6D 역량을 훈련하는 시뮬레이션 웹게임 「위임의 기술」
+- **[k-mosaic](https://github.com/taehyeonglim/k-mosaic)** — 대한민국 다문화학생 교육통계 시각화·분석 플랫폼
+- **[edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon)** — 근거 기반 교육공학 개척자 비주얼 아카이브
+- **[esports-landscape](https://github.com/taehyeonglim/2026-esports-landscape)** — 대한민국 17개 시·도 학교 e스포츠 지형도 (공개자료 근거 중심)
+- **[elementary-textbook](https://github.com/taehyeonglim/korean-elementary-textbook)** — 2022 개정 교육과정 연계 무료 초등 학습지 PDF 사이트
