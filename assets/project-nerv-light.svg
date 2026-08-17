@@ -33,6 +33,6 @@
 <text x="796" y="157" text-anchor="end" font-size="10.5" font-weight="700" letter-spacing="1" fill="#ffb000">ø 7 ROLES</text>
 <path d="M804 153H842" stroke="#ffb000" stroke-opacity=".8" fill="none"/>
 <text x="1000" y="252" text-anchor="middle" font-size="9" letter-spacing="2" fill="#9a7048">NERV SYSTEM WHITEPAPER</text>
-<g transform="translate(1118 60)"><path d="M34.0 0.0L17.0 29.4L-17.0 29.4L-34.0 0.0L-17.0 -29.4L17.0 -29.4Z" fill="#10131c" fill-opacity=".9" stroke="#ffb000" stroke-opacity=".25" stroke-width="5"/><path d="M34.0 0.0L17.0 29.4L-17.0 29.4L-34.0 0.0L-17.0 -29.4L17.0 -29.4Z" fill="none" stroke="#ffb000" stroke-width="1.5"/><text y="-3" text-anchor="middle" font-size="9.5" font-weight="800" letter-spacing="1" fill="#ffb000">MAGI</text><text y="10" text-anchor="middle" font-size="7.5" font-weight="800" letter-spacing="1" fill="#ffb000">VALIDATED</text></g>
+<g transform="translate(1118 60)"><path d="M34.0 0.0L17.0 29.4L-17.0 29.4L-34.0 0.0L-17.0 -29.4L17.0 -29.4Z" fill="#10131c" fill-opacity=".9" stroke="#ffb000" stroke-opacity=".25" stroke-width="5"/><path d="M34.0 0.0L17.0 29.4L-17.0 29.4L-34.0 0.0L-17.0 -29.4L17.0 -29.4Z" fill="none" stroke="#ffb000" stroke-width="1.5"/><text y="-3" text-anchor="middle" font-size="9.5" font-weight="800" letter-spacing="1" fill="#ffb000">MAGI</text><text y="10" text-anchor="middle" font-size="9" font-weight="800" letter-spacing="1" fill="#ffb000">VALIDATED</text></g>
 <rect class="scan" x="10" y="10" width="1" height="250" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>

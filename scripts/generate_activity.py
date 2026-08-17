@@ -161,7 +161,7 @@ def render_svg(weeks, total, p):
                 % (px - 46, py - 16, p["red"], v))
 
     # v2: 하단 우측 텔레메트리 태그 (도면집 헤더 폐기)
-    add('<text x="1146" y="%d" text-anchor="end" font-size="8.5" '
+    add('<text x="1146" y="%d" text-anchor="end" font-size="9" '
         'letter-spacing="2" fill="%s">NERV // BUILD TELEMETRY · 가동 기록</text>'
         % (H - 21, p["dim"]))
     add('</svg>')

@@ -10,7 +10,7 @@
 <text x="390" y="102" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">MCP SERVER</text>
 <text x="74" y="128" font-size="13.5" font-weight="700" fill="#ffe2c4">learning-map-mcp</text>
 <text x="74" y="148" font-size="10" fill="#d9a877">Korean elementary curriculum graph MCP server</text>
-<text x="74" y="170" font-size="8.5" letter-spacing="2" fill="#9a7048">AGENTS</text>
+<text x="74" y="170" font-size="9" letter-spacing="2" fill="#9a7048">AGENTS</text>
 </g>
 <g id="cell-os-02">
 <rect x="422" y="78" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -19,7 +19,7 @@
 <text x="758" y="102" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">AGENT SYSTEM</text>
 <text x="442" y="128" font-size="13.5" font-weight="700" fill="#ffe2c4">edtech-oracle</text>
 <text x="442" y="148" font-size="10" fill="#d9a877">36 EdTech pioneer agents, citation-backed answers</text>
-<text x="442" y="170" font-size="8.5" letter-spacing="2" fill="#9a7048">AGENTS</text>
+<text x="442" y="170" font-size="9" letter-spacing="2" fill="#9a7048">AGENTS</text>
 </g>
 <g id="cell-os-03">
 <rect x="790" y="78" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -28,7 +28,7 @@
 <text x="1126" y="102" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">CC PLUGIN</text>
 <text x="810" y="128" font-size="13.5" font-weight="700" fill="#ffe2c4">paper-scout</text>
 <text x="810" y="148" font-size="10" fill="#d9a877">Literature-discovery agents, deterministic APIs</text>
-<text x="810" y="170" font-size="8.5" letter-spacing="2" fill="#9a7048">RESEARCH</text>
+<text x="810" y="170" font-size="9" letter-spacing="2" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-04">
 <rect x="54" y="196" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -37,7 +37,7 @@
 <text x="390" y="220" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
 <text x="74" y="246" font-size="13.5" font-weight="700" fill="#ffe2c4">academic-roots</text>
 <text x="74" y="266" font-size="10" fill="#d9a877">Academic genealogy of V. P. Dennen, visualized</text>
-<text x="74" y="288" font-size="8.5" letter-spacing="2" fill="#9a7048">RESEARCH</text>
+<text x="74" y="288" font-size="9" letter-spacing="2" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-05">
 <rect x="422" y="196" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -46,7 +46,7 @@
 <text x="758" y="220" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">CLI</text>
 <text x="442" y="246" font-size="13.5" font-weight="700" fill="#ffe2c4">paper-verifier</text>
 <text x="442" y="266" font-size="10" fill="#d9a877">Deterministic stat-claim &amp; citation audit</text>
-<text x="442" y="288" font-size="8.5" letter-spacing="2" fill="#9a7048">RESEARCH</text>
+<text x="442" y="288" font-size="9" letter-spacing="2" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-06">
 <rect x="790" y="196" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -55,7 +55,7 @@
 <text x="1126" y="220" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">CLI</text>
 <text x="810" y="246" font-size="13.5" font-weight="700" fill="#ffe2c4">academic-humanizer</text>
 <text x="810" y="266" font-size="10" fill="#d9a877">Strips AI-tells from drafts, stats intact</text>
-<text x="810" y="288" font-size="8.5" letter-spacing="2" fill="#9a7048">RESEARCH</text>
+<text x="810" y="288" font-size="9" letter-spacing="2" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-07">
 <rect x="54" y="314" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -64,7 +64,7 @@
 <text x="390" y="338" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">WEB SIM</text>
 <text x="74" y="364" font-size="13.5" font-weight="700" fill="#ffe2c4">ai-agent-teacher</text>
 <text x="74" y="384" font-size="10" fill="#d9a877">6D teacher-competency simulation for the AI era</text>
-<text x="74" y="406" font-size="8.5" letter-spacing="2" fill="#9a7048">EDTECH</text>
+<text x="74" y="406" font-size="9" letter-spacing="2" fill="#9a7048">EDTECH</text>
 </g>
 <g id="cell-os-08">
 <rect x="422" y="314" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -73,7 +73,7 @@
 <text x="758" y="338" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
 <text x="442" y="364" font-size="13.5" font-weight="700" fill="#ffe2c4">k-mosaic</text>
 <text x="442" y="384" font-size="10" fill="#d9a877">Korea multicultural student data explorer</text>
-<text x="442" y="406" font-size="8.5" letter-spacing="2" fill="#9a7048">EDTECH</text>
+<text x="442" y="406" font-size="9" letter-spacing="2" fill="#9a7048">EDTECH</text>
 </g>
 <g id="cell-os-09">
 <rect x="790" y="314" width="356" height="106" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
@@ -82,8 +82,8 @@
 <text x="1126" y="338" text-anchor="end" font-size="9" letter-spacing="1.5" fill="#ffb000" fill-opacity=".55">ARCHIVE</text>
 <text x="810" y="364" font-size="13.5" font-weight="700" fill="#ffe2c4">edtech-pantheon</text>
 <text x="810" y="384" font-size="10" fill="#d9a877">Visual archive of EdTech pioneers, evidence-backed</text>
-<text x="810" y="406" font-size="8.5" letter-spacing="2" fill="#9a7048">EDTECH</text>
+<text x="810" y="406" font-size="9" letter-spacing="2" fill="#9a7048">EDTECH</text>
 </g>
-<text x="1146" y="444" text-anchor="end" font-size="8.5" letter-spacing="2" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // OPEN SOURCE · 공개 가동</text>
+<text x="1146" y="444" text-anchor="end" font-size="9" letter-spacing="2" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // OPEN SOURCE · 공개 가동</text>
 <rect class="scan" x="10" y="10" width="1" height="440" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>
