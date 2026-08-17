@@ -104,3 +104,67 @@
 | 6 | 설명 문구 ≤ 50자 | 전 9건 통과 |
 
 푸시 이후: `scripts/check_links.py` / CI `link-check` 잡이 9개 레포 URL과 신규 `raw.githubusercontent.com` srcset 3건을 검증한다. 푸시 전 로컬 실행 시 신규 SVG raw URL 3건의 404는 예상된 실패다.
+
+---
+
+## 7. v2 개정 — 9종 → 13종 확장 (2026-08-17)
+
+9pt 플로어 개정(`2026-08-17-typography-9pt-floor-design.md`)으로 확정된 **2열 그리드·셀 540×100·행 피치 112** 문법을 그대로 유지한 채 셀 4종을 추가한다. 폰트 사이즈·색·셀 내부 베이스라인(+23/+48/+71/+92)은 **불변**이며, 확장은 행 추가와 캔버스 높이 재계산만으로 처리한다.
+
+### 7.1 추가 4종
+
+| 태그 | 레포 (표시명) | 카테고리 | 타입 | 영문 설명 | 길이 |
+|---|---|---|---|---|---|
+| OS-03 | `agent-galaxy` | AI TOOLS | 3D VIZ | Zero-dependency 3D multi-agent visualization | 44 |
+| OS-04 | `deck-ai-usage` | AI TOOLS | DECK PLUGIN | AI usage gauges for Elgato Stream Deck | 38 |
+| OS-12 | `2026-esports-landscape` | EDTECH | DATA SITE | Korea school-esports landscape, evidence-based | 46 |
+| OS-13 | `korean-elementary-textbook` | EDTECH | WORKBOOKS | Free curriculum-aligned elementary workbooks | 44 |
+
+- 신규 카테고리 **AI TOOLS**, 신규 타입 태그 **3D VIZ / DECK PLUGIN / DATA SITE / WORKBOOKS** 추가. 스타 수 미표기(결정 #2) 유지.
+- 전 13종 설명 문구가 9pt 스펙의 **46자 캡** 이내 (OS-12가 정확히 46자 — 재작성 시 초과 주의).
+- OS-12·OS-13은 표시명이 축약형이며 실제 레포는 `2026-esports-landscape` / `korean-elementary-textbook`. OS-01의 풀네임 규칙(`korean-elementary-learning-map-mcp`)과 동일한 처리다.
+
+### 7.2 셀 재배열 (카테고리 짝 맞춤 — 기존 9종도 번호·위치가 바뀜)
+
+| 행 | y | 좌측 (x=54) | 우측 (x=606) |
+|---|---|---|---|
+| 1 | 76 | OS-01 `learning-map-mcp` (AGENTS) | OS-02 `edtech-oracle` (AGENTS) |
+| 2 | 188 | OS-03 `agent-galaxy` (AI TOOLS) | OS-04 `deck-ai-usage` (AI TOOLS) |
+| 3 | 300 | OS-05 `paper-scout` (RESEARCH) | OS-06 `academic-roots` (RESEARCH) |
+| 4 | 412 | OS-07 `paper-verifier` (RESEARCH) | OS-08 `academic-humanizer` (RESEARCH) |
+| 5 | 524 | OS-09 `ai-agent-teacher` (EDTECH) | OS-10 `k-mosaic` (EDTECH) |
+| 6 | 636 | OS-11 `edtech-pantheon` (EDTECH) | OS-12 `2026-esports-landscape` (EDTECH) |
+| 7 | 748 | OS-13 `korean-elementary-textbook` (EDTECH) — **중앙 배치 x=330** | — |
+
+배치 원칙: 같은 카테고리끼리 한 행에 짝지어 좌우를 채운다. 13은 홀수이므로 마지막 셀은 v1의 9번째 셀과 동일한 중앙 배치 문법(rect·액센트 x=330, 텍스트 x=350, 타입 태그 anchor-end x=850)을 재사용한다. 그룹 id는 `cell-os-01`~`cell-os-13`.
+
+### 7.3 캔버스 892 근거
+
+v1(9셀)의 668은 `마지막 행 bottom(524+100=624) + 44`로 얻은 값이다. 동일 규칙을 적용한다.
+
+```
+마지막 행 top    = 76 + 6×112 = 748
+마지막 행 bottom = 748 + 100  = 848
+하단 캡션 baseline = 848 + 22 = 870   (= H − 22)
+캔버스 높이 H     = 848 + 44  = 892
+```
+
+높이에 연동되는 값 전부 갱신: 배경 레이어 5종(bg·glow·hexes·crt·vig) `height=892`, 외곽 프레임 `height=888` (H−4), 스캔바 `height=872` (H−20), 하단 캡션 `y=870`. 상단 해저드 테이프·블랙 룰·존 헤더·헤더 룰·핫 세그먼트는 좌표 불변.
+
+`<title>`/`<desc>`의 "nine" → "thirteen". 일본어·한자 미사용 규칙(v2.1) 유지.
+
+### 7.4 README 변경 (Open source 섹션 한정)
+
+- `<img alt>` "nine public repositories" → "thirteen public repositories"
+- `▸` 링크 행을 패널 셀 순서와 동일한 13종으로 **재작성** (append 아님 — `edtech-pantheon`이 9번째에서 11번째로 이동). 표시 텍스트 축약 규칙 유지: `[esports-landscape]` → `2026-esports-landscape`, `[elementary-textbook]` → `korean-elementary-textbook`.
+- 실측 diff: 2 insertions / 2 deletions, 전부 Open source 섹션 내부.
+
+### 7.5 v2 검증
+
+| # | 검사 | 결과 |
+|---|---|---|
+| 1 | `python3 -c "import xml.dom.minidom; xml.dom.minidom.parse('assets/open-source-dark.svg')"` | 통과 |
+| 2 | `cmp assets/open-source-dark.svg assets/open-source-light.svg` | 동일 |
+| 3 | font-size 값 집합 비교 (HEAD 대비) | `{12, 13, 16, 16.5}` 동일 — 변경 0 |
+| 4 | headless Chrome 800px 폭 렌더 육안 확인 | 정렬·중앙 배치 정상, 오버플로 없음 |
+| 5 | 신규 4종 레포 존재 (`gh api repos/taehyeonglim/<name>`) | 4/4 확인 |

@@ -95,11 +95,11 @@ Peer-reviewed research produced with — and about — the co-scientist system: 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg">
-  <img alt="Open source — nine public repositories across agents, research tools, and edtech" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
+  <img alt="Open source — thirteen public repositories across agents, research tools, and edtech" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
 </picture>
 
 <div align="center">
 
-▸ [learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp) · [edtech-oracle](https://github.com/taehyeonglim/edtech-oracle) · [paper-scout](https://github.com/taehyeonglim/paper-scout) · [academic-roots](https://github.com/taehyeonglim/academic-roots) · [paper-verifier](https://github.com/taehyeonglim/paper-verifier) · [academic-humanizer](https://github.com/taehyeonglim/academic-humanizer) · [ai-agent-teacher](https://github.com/taehyeonglim/ai-agent-teacher) · [k-mosaic](https://github.com/taehyeonglim/k-mosaic) · [edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon)
+▸ [learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp) · [edtech-oracle](https://github.com/taehyeonglim/edtech-oracle) · [agent-galaxy](https://github.com/taehyeonglim/agent-galaxy) · [deck-ai-usage](https://github.com/taehyeonglim/deck-ai-usage) · [paper-scout](https://github.com/taehyeonglim/paper-scout) · [academic-roots](https://github.com/taehyeonglim/academic-roots) · [paper-verifier](https://github.com/taehyeonglim/paper-verifier) · [academic-humanizer](https://github.com/taehyeonglim/academic-humanizer) · [ai-agent-teacher](https://github.com/taehyeonglim/ai-agent-teacher) · [k-mosaic](https://github.com/taehyeonglim/k-mosaic) · [edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon) · [esports-landscape](https://github.com/taehyeonglim/2026-esports-landscape) · [elementary-textbook](https://github.com/taehyeonglim/korean-elementary-textbook)
 
 </div>
