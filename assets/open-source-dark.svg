@@ -1,89 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="952" viewBox="0 0 1200 952" role="img" aria-labelledby="title desc"><title id="title">Open source — nine public repositories across agents, research tools, and edtech</title><desc id="desc">NERV MAGI terminal-style catalogue of nine public GitHub repositories in Evangelion HUD aesthetic, identical in light and dark mode.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="668" viewBox="0 0 1200 668" role="img" aria-labelledby="title desc"><title id="title">Open source — nine public repositories across agents, research tools, and edtech</title><desc id="desc">NERV MAGI terminal-style catalogue of nine public GitHub repositories in Evangelion HUD aesthetic, identical in light and dark mode.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050609"/><stop offset="1" stop-color="#0a0c12"/></linearGradient><radialGradient id="glow" cx=".5" cy="-.2" r="1"><stop offset="0" stop-color="#ff6a00" stop-opacity=".10"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></radialGradient><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></radialGradient><pattern id="hexes" width="48" height="27.713" patternUnits="userSpaceOnUse"><path d="M16.0 0.0L8.0 13.9L-8.0 13.9L-16.0 0.0L-8.0 -13.9L8.0 -13.9ZM64.0 0.0L56.0 13.9L40.0 13.9L32.0 0.0L40.0 -13.9L56.0 -13.9ZM16.0 27.7L8.0 41.6L-8.0 41.6L-16.0 27.7L-8.0 13.9L8.0 13.9ZM64.0 27.7L56.0 41.6L40.0 41.6L32.0 27.7L40.0 13.9L56.0 13.9ZM40.0 13.9L32.0 27.7L16.0 27.7L8.0 13.9L16.0 0.0L32.0 0.0Z" fill="none" stroke="#ff6a00" stroke-opacity=".07"/></pattern><pattern id="crt" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffe2c4" fill-opacity=".04"/></pattern><pattern id="hz" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="12" fill="#ff6a00"/></pattern><style>text{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;}.scan{animation:scan 16s linear infinite;}@keyframes scan{to{transform:translateX(1180px);}}.blink{animation:blink 1.6s steps(1) infinite;}@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:.15;}}.pulse{animation:pulse 2.4s ease-in-out infinite;}@keyframes pulse{50%{opacity:.3;}}@media (prefers-reduced-motion:reduce){.scan,.blink,.pulse{animation:none;}}</style></defs>
-<rect width="1200" height="952" fill="url(#bg)"/><rect width="1200" height="952" fill="url(#glow)"/><rect width="1200" height="952" fill="url(#hexes)"/><rect width="1200" height="952" fill="url(#crt)"/><rect width="1200" height="952" fill="url(#vig)"/>
-<rect x="2" y="2" width="1196" height="7" fill="url(#hz)" opacity=".75"/><line x1="2" y1="10" x2="1198" y2="10" stroke="#000" stroke-width="1.5"/><rect x="2" y="2" width="1196" height="948" fill="none" stroke="#ff6a00" stroke-opacity=".4" stroke-width="2"/>
-<text x="54" y="62" font-size="16" font-weight="800" letter-spacing="5" fill="#ffe2c4" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan fill="#ff6a00">▣</tspan> OPEN SOURCE <tspan fill="#9a7048">— 공개 저장소</tspan></text><line x1="54" y1="78" x2="1146" y2="78" stroke="#8a3c00" stroke-opacity=".7"/><line x1="940" y1="78" x2="1146" y2="78" stroke="#ff2d2d" stroke-width="2" stroke-opacity=".8"/><text x="1146" y="62" text-anchor="end" font-size="12" letter-spacing="4" fill="#9a7048">NERV // PUBLIC REPOSITORIES</text>
+<rect width="1200" height="668" fill="url(#bg)"/><rect width="1200" height="668" fill="url(#glow)"/><rect width="1200" height="668" fill="url(#hexes)"/><rect width="1200" height="668" fill="url(#crt)"/><rect width="1200" height="668" fill="url(#vig)"/>
+<rect x="2" y="2" width="1196" height="7" fill="url(#hz)" opacity=".75"/><line x1="2" y1="10" x2="1198" y2="10" stroke="#000" stroke-width="1.5"/><rect x="2" y="2" width="1196" height="664" fill="none" stroke="#ff6a00" stroke-opacity=".4" stroke-width="2"/>
+<text x="54" y="46" font-size="16" font-weight="800" letter-spacing="5" fill="#ffe2c4" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"><tspan fill="#ff6a00">▣</tspan> OPEN SOURCE <tspan fill="#9a7048">— 공개 저장소</tspan></text><line x1="54" y1="60" x2="1146" y2="60" stroke="#8a3c00" stroke-opacity=".7"/><line x1="940" y1="60" x2="1146" y2="60" stroke="#ff2d2d" stroke-width="2" stroke-opacity=".8"/><text x="1146" y="46" text-anchor="end" font-size="12" letter-spacing="4" fill="#9a7048">NERV // PUBLIC REPOSITORIES</text>
 <g id="cell-os-01">
-<rect x="54" y="96" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="54" y="96" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="74" y="130" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-01 ]</text>
-<text x="574" y="130" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">MCP SERVER</text>
-<text x="74" y="166" font-size="16.5" font-weight="700" fill="#ffe2c4">learning-map-mcp</text>
-<text x="74" y="196" font-size="12" fill="#d9a877">Korean elementary curriculum graph MCP server</text>
-<text x="74" y="226" font-size="12" letter-spacing="4" fill="#9a7048">AGENTS</text>
+<rect x="54" y="76" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="54" y="76" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="74" y="99" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-01 ]</text>
+<text x="574" y="99" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">MCP SERVER</text>
+<text x="74" y="124" font-size="16.5" font-weight="700" fill="#ffe2c4">learning-map-mcp</text>
+<text x="74" y="147" font-size="12" fill="#d9a877">Korean elementary curriculum graph MCP server</text>
+<text x="74" y="168" font-size="12" letter-spacing="4" fill="#9a7048">AGENTS</text>
 </g>
 <g id="cell-os-02">
-<rect x="606" y="96" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="606" y="96" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="626" y="130" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-02 ]</text>
-<text x="1126" y="130" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">AGENT SYSTEM</text>
-<text x="626" y="166" font-size="16.5" font-weight="700" fill="#ffe2c4">edtech-oracle</text>
-<text x="626" y="196" font-size="12" fill="#d9a877">36 EdTech pioneer agents, cited answers</text>
-<text x="626" y="226" font-size="12" letter-spacing="4" fill="#9a7048">AGENTS</text>
+<rect x="606" y="76" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="606" y="76" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="626" y="99" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-02 ]</text>
+<text x="1126" y="99" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">AGENT SYSTEM</text>
+<text x="626" y="124" font-size="16.5" font-weight="700" fill="#ffe2c4">edtech-oracle</text>
+<text x="626" y="147" font-size="12" fill="#d9a877">36 EdTech pioneer agents, cited answers</text>
+<text x="626" y="168" font-size="12" letter-spacing="4" fill="#9a7048">AGENTS</text>
 </g>
 <g id="cell-os-03">
-<rect x="54" y="258" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="54" y="258" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="74" y="292" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-03 ]</text>
-<text x="574" y="292" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CC PLUGIN</text>
-<text x="74" y="328" font-size="16.5" font-weight="700" fill="#ffe2c4">paper-scout</text>
-<text x="74" y="358" font-size="12" fill="#d9a877">Deterministic literature-discovery agents</text>
-<text x="74" y="388" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
+<rect x="54" y="188" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="54" y="188" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="74" y="211" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-03 ]</text>
+<text x="574" y="211" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CC PLUGIN</text>
+<text x="74" y="236" font-size="16.5" font-weight="700" fill="#ffe2c4">paper-scout</text>
+<text x="74" y="259" font-size="12" fill="#d9a877">Deterministic literature-discovery agents</text>
+<text x="74" y="280" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-04">
-<rect x="606" y="258" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="606" y="258" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="626" y="292" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-04 ]</text>
-<text x="1126" y="292" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
-<text x="626" y="328" font-size="16.5" font-weight="700" fill="#ffe2c4">academic-roots</text>
-<text x="626" y="358" font-size="12" fill="#d9a877">Academic genealogy of V. P. Dennen, visualized</text>
-<text x="626" y="388" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
+<rect x="606" y="188" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="606" y="188" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="626" y="211" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-04 ]</text>
+<text x="1126" y="211" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
+<text x="626" y="236" font-size="16.5" font-weight="700" fill="#ffe2c4">academic-roots</text>
+<text x="626" y="259" font-size="12" fill="#d9a877">Academic genealogy of V. P. Dennen, visualized</text>
+<text x="626" y="280" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-05">
-<rect x="54" y="420" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="54" y="420" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="74" y="454" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-05 ]</text>
-<text x="574" y="454" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CLI</text>
-<text x="74" y="490" font-size="16.5" font-weight="700" fill="#ffe2c4">paper-verifier</text>
-<text x="74" y="520" font-size="12" fill="#d9a877">Deterministic stat-claim &amp; citation audit</text>
-<text x="74" y="550" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
+<rect x="54" y="300" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="54" y="300" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="74" y="323" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-05 ]</text>
+<text x="574" y="323" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CLI</text>
+<text x="74" y="348" font-size="16.5" font-weight="700" fill="#ffe2c4">paper-verifier</text>
+<text x="74" y="371" font-size="12" fill="#d9a877">Deterministic stat-claim &amp; citation audit</text>
+<text x="74" y="392" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-06">
-<rect x="606" y="420" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="606" y="420" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="626" y="454" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-06 ]</text>
-<text x="1126" y="454" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CLI</text>
-<text x="626" y="490" font-size="16.5" font-weight="700" fill="#ffe2c4">academic-humanizer</text>
-<text x="626" y="520" font-size="12" fill="#d9a877">Strips AI-tells from drafts, stats intact</text>
-<text x="626" y="550" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
+<rect x="606" y="300" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="606" y="300" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="626" y="323" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-06 ]</text>
+<text x="1126" y="323" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">CLI</text>
+<text x="626" y="348" font-size="16.5" font-weight="700" fill="#ffe2c4">academic-humanizer</text>
+<text x="626" y="371" font-size="12" fill="#d9a877">Strips AI-tells from drafts, stats intact</text>
+<text x="626" y="392" font-size="12" letter-spacing="4" fill="#9a7048">RESEARCH</text>
 </g>
 <g id="cell-os-07">
-<rect x="54" y="582" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="54" y="582" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="74" y="616" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-07 ]</text>
-<text x="574" y="616" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">WEB SIM</text>
-<text x="74" y="652" font-size="16.5" font-weight="700" fill="#ffe2c4">ai-agent-teacher</text>
-<text x="74" y="682" font-size="12" fill="#d9a877">6D teacher-competency simulation game</text>
-<text x="74" y="712" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
+<rect x="54" y="412" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="54" y="412" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="74" y="435" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-07 ]</text>
+<text x="574" y="435" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">WEB SIM</text>
+<text x="74" y="460" font-size="16.5" font-weight="700" fill="#ffe2c4">ai-agent-teacher</text>
+<text x="74" y="483" font-size="12" fill="#d9a877">6D teacher-competency simulation game</text>
+<text x="74" y="504" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
 </g>
 <g id="cell-os-08">
-<rect x="606" y="582" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="606" y="582" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="626" y="616" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-08 ]</text>
-<text x="1126" y="616" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
-<text x="626" y="652" font-size="16.5" font-weight="700" fill="#ffe2c4">k-mosaic</text>
-<text x="626" y="682" font-size="12" fill="#d9a877">Korea multicultural student data explorer</text>
-<text x="626" y="712" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
+<rect x="606" y="412" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="606" y="412" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="626" y="435" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-08 ]</text>
+<text x="1126" y="435" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">DATA VIZ</text>
+<text x="626" y="460" font-size="16.5" font-weight="700" fill="#ffe2c4">k-mosaic</text>
+<text x="626" y="483" font-size="12" fill="#d9a877">Korea multicultural student data explorer</text>
+<text x="626" y="504" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
 </g>
 <g id="cell-os-09">
-<rect x="330" y="744" width="540" height="150" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
-<rect x="330" y="744" width="5" height="150" fill="#ff6a00" opacity=".85"/>
-<text x="350" y="778" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-09 ]</text>
-<text x="850" y="778" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">ARCHIVE</text>
-<text x="350" y="814" font-size="16.5" font-weight="700" fill="#ffe2c4">edtech-pantheon</text>
-<text x="350" y="844" font-size="12" fill="#d9a877">Evidence-backed EdTech pioneer archive</text>
-<text x="350" y="874" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
+<rect x="330" y="524" width="540" height="100" fill="#10131c" fill-opacity=".85" stroke="#ff6a00" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="330" y="524" width="5" height="100" fill="#ff6a00" opacity=".85"/>
+<text x="350" y="547" font-size="13" font-weight="800" letter-spacing="2" fill="#ffb000">[ OS-09 ]</text>
+<text x="850" y="547" text-anchor="end" font-size="12" letter-spacing="3" fill="#ffb000" fill-opacity=".55">ARCHIVE</text>
+<text x="350" y="572" font-size="16.5" font-weight="700" fill="#ffe2c4">edtech-pantheon</text>
+<text x="350" y="595" font-size="12" fill="#d9a877">Evidence-backed EdTech pioneer archive</text>
+<text x="350" y="616" font-size="12" letter-spacing="4" fill="#9a7048">EDTECH</text>
 </g>
-<text x="1146" y="928" text-anchor="end" font-size="12" letter-spacing="4" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // OPEN SOURCE · 공개 가동</text>
-<rect class="scan" x="10" y="10" width="1" height="932" fill="#ffe2c4" fill-opacity=".14"/>
+<text x="1146" y="646" text-anchor="end" font-size="12" letter-spacing="4" fill="#9a7048" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">NERV // OPEN SOURCE · 공개 가동</text>
+<rect class="scan" x="10" y="10" width="1" height="648" fill="#ffe2c4" fill-opacity=".14"/>
 </svg>

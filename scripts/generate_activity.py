@@ -31,9 +31,9 @@ PALETTES = {"dark": dict(_NERV), "light": dict(_NERV)}
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 
-W, H = 1200, 460
+W, H = 1200, 340
 X0, X1 = 70, 1140
-Y_TOP, Y_BASE = 120, 370
+Y_TOP, Y_BASE = 90, 272
 
 
 def fetch_calendar(login, token):
@@ -102,9 +102,9 @@ def render_svg(weeks, total, p):
     if p["scan"]:
         add('<rect class="scan" x="10" y="10" width="1" height="%d" fill="%s" '
             'fill-opacity="%s"/>' % (H - 20, p["ink"], p["scan_op"]))
-    add('<text x="54" y="64" font-size="17.5" font-weight="700" letter-spacing="5" '
+    add('<text x="54" y="56" font-size="17.5" font-weight="700" letter-spacing="5" '
         'fill="%s">BUILD ACTIVITY</text>' % p["mid"])
-    add('<text x="1146" y="64" text-anchor="end" font-size="14.5" font-weight="700" '
+    add('<text x="1146" y="56" text-anchor="end" font-size="14.5" font-weight="700" '
         'letter-spacing="2" fill="%s">Σ %s CONTRIBUTIONS / 365 DAYS</text>'
         % (p["strong"], format(total, ",")))
 
@@ -114,7 +114,7 @@ def render_svg(weeks, total, p):
             add('<path d="M%d %dH%d" stroke="%s" stroke-opacity=".18" '
                 'stroke-dasharray="3 6" fill="none"/>' % (X0, y, X1, p["ink"]))
         add('<text x="%d" y="%d" text-anchor="end" font-size="12" fill="%s">%d</text>'
-            % (X0 - 8, y + 6, p["dim"], val))
+            % (X0 - 8, y + 4, p["dim"], val))
     add('<path d="M%d %dH%d" stroke="%s" stroke-opacity=".6" fill="none"/>'
         % (X0 - 4, Y_BASE, X1 + 4, p["ink"]))
 
@@ -129,8 +129,8 @@ def render_svg(weeks, total, p):
         if month != prev_month:
             if prev_month is not None:
                 add('<text x="%.1f" y="%d" font-size="12.5" letter-spacing="2" '
-                    'fill="%s">%s</text>' % (bx, Y_BASE + 32, p["dim"], MONTHS[month - 1]))
-                add('<path d="M%.1f %dv8" stroke="%s" stroke-opacity=".5" fill="none"/>'
+                    'fill="%s">%s</text>' % (bx, Y_BASE + 24, p["dim"], MONTHS[month - 1]))
+                add('<path d="M%.1f %dv6" stroke="%s" stroke-opacity=".5" fill="none"/>'
                     % (bx, Y_BASE, p["ink"]))
             prev_month = month
         if v <= 0:
@@ -148,22 +148,22 @@ def render_svg(weeks, total, p):
         px = X0 + peak_i * slot + slot / 2
         py = Y_BASE - max(v * scale, 2.0)
         if px <= 900:
-            add('<path d="M%.1f %.1fv-24h48" stroke="%s" stroke-opacity=".9" fill="none"/>'
+            add('<path d="M%.1f %.1fv-18h42" stroke="%s" stroke-opacity=".9" fill="none"/>'
                 % (px, py - 4, p["red"]))
             add('<text x="%.1f" y="%.1f" font-size="13.5" font-weight="800" '
                 'letter-spacing="2" fill="%s">PEAK — %d/WK</text>'
-                % (px + 54, py - 24, p["red"], v))
+                % (px + 48, py - 18, p["red"], v))
         else:
-            add('<path d="M%.1f %.1fv-24h-48" stroke="%s" stroke-opacity=".9" fill="none"/>'
+            add('<path d="M%.1f %.1fv-18h-42" stroke="%s" stroke-opacity=".9" fill="none"/>'
                 % (px, py - 4, p["red"]))
             add('<text x="%.1f" y="%.1f" text-anchor="end" font-size="13.5" '
                 'font-weight="800" letter-spacing="2" fill="%s">PEAK — %d/WK</text>'
-                % (px - 54, py - 24, p["red"], v))
+                % (px - 48, py - 18, p["red"], v))
 
     # v2: 하단 우측 텔레메트리 태그 (도면집 헤더 폐기)
     add('<text x="1146" y="%d" text-anchor="end" font-size="12" '
         'letter-spacing="4" fill="%s">NERV // BUILD TELEMETRY · 가동 기록</text>'
-        % (H - 24, p["dim"]))
+        % (H - 20, p["dim"]))
     add('</svg>')
     return "".join(parts)
 
