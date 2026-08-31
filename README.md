@@ -39,7 +39,7 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 
 ## Field results
 
-<a href="https://doi.org/10.15833/KAFEIAM.32.2.701">
+<a href="https://taehyeonglim.github.io/cv/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/field-results-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/field-results-light.svg">
@@ -47,7 +47,10 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
   </picture>
 </a>
 
-Peer-reviewed research produced with — and about — the co-scientist system: [Lim, T. (2026)](https://doi.org/10.15833/KAFEIAM.32.2.701). Building an agentic AI-based co-researcher system: An autoethnographic reflection of an educational technology researcher. *The Journal of Educational Information and Media, 32*(2), 701–728. (in Korean)
+Peer-reviewed research produced with — and about — the co-scientist system:
+
+- [Lim, T. (2026)](https://doi.org/10.15833/KAFEIAM.32.2.701). Building an agentic AI-based co-researcher system: An autoethnographic reflection of an educational technology researcher. *The Journal of Educational Information and Media, 32*(2), 701–728. (in Korean)
+- [Lim, T. (2026)](https://doi.org/10.15833/kaeim.2026.32.4.017). A design case study of an educational technologist's agentic AI-based multi-agent research support system: Focusing on the selective filtering role of embodied expertise. *The Journal of Educational Information and Media, 32*(4), 2289–2314. (in Korean)
 
 ## How I build reliable AI systems
 
