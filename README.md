@@ -17,6 +17,8 @@ I build **AI co-scientists, multi-agent workflows, and autonomous validation sys
 
 > Not another chatbot. A reliable co-intelligence system.
 
+https://github.com/user-attachments/assets/cca3bef6-33c9-4a44-9ee2-57ece2ba4adc
+
 ## AI systems architecture
 
 <picture>
