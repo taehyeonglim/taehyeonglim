@@ -39,6 +39,8 @@ https://github.com/user-attachments/assets/cca3bef6-33c9-4a44-9ee2-57ece2ba4adc
 
 **[NERV](https://taehyeonglim.github.io/nerv-whitepaper/)** orchestrates 46 specialized agents to run complex research workflows alongside a human through role-based coordination and autonomous MAGI cross-validation.
 
+https://github.com/user-attachments/assets/5f4ba56c-4f95-4d66-a046-1c7cd6e13fd8
+
 ## Field results
 
 <a href="https://taehyeonglim.github.io/cv/">
