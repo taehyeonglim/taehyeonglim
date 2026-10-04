@@ -168,3 +168,21 @@ v1(9셀)의 668은 `마지막 행 bottom(524+100=624) + 44`로 얻은 값이다.
 | 3 | font-size 값 집합 비교 (HEAD 대비) | `{12, 13, 16, 16.5}` 동일 — 변경 0 |
 | 4 | headless Chrome 800px 폭 렌더 육안 확인 | 정렬·중앙 배치 정상, 오버플로 없음 |
 | 5 | 신규 4종 레포 존재 (`gh api repos/taehyeonglim/<name>`) | 4/4 확인 |
+
+---
+
+## 8. v3 개정 — 13종 → 15종 확장 (2026-10-04)
+
+§7의 2열 그리드·셀 540×100·행 피치 112·46자 캡을 그대로 유지하고 셀 2종을 추가한다. 기존 OS-01~13의 번호·문구는 불변.
+
+| 태그 | 레포 (표시명) | 카테고리 | 타입 | 영문 설명 | 길이 |
+|---|---|---|---|---|---|
+| OS-14 | `jb-edu-map` | EDTECH | DATA VIZ | Regional education statistics on a 3D map | 41 |
+| OS-15 | `k-hiphop-map` | CULTURE | NETWORK MAP | Korean hip-hop collaboration network archive | 44 |
+
+- **OS-13 이동**: 중앙 배치(x=330)에서 7행 좌측(x=54)으로 옮기고, 우측(x=606)에 OS-14를 짝지운다 (둘 다 EDTECH).
+- **OS-15**: 8행(y=860) 중앙 배치 x=330 — 홀수 마지막 셀 문법 재사용. 신규 카테고리 **CULTURE**, 신규 타입 태그 **NETWORK MAP**.
+- **캔버스 1004**: 마지막 행 bottom 960 + 44. 배경 5종 `height=1004`, 프레임 `height=1000`, 스캔바 `height=984`, 하단 캡션 `y=982`.
+- `<title>`/`<desc>`/README alt: "thirteen … agents, research tools, and edtech" → "fifteen … agents, research tools, edtech, and culture".
+- README 리스트 끝에 2행 append (패널 셀 순서와 동일).
+- 검토 후 제외: `odyssey`, `military-otaku`, `ww2`(사용자 결정), `edtech`, `codeoffice-publisher`.

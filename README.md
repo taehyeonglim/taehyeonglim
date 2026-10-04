@@ -102,7 +102,7 @@ Peer-reviewed research produced with — and about — the co-scientist system:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg">
-  <img alt="Open source — thirteen public repositories across agents, research tools, and edtech" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
+  <img alt="Open source — fifteen public repositories across agents, research tools, edtech, and culture" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
 </picture>
 
 - **[learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp)** — 한국 초등 2022 개정 교육과정 학습 그래프 MCP 서버 (성취기준 원문 수록)
@@ -118,3 +118,5 @@ Peer-reviewed research produced with — and about — the co-scientist system:
 - **[edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon)** — 근거 기반 교육공학 개척자 비주얼 아카이브
 - **[esports-landscape](https://github.com/taehyeonglim/2026-esports-landscape)** — 대한민국 17개 시·도 학교 e스포츠 지형도 (공개자료 근거 중심)
 - **[elementary-textbook](https://github.com/taehyeonglim/korean-elementary-textbook)** — 2022 개정 교육과정 연계 무료 초등 학습지 PDF 사이트
+- **[jb-edu-map](https://github.com/taehyeonglim/jb-edu-map)** — 전북 학교·교육통계를 3D 지도로 탐색·비교하는 대시보드 (지역 profile로 다른 시도 확장)
+- **[k-hiphop-map](https://github.com/taehyeonglim/k-hiphop-map)** — 녹음 크레딧으로 연결한 한국 힙합 협업 네트워크 아카이브 「한국힙합지도」
