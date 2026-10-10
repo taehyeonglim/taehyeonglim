@@ -123,3 +123,30 @@ Peer-reviewed research produced with — and about — the co-scientist system:
 - **[ww2](https://github.com/taehyeonglim/ww2)** — 8세 어린이를 위한 태평양 전쟁 역사 학습 사이트 「태평양 대작전」 `Claude Code`
 - **[military-otaku](https://github.com/taehyeonglim/military-otaku)** — 1939~1945 유럽·태평양 전선의 결전과 육·해·공 무기 36종을 고증한 2차 세계대전 인터랙티브 아카이브 `Antigravity`
 - **[odyssey](https://github.com/taehyeonglim/odyssey)** — 호메로스 《일리아드》·《오디세이아》의 서사를 탐험하는 인터랙티브 고전 아카이브 `Antigravity`
+
+<details>
+<summary><b>Private — 비공개 저장소 21개</b></summary>
+
+- **NERV** (private) — 1인 연구자를 위한 멀티에이전트 연구 보조 시스템 (46개 에이전트·7개 역할, 3-LLM 교차검증) `Claude Code`
+- **nerv-whitepaper** (private) — NERV 아키텍처 백서 `Claude Code`
+- **ta-agent** (private) — 교육대학 교수의 수강생·출결·모둠·과제·활동점수 관리를 돕는 CLI + 웹 대시보드 `Claude Code` `Codex`
+- **ta-agent-whitepaper** (private) — ta-agent의 구조·운영 백서 `Claude Code`
+- **agent-experiment** (private) — 맥미니에서 tailnet 너머 우분투 박스의 에이전트 CLI를 구동하는 실험실 랩 노트 `Claude Code`
+- **gpu-for-claude** (private) — Mac mini 오케스트레이터 + 원격 GPU 워커 2대 기반 분산 text-to-image 생성 시스템 `Claude Code`
+- **learning-agent** (private) — 초3 분수 단원에서 출발하는 초등 수학 학습 AI 에이전트 연구·설계 (Phase 0) `Claude Code`
+- **elementary-learning-agent** (private) — 2022 개정 교육과정 기반 초등 기초 수학 학습 에이전트 「한걸음」 `Codex`
+- **Graduate-School-of-Education-AI-Agent** (private) — 교육대학원 공통 Codex 기반 교육용 AI 에이전트 12주 교안 `Codex` `Claude Code`
+- **pedagogical-essay** (private) — 초등 임용 교직논술 기출 분석과 AI 모의 출제·채점·손글씨 OCR 학습 플랫폼 `Claude Code`
+- **k-edu-policy-radar** (private) — 교육부·KEDI·KERIS 문서를 수집해 근거가 연결된 정책 흐름을 탐색하는 플랫폼 `Claude Code`
+- **esports-review** (private) — 한국e스포츠학회지 심사위원 배정 지원 시스템 `Claude Code`
+- **atlas** (private) — 2021~2026 공개 특강 출강 기록을 지도로 탐색하는 웹 앱 「A.T.L.A.S.」 `Claude Code` `Codex`
+- **cv** (private) — 연구·교육·출판 이력을 담은 학술 CV 웹페이지 `Claude Code` `Codex`
+- **fli-lab** (private) — 미래학습혁신연구소(FLI Lab) 랜딩 페이지 `Claude Code` `Codex`
+- **vibe-noob-escape** (private) — 스레드 게시물 10,057개를 분석한 e북 「나는 어떻게 바이브코딩 초보를 탈출하게 되었나」 `Claude Code`
+- **code-office** (private) — 이야기 초안에서 설정 검토·공동 집필·콘티·작화·검수까지 잇는 로컬 만화 제작 하네스 `Codex`
+- **code-office-game** (private) — 코드오피스 세계관의 브라우저 연애 시뮬레이션 「퇴근 후의 약속」 `Claude Code`
+- **fable-vs-astra** (private) — 오리지널 픽셀아트 브라우저 대전 격투 게임 `Codex`
+- **stock-dashboard** (private) — 개인 주식 포트폴리오 통합 대시보드 `Codex`
+- **jnue-faces** (private) — 잠금 화면이 있는 암호화 정적 사이트 `Claude Code`
+
+</details>
