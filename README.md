@@ -143,7 +143,7 @@ Peer-reviewed research produced with — and about — the co-scientist system:
   <img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/odyssey.svg" width="460" alt="odyssey progress">
 
 <details>
-<summary><b>Private — 비공개 저장소 21개</b></summary>
+<summary><b>Private — 비공개 저장소 22개</b></summary>
 
 - **NERV** (private) — 1인 연구자를 위한 멀티에이전트 연구 보조 시스템 (46개 에이전트·7개 역할, 3-LLM 교차검증) `Claude Code`<br>
   <img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/NERV.svg" width="460" alt="NERV progress">
@@ -187,5 +187,7 @@ Peer-reviewed research produced with — and about — the co-scientist system:
   <img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/stock-dashboard.svg" width="460" alt="stock-dashboard progress">
 - **jnue-faces** (private) — 잠금 화면이 있는 암호화 정적 사이트 `Claude Code`<br>
   <img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/jnue-faces.svg" width="460" alt="jnue-faces progress">
+- **lyricistation** (private) — 2004–2012년 음악을 원래 커버·가사·작업 후기와 함께 듣는 개인 음악 아카이브 `Claude Code`<br>
+  <img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/lyricistation.svg" width="460" alt="lyricistation progress">
 
 </details>

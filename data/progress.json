@@ -37,5 +37,6 @@
   "code-office-game": { "phase": 2, "status": "active" },
   "fable-vs-astra": { "phase": 4, "status": "active" },
   "stock-dashboard": { "phase": 3, "status": "standby" },
-  "jnue-faces": { "phase": 3, "status": "active" }
+  "jnue-faces": { "phase": 3, "status": "active" },
+  "lyricistation": { "phase": 2, "status": "active" }
 }
