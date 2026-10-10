@@ -30,6 +30,9 @@ MD_LINK_RE = re.compile(r'\]\(\s*(https?://[^\s)]+)\s*\)')
 RETRY_CODES = {408, 425, 429, 500, 502, 503, 504}
 # HEAD를 거부하는 서버가 있다. 이 경우 GET으로 다시 시도한다.
 HEAD_REJECTED = {400, 403, 405, 501}
+# build job 이 같은 push 에서 생성·배포하는 진행 게이지. 배포 전에 검사하면 404 경쟁이 나고,
+# build 성공 자체가 존재 증명이다.
+SELF_GENERATED = "https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/"
 
 
 def extract_urls(text):
@@ -42,7 +45,7 @@ def extract_urls(text):
             if url.startswith("http://") or url.startswith("https://"):
                 found.add(url)
     found.update(MD_LINK_RE.findall(text))
-    return sorted(found)
+    return sorted(u for u in found if not u.startswith(SELF_GENERATED))
 
 
 def _request(url, method):

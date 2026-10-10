@@ -64,6 +64,13 @@ class ExtractUrlsTest(unittest.TestCase):
               '<img src="assets/local.svg"> [c](https://ok.example/)')
         self.assertEqual(cl.extract_urls(md), ["https://ok.example/"])
 
+    def test_skips_self_generated_progress_gauges(self):
+        # build job 이 같은 push 에서 만드는 파일이라 배포 전 검사하면 404 경쟁이 난다
+        md = ('<img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/NERV.svg"> '
+              '<img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg">')
+        self.assertEqual(cl.extract_urls(md),
+                         ["https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/build-activity.svg"])
+
     def test_reads_real_readme(self):
         readme = os.path.join(os.path.dirname(__file__), "..", "README.md")
         with open(readme, encoding="utf-8") as f:
