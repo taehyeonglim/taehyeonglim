@@ -186,3 +186,20 @@ v1(9셀)의 668은 `마지막 행 bottom(524+100=624) + 44`로 얻은 값이다.
 - `<title>`/`<desc>`/README alt: "thirteen … agents, research tools, and edtech" → "fifteen … agents, research tools, edtech, and culture".
 - README 리스트 끝에 2행 append (패널 셀 순서와 동일).
 - 검토 후 제외: `odyssey`, `military-otaku`, `ww2`(사용자 결정), `edtech`, `codeoffice-publisher`.
+
+---
+
+## 9. v4 개정 — 15종 → 18종 확장 (2026-10-10)
+
+§8의 그리드·셀·행 피치·46자 캡을 유지하고 셀 3종을 추가한다. §8에서 제외했던 `ww2`·`military-otaku`·`odyssey`를 사용자 결정으로 편입한다.
+
+| 태그 | 레포 (표시명) | 카테고리 | 타입 | 영문 설명 | 길이 |
+|---|---|---|---|---|---|
+| OS-16 | `ww2` | EDTECH | KIDS SITE | Pacific War history site for young learners | 43 |
+| OS-17 | `military-otaku` | CULTURE | ARCHIVE | Interactive WWII battles and weapons archive | 44 |
+| OS-18 | `odyssey` | CULTURE | ARCHIVE | Interactive archive of the Iliad and Odyssey | 44 |
+
+- **OS-15 이동**: 중앙 배치(x=330)에서 8행 좌측(x=54)으로 옮기고, 우측(x=606)에 OS-16을 짝지운다. OS-17·18은 9행(y=972).
+- **캔버스 1116**: 마지막 행 bottom 1072 + 44. 배경 5종 `height=1116`, 프레임 `height=1112`, 스캔바 `height=1096`, 하단 캡션 `y=1094`.
+- `<title>`/`<desc>`/README alt: "fifteen" → "eighteen".
+- README 리스트 끝에 3행 append. 각 행 끝에 빌드 도구 태그 — 신규 태그 `Antigravity` (military-otaku·odyssey, `~/.gemini/antigravity-cli` 기록 근거).

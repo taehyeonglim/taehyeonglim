@@ -102,7 +102,7 @@ Peer-reviewed research produced with — and about — the co-scientist system:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg">
-  <img alt="Open source — fifteen public repositories across agents, research tools, edtech, and culture" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
+  <img alt="Open source — eighteen public repositories across agents, research tools, edtech, and culture" src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/main/assets/open-source-light.svg" width="100%">
 </picture>
 
 - **[learning-map-mcp](https://github.com/taehyeonglim/korean-elementary-learning-map-mcp)** — 한국 초등 2022 개정 교육과정 학습 그래프 MCP 서버 (성취기준 원문 수록) `Claude Code`
@@ -120,3 +120,6 @@ Peer-reviewed research produced with — and about — the co-scientist system:
 - **[elementary-textbook](https://github.com/taehyeonglim/korean-elementary-textbook)** — 2022 개정 교육과정 연계 무료 초등 학습지 PDF 사이트 `Codex`
 - **[jb-edu-map](https://github.com/taehyeonglim/jb-edu-map)** — 전북 학교·교육통계를 3D 지도로 탐색·비교하는 대시보드 (지역 profile로 다른 시도 확장) `Codex` `Claude Code`
 - **[k-hiphop-map](https://github.com/taehyeonglim/k-hiphop-map)** — 녹음 크레딧으로 연결한 한국 힙합 협업 네트워크 아카이브 「한국힙합지도」 `Codex`
+- **[ww2](https://github.com/taehyeonglim/ww2)** — 8세 어린이를 위한 태평양 전쟁 역사 학습 사이트 「태평양 대작전」 `Claude Code`
+- **[military-otaku](https://github.com/taehyeonglim/military-otaku)** — 1939~1945 유럽·태평양 전선의 결전과 육·해·공 무기 36종을 고증한 2차 세계대전 인터랙티브 아카이브 `Antigravity`
+- **[odyssey](https://github.com/taehyeonglim/odyssey)** — 호메로스 《일리아드》·《오디세이아》의 서사를 탐험하는 인터랙티브 고전 아카이브 `Antigravity`
