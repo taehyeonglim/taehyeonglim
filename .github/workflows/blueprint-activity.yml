@@ -23,6 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate progress gauges
+        run: python3 scripts/generate_progress.py --data data/progress.json --out dist/progress
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

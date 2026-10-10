@@ -68,3 +68,27 @@ def render_gauge(repo, phase, status):
         f'<rect id="fill" x="{X0}" y="19" width="{SEG * phase}" height="8" fill="{fill}"/>'
         f"{divs}</svg>"
     )
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="Render NERV progress gauges")
+    ap.add_argument("--data", default="data/progress.json")
+    ap.add_argument("--out", default="dist/progress")
+    args = ap.parse_args(argv)
+    try:
+        with open(args.data, encoding="utf-8") as f:
+            data = json.load(f)
+        validate(data)
+    except (OSError, ValueError) as e:  # json.JSONDecodeError ⊂ ValueError
+        print(f"generate_progress: {e}", file=sys.stderr)
+        return 1
+    os.makedirs(args.out, exist_ok=True)
+    for repo, entry in data.items():
+        with open(os.path.join(args.out, f"{repo}.svg"), "w", encoding="utf-8") as f:
+            f.write(render_gauge(repo, entry["phase"], entry["status"]))
+    print(f"wrote {len(data)} gauges to {args.out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

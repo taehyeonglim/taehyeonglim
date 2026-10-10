@@ -60,3 +60,29 @@ class ValidateTest(unittest.TestCase):
         for d in bad:
             with self.assertRaises(ValueError, msg=repr(d)):
                 gp.validate(d)
+
+
+class CliTest(unittest.TestCase):
+    def test_writes_one_svg_per_repo_into_new_dir(self):
+        with tempfile.TemporaryDirectory() as d:
+            data = os.path.join(d, "p.json")
+            with open(data, "w") as f:
+                json.dump({"NERV": {"phase": 4, "status": "active"},
+                           "ww2": {"phase": 5, "status": "active"}}, f)
+            out = os.path.join(d, "nested", "progress")
+            self.assertEqual(gp.main(["--data", data, "--out", out]), 0)
+            self.assertEqual(sorted(os.listdir(out)), ["NERV.svg", "ww2.svg"])
+
+    def test_invalid_data_returns_1(self):
+        with tempfile.TemporaryDirectory() as d:
+            data = os.path.join(d, "p.json")
+            with open(data, "w") as f:
+                json.dump({"NERV": {"phase": 9, "status": "active"}}, f)
+            self.assertEqual(gp.main(["--data", data, "--out", d]), 1)
+
+    def test_malformed_json_returns_1(self):
+        with tempfile.TemporaryDirectory() as d:
+            data = os.path.join(d, "p.json")
+            with open(data, "w") as f:
+                f.write("{not json")
+            self.assertEqual(gp.main(["--data", data, "--out", d]), 1)
