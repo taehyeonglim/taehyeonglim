@@ -86,3 +86,49 @@ class CliTest(unittest.TestCase):
             with open(data, "w") as f:
                 f.write("{not json")
             self.assertEqual(gp.main(["--data", data, "--out", d]), 1)
+
+
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+IMG = ('<img src="https://raw.githubusercontent.com/taehyeonglim/taehyeonglim/output/progress/'
+       '{repo}.svg" width="460" alt="{repo} progress">')
+ITEM_RE = re.compile(
+    r"^- \*\*(?:\[[^\]]+\]\(https://github\.com/taehyeonglim/(?P<linked>[A-Za-z0-9._-]+)\)"
+    r"|(?P<private>[A-Za-z0-9._-]+)\*\* \(private\))"
+)
+
+
+def readme_items():
+    with open(os.path.join(ROOT, "README.md"), encoding="utf-8") as f:
+        lines = f.read().split("\n")
+    items = []
+    for i, line in enumerate(lines):
+        m = ITEM_RE.match(line)
+        if m:
+            items.append((m.group("linked") or m.group("private"), line,
+                          lines[i + 1] if i + 1 < len(lines) else ""))
+    return items
+
+
+class ReadmeSyncTest(unittest.TestCase):
+    def setUp(self):
+        with open(os.path.join(ROOT, "data", "progress.json"), encoding="utf-8") as f:
+            self.data = json.load(f)
+
+    def test_data_is_valid(self):
+        gp.validate(self.data)
+
+    def test_readme_repos_match_data(self):
+        repos = [r for r, _, _ in readme_items()]
+        self.assertEqual(len(repos), len(set(repos)))
+        self.assertEqual(set(repos), set(self.data))
+
+    def test_each_item_has_its_gauge_below(self):
+        for repo, line, nxt in readme_items():
+            self.assertTrue(line.endswith("<br>"), repo)
+            self.assertEqual(nxt, "  " + IMG.format(repo=repo), repo)
+
+    def test_parser_extracts_both_forms(self):
+        m1 = ITEM_RE.match("- **[esports-landscape](https://github.com/taehyeonglim/2026-esports-landscape)** — x")
+        m2 = ITEM_RE.match("- **Graduate-School-of-Education-AI-Agent** (private) — x")
+        self.assertEqual(m1.group("linked"), "2026-esports-landscape")
+        self.assertEqual(m2.group("private"), "Graduate-School-of-Education-AI-Agent")
